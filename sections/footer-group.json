@@ -22,7 +22,7 @@
         "9c7c2f56-f9f6-436e-b1e8-abd3ada01ec2": {
           "type": "brand_information",
           "settings": {
-            "show_social": true
+            "show_social": false
           }
         }
       },
