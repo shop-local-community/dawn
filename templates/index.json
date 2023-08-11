@@ -28,6 +28,7 @@
       "blocks": {
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "View",
             "button_link_1": "shopify:\/\/metaobjects\/event\/trick-or-treat",
