@@ -2,6 +2,15 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "5127e481-9a20-4166-a7a0-1e6c29c9a8dc": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a href=\"\/\/widgets.justgiving.com\/Button\/Redirect?p=eyJJZCI6ImQ0NTMzM2NkLWQyOWEtNDk5Ny04Y2NiLTJlYjcyYmJiY2Q3YSIsIkNoYXJpdHlJZCI6MzQyMDAzMywiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0=\" class=\"center><img src=\"\/\/widgets.justgiving.com\/Button?p=eyJJZCI6ImQ0NTMzM2NkLWQyOWEtNDk5Ny04Y2NiLTJlYjcyYmJiY2Q3YSIsIkNoYXJpdHlJZCI6MzQyMDAzMywiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0=\" \/><\/a>",
+        "color_scheme": "background-1",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -40,6 +49,7 @@
     }
   },
   "order": [
+    "5127e481-9a20-4166-a7a0-1e6c29c9a8dc",
     "footer"
   ]
 }
