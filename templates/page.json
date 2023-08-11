@@ -6,9 +6,147 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "fd7038ed-fdb1-4b3b-86e8-9d2a7a7d34be": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20537375523115__fd7038ed-fdb1-4b3b-86e8-9d2a7a7d34be-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "{{ shop.brand.logo }}",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20537375523115__fd7038ed-fdb1-4b3b-86e8-9d2a7a7d34be-column-1"
+      ],
+      "settings": {
+        "title": "Logo",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "067ef57d-4817-471e-856e-0f4ae38f199b": {
+      "type": "multicolumn",
+      "blocks": {
+        "b9550be8-d11b-4243-9504-5fa485103ed7": {
+          "type": "column",
+          "settings": {
+            "image": "{{ shop.brand.square_logo }}",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "b9550be8-d11b-4243-9504-5fa485103ed7"
+      ],
+      "settings": {
+        "title": "Icon",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "8f2e3c01-208b-499b-8ba2-9371101132be": {
+      "type": "multicolumn",
+      "blocks": {
+        "508c24e8-fcea-42fa-9457-3d973f8447ab": {
+          "type": "column",
+          "settings": {
+            "title": "Nunito",
+            "text": "<p>The quick brown fox jumps over the lazy dog.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "508c24e8-fcea-42fa-9457-3d973f8447ab"
+      ],
+      "settings": {
+        "title": "Fonts",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6c639874-2856-4eb7-9e77-7d440d94fbd6": {
+      "type": "multicolumn",
+      "blocks": {
+        "f55c2924-5e00-4d06-b675-d7449229726c": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Pantone P 76-16 C<\/strong> CMYK Coated",
+            "text": "<p>Lab: 36.72 57.51 -2.24<\/p><p>sRGB: 158 24 93<\/p><p>CMYK: 0 100 0 35<\/p><p>HEX: 9E185D<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "f55c2924-5e00-4d06-b675-d7449229726c"
+      ],
+      "settings": {
+        "title": "Colours",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "fd7038ed-fdb1-4b3b-86e8-9d2a7a7d34be",
+    "067ef57d-4817-471e-856e-0f4ae38f199b",
+    "8f2e3c01-208b-499b-8ba2-9371101132be",
+    "6c639874-2856-4eb7-9e77-7d440d94fbd6"
   ]
 }
