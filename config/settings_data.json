@@ -141,7 +141,7 @@
           "button": "{{ shop.brand.colors.primary[0].foreground }}",
           "button_label": "{{ shop.brand.colors.primary[0].background }}",
           "secondary_button_label": "{{ shop.brand.colors.primary[0].foreground }}",
-          "shadow": "#121212"
+          "shadow": "{{ shop.brand.colors.primary[0].background }}"
         }
       },
       "background-2": {
@@ -152,7 +152,7 @@
           "button": "{{ shop.brand.colors.primary[0].background }}",
           "button_label": "{{ shop.brand.colors.primary[0].foreground }}",
           "secondary_button_label": "{{ shop.brand.colors.primary[0].background }}",
-          "shadow": "#121212"
+          "shadow": "{{ shop.brand.colors.primary[0].background }}"
         }
       },
       "inverse": {
@@ -179,13 +179,13 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#574666",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#334fb4",
-          "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
+          "text": "#ff8503",
+          "button": "#ff8503",
+          "button_label": "#574666",
+          "secondary_button_label": "#ff8503",
+          "shadow": "#574666"
         }
       }
     }
