@@ -1,53 +1,5 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat-2.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -57,26 +9,50 @@
             "heading": "What's Going On Next",
             "heading_size": "h0"
           }
-        },
-        "text": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "heading"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "View",
+            "button_link_1": "shopify:\/\/metaobjects\/event\/trick-or-treat",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat-2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
       }
     },
     "featured_collection": {
@@ -219,8 +195,8 @@
     }
   },
   "order": [
-    "image_banner",
     "rich_text",
+    "image_banner",
     "featured_collection",
     "collage",
     "video",
