@@ -94,18 +94,20 @@
         "template--20537375031595__fc6e2bb3-689f-4c7b-bfb7-ef3ab05628f9-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Donate to us via Just Giving",
             "heading_size": "h1"
           }
         },
         "template--20537375031595__fc6e2bb3-689f-4c7b-bfb7-ef3ab05628f9-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         },
         "template--20537375031595__fc6e2bb3-689f-4c7b-bfb7-ef3ab05628f9-button-1": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -126,8 +128,8 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     }
   },
