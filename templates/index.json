@@ -43,10 +43,10 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat-2.png",
+        "image": "shopify:\/\/shop_images\/Halloween_shop_Cover_Trick_or_Treat_small_banner_insert_32_x_12cm_copy.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "accent-2",
@@ -73,75 +73,6 @@
         "padding_bottom": 16
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "video": {
       "type": "video",
       "disabled": true,
@@ -157,58 +88,46 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
+    "fc6e2bb3-689f-4c7b-bfb7-ef3ab05628f9": {
+      "type": "rich-text",
       "blocks": {
-        "column1": {
-          "type": "column",
+        "template--20537375031595__fc6e2bb3-689f-4c7b-bfb7-ef3ab05628f9-heading-1": {
+          "type": "heading",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
           }
         },
-        "column2": {
-          "type": "column",
+        "template--20537375031595__fc6e2bb3-689f-4c7b-bfb7-ef3ab05628f9-text-1": {
+          "type": "text",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         },
-        "column3": {
-          "type": "column",
+        "template--20537375031595__fc6e2bb3-689f-4c7b-bfb7-ef3ab05628f9-button-1": {
+          "type": "button",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "template--20537375031595__fc6e2bb3-689f-4c7b-bfb7-ef3ab05628f9-heading-1",
+        "template--20537375031595__fc6e2bb3-689f-4c7b-bfb7-ef3ab05628f9-text-1",
+        "template--20537375031595__fc6e2bb3-689f-4c7b-bfb7-ef3ab05628f9-button-1"
       ],
-      "disabled": true,
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -216,9 +135,7 @@
     "rich_text",
     "image_banner",
     "0905f8be-2b4f-46a2-a173-ca7da7d5aab0",
-    "featured_collection",
-    "collage",
     "video",
-    "multicolumn"
+    "fc6e2bb3-689f-4c7b-bfb7-ef3ab05628f9"
   ]
 }
