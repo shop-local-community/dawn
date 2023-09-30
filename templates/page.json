@@ -11,29 +11,6 @@
         "padding_bottom": 28
       }
     },
-    "de784b50-f552-4261-b68f-ecdc82661538": {
-      "type": "rich-text",
-      "blocks": {
-        "2a6d2f40-e421-46d7-b706-f35951068b7c": {
-          "type": "heading",
-          "settings": {
-            "heading": "Donate Via JustGiving",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "2a6d2f40-e421-46d7-b706-f35951068b7c"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "db0c4056-b365-48df-92ed-1fa106e78740": {
       "type": "rich-text",
       "blocks": {
@@ -81,6 +58,7 @@
       "blocks": {
         "template--20537375523115__b40457a9-c0cd-4e4a-bc2b-dcaeb93cfdb3-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image banner",
             "heading_size": "h1"
@@ -88,6 +66,7 @@
         },
         "template--20537375523115__b40457a9-c0cd-4e4a-bc2b-dcaeb93cfdb3-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
@@ -95,6 +74,7 @@
         },
         "template--20537375523115__b40457a9-c0cd-4e4a-bc2b-dcaeb93cfdb3-buttons-1": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
@@ -117,18 +97,41 @@
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "de784b50-f552-4261-b68f-ecdc82661538": {
+      "type": "rich-text",
+      "blocks": {
+        "2a6d2f40-e421-46d7-b706-f35951068b7c": {
+          "type": "heading",
+          "settings": {
+            "heading": "Donate Via JustGiving",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "2a6d2f40-e421-46d7-b706-f35951068b7c"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
     }
   },
   "order": [
     "main",
-    "de784b50-f552-4261-b68f-ecdc82661538",
     "db0c4056-b365-48df-92ed-1fa106e78740",
-    "b40457a9-c0cd-4e4a-bc2b-dcaeb93cfdb3"
+    "b40457a9-c0cd-4e4a-bc2b-dcaeb93cfdb3",
+    "de784b50-f552-4261-b68f-ecdc82661538"
   ]
 }
