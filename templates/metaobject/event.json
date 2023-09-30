@@ -4,6 +4,7 @@
       "type": "image-banner",
       "settings": {
         "image": "{{ metaobject.cover.value }}",
+        "image_2": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat_small_banner_insert_32_x_12cm_copy.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -24,13 +25,13 @@
           "settings": {
             "caption": "Starts at {{ metaobject.start | metafield_text }} to {{ metaobject.end | metafield_text }}",
             "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text_size": "large"
           }
         },
         "template--20538124271915__69754ee3-c5f9-470e-a684-21e9c25658f4-text-1": {
           "type": "text",
           "settings": {
-            "text": "{{ metaobject.description | metafield_tag }}"
+            "text": "<p>GET YOUR FAVOURITE COSTUME READY FOR A FRIGHTFULLY FUN TIME!<\/p><p>COME COLLECT CANDIES AND TREATS WHILST YOUR TRAVEL THE THRILLS YOU AND CHILLS ALONG THE TRICK-OR-TREAT TRAIL THROUGH COULSDON TOWN CENTRE.<\/p><p>THIS YEAR WILL YOU BRAVE THE PERILS  ON OLD HALLOWS EVE? GHOSTS ON GHOULS BEWARE!<\/p><p><\/p><p>THE TRAIL HAS EARLY DAYTIME SLOTS STARTING AT 4 PM FOR LITTLE ONES WHO NEED TO GET TO BED EARLIER.<\/p><p>NIGHT HAUNT STARTS AT 6 PM<\/p><p>TAKE PART IN THE TRICK-OR-TREAT TRAIL, COSTUME CONTEST & MORE!<\/p><p><\/p><p>START AT COZY GLOW<\/p><p>STOPS INCLUDE:<\/p><p>THE HIVE. GET FIRED, BLISS CAFE, HALLWAYS ESTATE AGENTS, PUZZLE KITCHENS & COULSDON HOME HARDWARE<\/p><p><\/p><p>IF YOU WANT TO TAKE PART AS A BUSINESS SPONSOR WE WOULD LOVE TO HEAR FROM YOU, JUST EMAIL US;<\/p><p>ASHLEY.BARUTI-COOKE@COULSDONPARTNERSHIP.ORG<\/p>"
           }
         }
       },
