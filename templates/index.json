@@ -25,23 +25,6 @@
     },
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "button": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "View",
-            "button_link_1": "shopify:\/\/metaobjects\/event\/trick-or-treat",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "button"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Halloween_shop_Cover_Trick_or_Treat_small_banner_insert_32_x_12cm_copy.jpg",
         "image_overlay_opacity": 0,

@@ -7,6 +7,52 @@
         "padding_bottom": 28
       }
     },
+    "24259923-70b0-49e9-8e54-73f776910d78": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coulsdon's trick or Treat 2023",
+            "heading_size": "h2"
+          }
+        },
+        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get ready for a spooktacular time at Coulsdon's Trick or Treat event! Join us on October 31st as we transform our charming neighborhood into a Halloween wonderland. Dress up in your most creative costumes and wander the streets, knocking on doors for delicious treats or spine-tingling tricks. It's a night of community fun and eerie excitement you won't want to miss. So, gather your little ghouls and ghosts and come join us for a howling good time at Coulsdon's Trick or Treat event!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get your Tickets Now",
+            "button_link": "shopify:\/\/metaobjects\/event\/trick-or-treat",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-heading-1",
+        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1",
+        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat_Instagram_Post_2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "cda48985-57af-470d-8bf2-189e90443d23": {
       "type": "image-with-text",
       "blocks": {
@@ -88,6 +134,7 @@
   },
   "order": [
     "main",
+    "24259923-70b0-49e9-8e54-73f776910d78",
     "cda48985-57af-470d-8bf2-189e90443d23",
     "36bb0691-6022-4efd-84b4-e9a7b4870cdb",
     "a448cc47-951c-4aa8-a605-b2e0d1cadb9c"
