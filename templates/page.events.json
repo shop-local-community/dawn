@@ -92,8 +92,8 @@
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Find Out More",
+            "button_link": "shopify:\/\/pages\/coulsdon-yuletide-magic-2023",
             "button_style_secondary": false
           }
         }
