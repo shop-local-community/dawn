@@ -117,12 +117,36 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "a448cc47-951c-4aa8-a605-b2e0d1cadb9c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20538807058731__a448cc47-951c-4aa8-a605-b2e0d1cadb9c-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Donate Via JustGiving",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20538807058731__a448cc47-951c-4aa8-a605-b2e0d1cadb9c-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "7665bf18-cac7-4a26-9b6d-e50c27fd151f",
     "f659b9d9-9b1d-4699-bdbd-ddf40a793863",
-    "cda48985-57af-470d-8bf2-189e90443d23"
+    "cda48985-57af-470d-8bf2-189e90443d23",
+    "a448cc47-951c-4aa8-a605-b2e0d1cadb9c"
   ]
 }
