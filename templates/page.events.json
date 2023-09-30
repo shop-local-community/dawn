@@ -7,71 +7,6 @@
         "padding_bottom": 28
       }
     },
-    "7665bf18-cac7-4a26-9b6d-e50c27fd151f": {
-      "type": "multicolumn",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
-    "f659b9d9-9b1d-4699-bdbd-ddf40a793863": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20538807058731__f659b9d9-9b1d-4699-bdbd-ddf40a793863-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Coulsdon Trick or Treat",
-            "heading_size": "h1"
-          }
-        },
-        "template--20538807058731__f659b9d9-9b1d-4699-bdbd-ddf40a793863-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Get ready for a spooktacular time at Coulsdon's Trick or Treat event! Join us on October 31st as we transform our charming neighborhood into a Halloween wonderland. Dress up in your most creative costumes and wander the streets, knocking on doors for delicious treats or spine-tingling tricks. It's a night of community fun and eerie excitement you won't want to miss. So, gather your little ghouls and ghosts and come join us for a howling good time at Coulsdon's Trick or Treat event!<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--20538807058731__f659b9d9-9b1d-4699-bdbd-ddf40a793863-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Find Out More",
-            "button_link": "shopify:\/\/metaobjects\/event\/trick-or-treat",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20538807058731__f659b9d9-9b1d-4699-bdbd-ddf40a793863-heading-1",
-        "template--20538807058731__f659b9d9-9b1d-4699-bdbd-ddf40a793863-text-1",
-        "template--20538807058731__f659b9d9-9b1d-4699-bdbd-ddf40a793863-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat_Instagram_Post_2.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "cda48985-57af-470d-8bf2-189e90443d23": {
       "type": "image-with-text",
       "blocks": {
@@ -118,6 +53,15 @@
         "padding_bottom": 36
       }
     },
+    "36bb0691-6022-4efd-84b4-e9a7b4870cdb": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- Noscript content for added SEO -->\n<noscript><a href=\"https:\/\/www.eventbrite.co.uk\/e\/coulsdons-santas-grotto-2023-tickets-528334842737\" rel=\"noopener noreferrer\" target=\"_blank\">Buy Tickets on Eventbrite<\/a><\/noscript>\n<!-- You can customise this button any way you like -->\n<button id=\"eventbrite-widget-modal-trigger-528334842737\" type=\"button\">Buy Tickets<\/button>\n\n<script src=\"https:\/\/www.eventbrite.co.uk\/static\/widgets\/eb_widgets.js\"><\/script>\n\n<script type=\"text\/javascript\">\n    var exampleCallback = function() {\n        console.log('Order complete!');\n    };\n\n    window.EBWidgets.createWidget({\n        widgetType: 'checkout',\n        eventId: '528334842737',\n        modal: true,\n        modalTriggerElementId: 'eventbrite-widget-modal-trigger-528334842737',\n        onOrderComplete: exampleCallback\n    });\n<\/script>",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "a448cc47-951c-4aa8-a605-b2e0d1cadb9c": {
       "type": "rich-text",
       "blocks": {
@@ -144,9 +88,8 @@
   },
   "order": [
     "main",
-    "7665bf18-cac7-4a26-9b6d-e50c27fd151f",
-    "f659b9d9-9b1d-4699-bdbd-ddf40a793863",
     "cda48985-57af-470d-8bf2-189e90443d23",
+    "36bb0691-6022-4efd-84b4-e9a7b4870cdb",
     "a448cc47-951c-4aa8-a605-b2e0d1cadb9c"
   ]
 }
