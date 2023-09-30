@@ -25,10 +25,104 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
+    },
+    "f659b9d9-9b1d-4699-bdbd-ddf40a793863": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20538807058731__f659b9d9-9b1d-4699-bdbd-ddf40a793863-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coulsdon Trick or Treat",
+            "heading_size": "h1"
+          }
+        },
+        "template--20538807058731__f659b9d9-9b1d-4699-bdbd-ddf40a793863-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get ready for a spooktacular time at Coulsdon's Trick or Treat event! Join us on October 31st as we transform our charming neighborhood into a Halloween wonderland. Dress up in your most creative costumes and wander the streets, knocking on doors for delicious treats or spine-tingling tricks. It's a night of community fun and eerie excitement you won't want to miss. So, gather your little ghouls and ghosts and come join us for a howling good time at Coulsdon's Trick or Treat event!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20538807058731__f659b9d9-9b1d-4699-bdbd-ddf40a793863-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Out More",
+            "button_link": "shopify:\/\/metaobjects\/event\/trick-or-treat",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20538807058731__f659b9d9-9b1d-4699-bdbd-ddf40a793863-heading-1",
+        "template--20538807058731__f659b9d9-9b1d-4699-bdbd-ddf40a793863-text-1",
+        "template--20538807058731__f659b9d9-9b1d-4699-bdbd-ddf40a793863-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat_Instagram_Post_2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cda48985-57af-470d-8bf2-189e90443d23": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coulsdon Yuletide Magic",
+            "heading_size": "h1"
+          }
+        },
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Embrace the enchantment of the holiday season at Coulsdon Yuletide Magic on December 2nd! Our picturesque town will come alive with festive cheer as we kick off the holiday spirit. Explore our magical market, where you'll discover unique gifts and seasonal treats. Little ones can meet Santa Claus himself in his cozy grotto, while the main stage will be alive with entertainment that will warm your heart. And for thrill-seekers, the funfair will be in full swing, lighting up the night with excitement. Don't forget to savor the delicious delights at our food market. Join us for a joyous evening of celebration and community at Coulsdon Yuletide Magic!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-heading-1",
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1",
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Yuletide_Magic_Instagram_Post_Square.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "7665bf18-cac7-4a26-9b6d-e50c27fd151f"
+    "7665bf18-cac7-4a26-9b6d-e50c27fd151f",
+    "f659b9d9-9b1d-4699-bdbd-ddf40a793863",
+    "cda48985-57af-470d-8bf2-189e90443d23"
   ]
 }
