@@ -2,6 +2,9 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+
+      ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -10,8 +13,8 @@
     "e6b559b1-0507-45b7-b460-3d86158756ab": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!-- Noscript content for added SEO -->\n<noscript><a href=\"https:\/\/www.eventbrite.co.uk\/e\/coulsdons-santas-grotto-2023-tickets-528334842737\" rel=\"noopener noreferrer\" target=\"_blank\">Buy Tickets on Eventbrite<\/a><\/noscript>\n<!-- You can customise this button any way you like -->\n<button id=\"eventbrite-widget-modal-trigger-528334842737\" type=\"button\">Buy Tickets<\/button>\n\n<script src=\"https:\/\/www.eventbrite.co.uk\/static\/widgets\/eb_widgets.js\"><\/script>\n\n<script type=\"text\/javascript\">\n    var exampleCallback = function() {\n        console.log('Order complete!');\n    };\n\n    window.EBWidgets.createWidget({\n        widgetType: 'checkout',\n        eventId: '528334842737',\n        modal: true,\n        modalTriggerElementId: 'eventbrite-widget-modal-trigger-528334842737',\n        onOrderComplete: exampleCallback\n    });\n<\/script>",
-        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "custom_liquid": "",
+        "color_scheme": "background-2",
         "padding_top": 12,
         "padding_bottom": 12
       }
