@@ -24,7 +24,7 @@
         "template--20537375523115__deeca663-7473-4605-b65d-b7bc2d8bde8d-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to Coulsdon Yuletide Magic - A Festive Celebration! December 2nd, 202311am-7pmBrighton Road CoulsdonWe are thrilled to invite you to a heartwarming celebration of the holiday season at Coulsdon Yuletide Magic, made possible by our generous sponsor, KIA Coulsdon.Experience the Magic:Woods Jewellers Holiday Market: Stroll through our enchanting holiday market, where local artisans and vendors showcase their unique gifts and treats. Find that perfect something special for your loved ones or yourself. Santa's Grotto: Bring your little ones to meet Santa Claus himself in his magical grotto. Capture the joy and wonder on their faces as they share their holiday wishes with the man in red.Get Your Tickets Below Main Stage Entertainment: Enjoy live performances on our main stage that will fill the air with holiday cheer. From carolers to dance troupes, our stage will keep your toes tapping and your heart singing.Funfair: Thrill-seekers, don't miss our funfair! Lights, laughter, and rides for all ages will make this a night to remember.Food Market: Satisfy your taste buds with a mouthwatering array of culinary delights at our food market. From savory to sweet, we have something to satisfy every craving.Thank You, KIA Coulsdon and all of our genres sponsors We would like to extend our heartfelt gratitude to our sponsor, KIA Coulsdon, for their generous support in making this event possible. Their commitment to our community has truly brought the magic of the season to life.<\/p><p>To book a stall at Coulsdon Yuletide Magic, become a sponsor or advertise<\/p><p>Please Contact : Ashley.Baruti-cooke@CoulsdonPartnership.org<\/p><p>For Stage Performance slots contact John@LeadingNote.co.uk<\/p>"
+            "text": "<p>Welcome to Coulsdon Yuletide Magic <\/p><p>A Festive Celebration! December 2nd, 2023<\/p><p>11am-7pm Brighton Road Coulsdon<\/p><p>We are thrilled to invite you to a heartwarming celebration of the holiday season at Coulsdon Yuletide Magic, made possible by our generous sponsor, KIA Coulsdon.<\/p><p><strong>Experience the Magic:Woods Jewellers Holiday Market<\/strong>: Stroll through our enchanting holiday market, where local artisans and vendors showcase their unique gifts and treats. Find that perfect something special for your loved ones or yourself. <\/p><p><strong>Santa's Grotto<\/strong>: Bring your little ones to meet Santa Claus himself in his magical grotto. Capture the joy and wonder on their faces as they share their holiday wishes with the man in red.Get Your Tickets Below <\/p><p><strong>Main Stage Entertainment:<\/strong> Enjoy live performances on our main stage that will fill the air with holiday cheer. From carolers to dance troupes, our stage will keep your toes tapping and your heart singing.<\/p><p><strong>Funfair: <\/strong>Thrill-seekers, don't miss our funfair! Lights, laughter, and rides for all ages will make this a night to remember.<\/p><p><strong>Food Market:<\/strong> Satisfy your taste buds with a mouthwatering array of culinary delights at our food market. From savory to sweet, we have something to satisfy every craving.<\/p><p>Thank You, KIA Coulsdon and all of our genres sponsors We would like to extend our heartfelt gratitude to our sponsor, KIA Coulsdon, for their generous support in making this event possible. Their commitment to our community has truly brought the magic of the season to life.<\/p><p>To book a stall at Coulsdon Yuletide Magic, become a sponsor or advertise<\/p><p>Please Contact : Ashley.Baruti-cooke@CoulsdonPartnership.org<\/p><p>For Stage Performance slots contact John@LeadingNote.co.uk<\/p>"
           }
         },
         "template--20537375523115__deeca663-7473-4605-b65d-b7bc2d8bde8d-button-1": {
@@ -56,20 +56,10 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "f977a561-c76b-4d22-a607-be9c64d45930": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!-- Noscript content for added SEO -->\n<noscript><a href=\"https:\/\/www.eventbrite.co.uk\/e\/coulsdons-santas-grotto-2023-tickets-528334842737\" rel=\"noopener noreferrer\" target=\"_blank\">Buy Tickets on Eventbrite<\/a><\/noscript>\n<!-- You can customise this button any way you like -->\n<button id=\"eventbrite-widget-modal-trigger-528334842737\" type=\"button\">Buy Tickets<\/button>\n\n<script src=\"https:\/\/www.eventbrite.co.uk\/static\/widgets\/eb_widgets.js\"><\/script>\n\n<script type=\"text\/javascript\">\n    var exampleCallback = function() {\n        console.log('Order complete!');\n    };\n\n    window.EBWidgets.createWidget({\n        widgetType: 'checkout',\n        eventId: '528334842737',\n        modal: true,\n        modalTriggerElementId: 'eventbrite-widget-modal-trigger-528334842737',\n        onOrderComplete: exampleCallback\n    });\n<\/script>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
-    "deeca663-7473-4605-b65d-b7bc2d8bde8d",
-    "f977a561-c76b-4d22-a607-be9c64d45930"
+    "deeca663-7473-4605-b65d-b7bc2d8bde8d"
   ]
 }
