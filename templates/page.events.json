@@ -7,6 +7,41 @@
         "padding_bottom": 28
       }
     },
+    "916f5912-e340-459c-b4aa-6fb56a92d77b": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20538807058731__916f5912-e340-459c-b4aa-6fb56a92d77b-column-1": {
+          "type": "column",
+          "repeater": "{{ page.metafields.custom.events.value }}",
+          "settings": {
+            "image": "{{ block.repeater.cover.value }}",
+            "title": "{{ block.repeater.title.value }}",
+            "text": "{{ block.repeater.description | metafield_tag }}",
+            "link_label": "Find Out More",
+            "link": "{{ block.repeater.system.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "template--20538807058731__916f5912-e340-459c-b4aa-6fb56a92d77b-column-1"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "24259923-70b0-49e9-8e54-73f776910d78": {
       "type": "image-with-text",
       "blocks": {
@@ -38,6 +73,7 @@
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1",
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat_Instagram_Post_2.png",
         "height": "adapt",
@@ -84,6 +120,7 @@
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1",
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Yuletide_Magic_Instagram_Post_Square.png",
         "height": "adapt",
@@ -98,21 +135,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "36bb0691-6022-4efd-84b4-e9a7b4870cdb": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!-- Noscript content for added SEO -->\n<noscript><a href=\"https:\/\/www.eventbrite.co.uk\/e\/coulsdons-santas-grotto-2023-tickets-528334842737\" rel=\"noopener noreferrer\" target=\"_blank\">Buy Tickets on Eventbrite<\/a><\/noscript>\n<!-- You can customise this button any way you like -->\n<button id=\"eventbrite-widget-modal-trigger-528334842737\" type=\"button\">Buy Tickets<\/button>\n\n<script src=\"https:\/\/www.eventbrite.co.uk\/static\/widgets\/eb_widgets.js\"><\/script>\n\n<script type=\"text\/javascript\">\n    var exampleCallback = function() {\n        console.log('Order complete!');\n    };\n\n    window.EBWidgets.createWidget({\n        widgetType: 'checkout',\n        eventId: '528334842737',\n        modal: true,\n        modalTriggerElementId: 'eventbrite-widget-modal-trigger-528334842737',\n        onOrderComplete: exampleCallback\n    });\n<\/script>",
-        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "padding_top": 8,
-        "padding_bottom": 8
-      }
     }
   },
   "order": [
     "main",
+    "916f5912-e340-459c-b4aa-6fb56a92d77b",
     "24259923-70b0-49e9-8e54-73f776910d78",
-    "cda48985-57af-470d-8bf2-189e90443d23",
-    "36bb0691-6022-4efd-84b4-e9a7b4870cdb"
+    "cda48985-57af-470d-8bf2-189e90443d23"
   ]
 }
