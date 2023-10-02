@@ -2,7 +2,6 @@
   "sections": {
     "811ee850-2e7e-4fc1-bf68-3ba34052eed4": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
         "image": "{{ metaobject.cover.value }}",
         "image_overlay_opacity": 0,
@@ -10,7 +9,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "accent-2",
+        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -42,7 +41,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "accent-2",
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
