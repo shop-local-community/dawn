@@ -4,7 +4,6 @@
       "type": "image-banner",
       "settings": {
         "image": "{{ metaobject.cover.value }}",
-        "image_2": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat_small_banner_insert_32_x_12cm_copy.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
