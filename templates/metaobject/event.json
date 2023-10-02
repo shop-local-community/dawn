@@ -51,7 +51,7 @@
     "4fe1e120-8b87-4d2c-b808-2bd4f8fd103e": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"eventbrite-widget-container-528320941157\"><\/div>\n\n<script src=\"https:\/\/www.eventbrite.co.uk\/static\/widgets\/eb_widgets.js\"><\/script>\n\n<script type=\"text\/javascript\">\n    var exampleCallback = function() {\n        console.log('Order complete!');\n    };\n\n    window.EBWidgets.createWidget({\n        \/\/ Required\n        widgetType: 'checkout',\n        eventId: '528320941157',\n        iframeContainerId: 'eventbrite-widget-container-528320941157',\n\n        \/\/ Optional\n        iframeContainerHeight: 425,  \/\/ Widget height in pixels. Defaults to a minimum of 425px if not provided\n        onOrderComplete: exampleCallback  \/\/ Method called when an order has successfully completed\n    });\n<\/script",
+        "custom_liquid": "<div id=\"eventbrite-widget-container\"><\/div>\n\n<script src=\"https:\/\/www.eventbrite.co.uk\/static\/widgets\/eb_widgets.js\"><\/script>\n\n<script type=\"text\/javascript\">\n    var exampleCallback = window.EBWidgets.createWidget({\n        \/\/ Required\n        widgetType: 'checkout',\n        eventId: '{{ metaobject.eventbrite_id.value }}',\n        iframeContainerId: 'eventbrite-widget-container',\n    });\n<\/script",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
