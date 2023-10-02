@@ -12,11 +12,13 @@
       "blocks": {
         "template--21141611086123__1c5efa0b-e1f3-46fa-9b00-98caf480dc35-column-1": {
           "type": "column",
+          "repeater": "{{ page.metafields.custom.businesses.value }}",
           "settings": {
-            "title": "",
+            "image": "{{ block.repeater.logo.value }}",
+            "title": "{{ block.repeater.name.value }}",
             "text": "",
-            "link_label": "View",
-            "link": ""
+            "link_label": "",
+            "link": "{{ block.repeater.system.url }}"
           }
         }
       },
