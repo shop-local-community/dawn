@@ -49,6 +49,29 @@
         "padding_bottom": 52
       }
     },
+    "b37c2d62-bba5-438a-b0d7-e76e82084e62": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20537374867755__b37c2d62-bba5-438a-b0d7-e76e82084e62-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get Your Tickets For Santa's Grotto",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--20537374867755__b37c2d62-bba5-438a-b0d7-e76e82084e62-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 12
+      }
+    },
     "bedcad86-d624-45fb-a766-04858028d571": {
       "type": "custom-liquid",
       "settings": {
@@ -62,6 +85,7 @@
   "order": [
     "main",
     "731b533d-e113-4db0-803b-bf33f70cf128",
+    "b37c2d62-bba5-438a-b0d7-e76e82084e62",
     "bedcad86-d624-45fb-a766-04858028d571"
   ]
 }
