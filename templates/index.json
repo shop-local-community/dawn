@@ -28,7 +28,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Halloween_shop_Cover_Trick_or_Treat_small_banner_insert_32_x_12cm_copy.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
