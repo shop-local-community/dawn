@@ -9,9 +9,19 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "2b7e6c06-b6c1-443a-a11c-c3292ff614f6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"eventbrite-widget-container-528334842737\"><\/div>\n\n<script src=\"https:\/\/www.eventbrite.co.uk\/static\/widgets\/eb_widgets.js\"><\/script>\n\n<script type=\"text\/javascript\">\n    var exampleCallback = function() {\n        console.log('Order complete!');\n    };\n\n    window.EBWidgets.createWidget({\n        \/\/ Required\n        widgetType: 'checkout',\n        eventId: '528334842737',\n        iframeContainerId: 'eventbrite-widget-container-528334842737',\n\n        \/\/ Optional\n        iframeContainerHeight: 425,  \/\/ Widget height in pixels. Defaults to a minimum of 425px if not provided\n        onOrderComplete: exampleCallback  \/\/ Method called when an order has successfully completed\n    });\n<\/script>",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "2b7e6c06-b6c1-443a-a11c-c3292ff614f6"
   ]
 }
