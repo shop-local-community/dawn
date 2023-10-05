@@ -45,6 +45,7 @@
         "template--20537375523115__b2b5bb2a-42f9-46ba-a0a1-c183a214a092-text-1",
         "template--20537375523115__b2b5bb2a-42f9-46ba-a0a1-c183a214a092-button-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -56,17 +57,47 @@
     },
     "2b7e6c06-b6c1-443a-a11c-c3292ff614f6": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div id=\"eventbrite-widget-container-528334842737\"><\/div>\n\n<script src=\"https:\/\/www.eventbrite.co.uk\/static\/widgets\/eb_widgets.js\"><\/script>\n\n<script type=\"text\/javascript\">\n    var exampleCallback = function() {\n        console.log('Order complete!');\n    };\n\n    window.EBWidgets.createWidget({\n        \/\/ Required\n        widgetType: 'checkout',\n        eventId: '528334842737',\n        iframeContainerId: 'eventbrite-widget-container-528334842737',\n\n        \/\/ Optional\n        iframeContainerHeight: 425,  \/\/ Widget height in pixels. Defaults to a minimum of 425px if not provided\n        onOrderComplete: exampleCallback  \/\/ Method called when an order has successfully completed\n    });\n<\/script>",
         "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "ab977d87-d782-4cb8-ba79-1cc178004406": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "donations",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
     }
   },
   "order": [
     "main",
     "b2b5bb2a-42f9-46ba-a0a1-c183a214a092",
-    "2b7e6c06-b6c1-443a-a11c-c3292ff614f6"
+    "2b7e6c06-b6c1-443a-a11c-c3292ff614f6",
+    "ab977d87-d782-4cb8-ba79-1cc178004406"
   ]
 }
