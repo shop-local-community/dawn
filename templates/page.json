@@ -1,38 +1,7 @@
 {
   "sections": {
-    "85fc8ad2-bcce-4113-abb9-c225e5fc9f95": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20537375523115__85fc8ad2-bcce-4113-abb9-c225e5fc9f95-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Welcome to Coulsdon Yuletide Magic - A Festive Celebration! ",
-            "heading_size": "h1"
-          }
-        },
-        "template--20537375523115__85fc8ad2-bcce-4113-abb9-c225e5fc9f95-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>December 2nd, 2023 11am-7pm<br\/>Brighton Road Coulsdon<\/p><p>We are thrilled to invite you to a heartwarming celebration of the holiday season at Coulsdon Yuletide Magic, made possible by our generous sponsor, <a href=\"https:\/\/www.kia.com\/uk\/dealers\/group1coulsdon\/?cmpid=ppc%7c2272%7CUK%7CEN%7CGO%7CGroup+1+(Coulsdon)%7cgoogle%7ce%7ckia+Coulsdon&gclid=EAIaIQobChMIzvjtp8_ZgQMVSuTtCh2D-Au1EAAYASAAEgIiq_D_BwE&gclsrc=aw.ds\" target=\"_blank\" title=\"Auto 1 Kia Coulsdon Sponsor of our Christmas Event\">KIA Coulsdon<\/a>. <\/p><p>Experience the Magic: <a href=\"https:\/\/www.woodsjewellers.co.uk\/\" target=\"_blank\" title=\"Chistmas Market Surrey and Coulsdon Sponsored by Woods Jewllers \">Woods <br\/>Jewellers<\/a> Holiday Market: Stroll through our enchanting holiday market, where local artisans and vendors showcase their unique gifts and treats.<br\/>Find that perfect something special for your loved ones or yourself. <\/p><p>Santa's Grotto: Bring your little ones to meet Santa Claus himself in his <br\/>magical grotto. Capture the joy and wonder on their faces as they share <br\/>their holiday wishes with the man in red.<br\/>Get Your Tickets Below <\/p><p>Main Stage Entertainment: Enjoy live performances on our main stage that <br\/>will fill the air with holiday cheer. From carolers to dance troupes, <br\/>our stage will keep your toes tapping and your heart singing.<\/p><p>Funfair: Thrill-seekers, don't miss our funfair! Lights, laughter, and rides for all ages will make this a night to remember.<\/p><p>Food Market: Satisfy your taste buds with a mouthwatering array of culinary delights at our food market. From savory to sweet, we have something to satisfy every craving.<\/p><p>Thank You, KIA Coulsdon and all of our genres sponsors We would like to extend our heartfelt gratitude to our sponsor, KIA Coulsdon, for their generous support in making this event possible. <br\/>Their commitment to our community has truly brought the magic of the <br\/>season to life.<\/p><p>To book a stall at Coulsdon Yuletide Magic, become a sponsor or advertise<\/p><p>Please Contact : Ashley.Baruti-cooke@CoulsdonPartnership.org<\/p><p>For Stage Performance slots contact John@LeadingNote.co.uk<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--20537375523115__85fc8ad2-bcce-4113-abb9-c225e5fc9f95-heading-1",
-        "template--20537375523115__85fc8ad2-bcce-4113-abb9-c225e5fc9f95-text-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 16
-      }
-    },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -96,7 +65,6 @@
     }
   },
   "order": [
-    "85fc8ad2-bcce-4113-abb9-c225e5fc9f95",
     "main",
     "b2b5bb2a-42f9-46ba-a0a1-c183a214a092",
     "2b7e6c06-b6c1-443a-a11c-c3292ff614f6"
