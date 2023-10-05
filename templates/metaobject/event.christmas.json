@@ -1,20 +1,47 @@
 {
   "sections": {
-    "811ee850-2e7e-4fc1-bf68-3ba34052eed4": {
-      "type": "image-banner",
-      "disabled": true,
+    "d3c25f90-5bfb-48a0-8053-84c6b9e48736": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21375543214379__d3c25f90-5bfb-48a0-8053-84c6b9e48736-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to Coulsdon Yuletide Magic - A Festive Celebration!",
+            "heading_size": "h1"
+          }
+        },
+        "template--21375543214379__d3c25f90-5bfb-48a0-8053-84c6b9e48736-text-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--21375543214379__d3c25f90-5bfb-48a0-8053-84c6b9e48736-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--21375543214379__d3c25f90-5bfb-48a0-8053-84c6b9e48736-heading-1",
+        "template--21375543214379__d3c25f90-5bfb-48a0-8053-84c6b9e48736-text-1",
+        "template--21375543214379__d3c25f90-5bfb-48a0-8053-84c6b9e48736-button-1"
+      ],
       "settings": {
-        "image": "{{ metaobject.cover.value }}",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "69754ee3-c5f9-470e-a684-21e9c25658f4": {
@@ -44,8 +71,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 16,
+        "padding_bottom": 20
       }
     },
     "4fe1e120-8b87-4d2c-b808-2bd4f8fd103e": {
@@ -59,7 +86,7 @@
     }
   },
   "order": [
-    "811ee850-2e7e-4fc1-bf68-3ba34052eed4",
+    "d3c25f90-5bfb-48a0-8053-84c6b9e48736",
     "69754ee3-c5f9-470e-a684-21e9c25658f4",
     "4fe1e120-8b87-4d2c-b808-2bd4f8fd103e"
   ]
