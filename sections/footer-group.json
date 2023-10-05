@@ -5,7 +5,7 @@
     "5127e481-9a20-4166-a7a0-1e6c29c9a8dc": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"center\">\n<h2>Dontate to us via Just Giving<\/h2>\n<script id=\"jgGive\" data-charity=\"3420033\" data-env=\"https:\/\/www.justgiving.com\" src=\"https:\/\/www.justgiving.com\/bundles\/js\/givewidgetloader.js\" data-width=\"600\"><\/script>\n<\/div>",
+        "custom_liquid": "<div class=\"center\">\n<h2>Donate to us via Just Giving<\/h2>\n<script id=\"jgGive\" data-charity=\"3420033\" data-env=\"https:\/\/www.justgiving.com\" src=\"https:\/\/www.justgiving.com\/bundles\/js\/givewidgetloader.js\" data-width=\"600\"><\/script>\n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 16,
         "padding_bottom": 0
