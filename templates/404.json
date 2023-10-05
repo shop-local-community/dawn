@@ -3,6 +3,9 @@
     "main": {
       "type": "main-404",
       "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
       }
     },

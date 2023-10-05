@@ -110,7 +110,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find Out More",
-            "button_link": "shopify:\/\/pages\/coulsdon-yuletide-magic-2023",
+            "button_link": "shopify:\/\/metaobjects\/event\/coulsdon-yuletide-magic-2023",
             "button_style_secondary": false
           }
         }
