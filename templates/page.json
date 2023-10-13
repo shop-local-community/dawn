@@ -10,61 +10,6 @@
         "padding_bottom": 12
       }
     },
-    "b2b5bb2a-42f9-46ba-a0a1-c183a214a092": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20537375523115__b2b5bb2a-42f9-46ba-a0a1-c183a214a092-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get Your Tickets to Santa's Grotto",
-            "heading_size": "h2"
-          }
-        },
-        "template--20537375523115__b2b5bb2a-42f9-46ba-a0a1-c183a214a092-text-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--20537375523115__b2b5bb2a-42f9-46ba-a0a1-c183a214a092-button-1": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20537375523115__b2b5bb2a-42f9-46ba-a0a1-c183a214a092-heading-1",
-        "template--20537375523115__b2b5bb2a-42f9-46ba-a0a1-c183a214a092-text-1",
-        "template--20537375523115__b2b5bb2a-42f9-46ba-a0a1-c183a214a092-button-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "full_width": true,
-        "padding_top": 8,
-        "padding_bottom": 8
-      }
-    },
-    "2b7e6c06-b6c1-443a-a11c-c3292ff614f6": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<div id=\"eventbrite-widget-container-528334842737\"><\/div>\n\n<script src=\"https:\/\/www.eventbrite.co.uk\/static\/widgets\/eb_widgets.js\"><\/script>\n\n<script type=\"text\/javascript\">\n    var exampleCallback = function() {\n        console.log('Order complete!');\n    };\n\n    window.EBWidgets.createWidget({\n        \/\/ Required\n        widgetType: 'checkout',\n        eventId: '528334842737',\n        iframeContainerId: 'eventbrite-widget-container-528334842737',\n\n        \/\/ Optional\n        iframeContainerHeight: 425,  \/\/ Widget height in pixels. Defaults to a minimum of 425px if not provided\n        onOrderComplete: exampleCallback  \/\/ Method called when an order has successfully completed\n    });\n<\/script>",
-        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "ab977d87-d782-4cb8-ba79-1cc178004406": {
       "type": "featured-collection",
       "settings": {
@@ -96,8 +41,6 @@
   },
   "order": [
     "main",
-    "b2b5bb2a-42f9-46ba-a0a1-c183a214a092",
-    "2b7e6c06-b6c1-443a-a11c-c3292ff614f6",
     "ab977d87-d782-4cb8-ba79-1cc178004406"
   ]
 }
