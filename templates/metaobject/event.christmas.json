@@ -6,7 +6,7 @@
         "template--21375543214379__de089f90-b8cc-40cf-bd2b-6dab1128b9fc-column-2": {
           "type": "column",
           "settings": {
-            "image": "{{ metaobject.logo.value }}",
+            "image": "{{ metaobject.cover.value }}",
             "title": "",
             "text": "",
             "link_label": "Grotto Tickets",
