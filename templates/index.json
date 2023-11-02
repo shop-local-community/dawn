@@ -17,7 +17,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "accent-2",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
         "full_width": true,
         "padding_top": 16,
         "padding_bottom": 8
@@ -30,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Get Your Tickets Now!",
-            "button_link_1": "shopify:\/\/metaobjects\/event\/trick-or-treat",
+            "button_link_1": "shopify:\/\/metaobjects\/event\/coulsdon-yuletide-magic-2023",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -42,13 +42,13 @@
         "2ac734ae-a7ee-4ea5-b0ea-dbe4434dcc8b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner.png",
+        "image": "shopify:\/\/shop_images\/Logo.png_Title_copy.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "accent-2",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
