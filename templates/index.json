@@ -41,10 +41,11 @@
       "block_order": [
         "2ac734ae-a7ee-4ea5-b0ea-dbe4434dcc8b"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Logo.png_Title.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -53,6 +54,40 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": true
+      }
+    },
+    "e4bb5afb-12db-4804-9e35-9819681a26a9": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20537375031595__e4bb5afb-12db-4804-9e35-9819681a26a9-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logo_cce6dd1d-d8bd-48e9-92c8-f6e44e2ec9e7.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/metaobjects\/event\/coulsdon-yuletide-magic-2023"
+          }
+        }
+      },
+      "block_order": [
+        "template--20537375031595__e4bb5afb-12db-4804-9e35-9819681a26a9-column-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "Get Your Tickets Now!",
+        "button_link": "shopify:\/\/metaobjects\/event\/coulsdon-yuletide-magic-2023",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "0905f8be-2b4f-46a2-a173-ca7da7d5aab0": {
@@ -91,6 +126,7 @@
   "order": [
     "rich_text",
     "image_banner",
+    "e4bb5afb-12db-4804-9e35-9819681a26a9",
     "0905f8be-2b4f-46a2-a173-ca7da7d5aab0",
     "video"
   ]
