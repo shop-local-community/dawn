@@ -93,7 +93,7 @@
     "94807e82-9ae7-40d4-97aa-beb5bf53a035": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"center\">\n<a href=\"\/\/widgets.justgiving.com\/Button\/Redirect?p=eyJJZCI6ImQxNjIzYmM2LTY0OTYtNGQ4NS1hMmZiLWIzMmYxYmI5Mjc4ZSIsIkNoYXJpdHlJZCI6MzQyMDAzMywiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0=\"><img src=\"\/\/widgets.justgiving.com\/Button?p=eyJJZCI6ImQxNjIzYmM2LTY0OTYtNGQ4NS1hMmZiLWIzMmYxYmI5Mjc4ZSIsIkNoYXJpdHlJZCI6MzQyMDAzMywiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0=\" \/><\/a>\n<\/div>",
+        "custom_liquid": "<div class=\"center\">\n<h3>Help fund the Christmas lights<h3>\n<a href=\"\/\/widgets.justgiving.com\/Button\/Redirect?p=eyJJZCI6ImQxNjIzYmM2LTY0OTYtNGQ4NS1hMmZiLWIzMmYxYmI5Mjc4ZSIsIkNoYXJpdHlJZCI6MzQyMDAzMywiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0=\"><img src=\"\/\/widgets.justgiving.com\/Button?p=eyJJZCI6ImQxNjIzYmM2LTY0OTYtNGQ4NS1hMmZiLWIzMmYxYmI5Mjc4ZSIsIkNoYXJpdHlJZCI6MzQyMDAzMywiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0=\" \/><\/a>\n<\/div>",
         "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
         "padding_top": 16,
         "padding_bottom": 52
