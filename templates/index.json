@@ -42,9 +42,9 @@
         "2ac734ae-a7ee-4ea5-b0ea-dbe4434dcc8b"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yuletide_Magic_Banner_-2.png",
+        "image": "shopify:\/\/shop_images\/Logo.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
