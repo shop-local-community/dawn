@@ -37,6 +37,21 @@
       "settings": {
       }
     },
+    "ae4e8569-f361-406b-964b-2ebc24ed51bd": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video_url": "https:\/\/youtu.be\/lva2T7EEH08",
+        "cover_image": "shopify:\/\/shop_images\/Yuletide_short.webp",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "f4979c1f-042a-483c-aa40-cc5a54c01791": {
       "type": "custom-liquid",
       "settings": {
@@ -49,6 +64,7 @@
   },
   "order": [
     "main",
+    "ae4e8569-f361-406b-964b-2ebc24ed51bd",
     "f4979c1f-042a-483c-aa40-cc5a54c01791"
   ]
 }
