@@ -2,6 +2,17 @@
   "sections": {
     "811ee850-2e7e-4fc1-bf68-3ba34052eed4": {
       "type": "image-banner",
+      "blocks": {
+        "566cc7a8-6eba-483f-9ca2-ca33ef55642e": {
+          "type": "heading_image",
+          "settings": {
+            "heading_image": "{{ metaobject.logo.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "566cc7a8-6eba-483f-9ca2-ca33ef55642e"
+      ],
       "settings": {
         "image": "{{ metaobject.cover.value }}",
         "image_overlay_opacity": 0,
@@ -86,7 +97,7 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"page-width\">\n<div id=\"tripetto\"><\/div>\n<\/div>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/runner\"><\/script>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/runner-autoscroll\"><\/script>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/studio\"><\/script>\n<script>\nTripettoStudio.form({\n    runner: TripettoAutoscroll,\n    token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNi9QZHk5MlFabU9CMHpQV2RKcXYxbUFGRERtK1lrb09ybGcyb2EzTjIrYz0iLCJkZWZpbml0aW9uIjoiTjJmME5qeDR3ZUMyY09lb1YrcG5KZnVRMzJmak9yNnpyODEySTUvcEhEVT0iLCJ0eXBlIjoiY29sbGVjdCJ9.1yB07nPu0-nGbpWN7X4ghtPCLHwmwb82aqTQiolJxz4\",\n    element: \"tripetto\",\n    pausable: true,\n    persistent: true\n});\n<\/script>",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
       }
