@@ -58,11 +58,45 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "e6f29e66-977b-48e9-a38e-568bbe017227": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20538124271915__e6f29e66-977b-48e9-a38e-568bbe017227-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stallholders",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--20538124271915__e6f29e66-977b-48e9-a38e-568bbe017227-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "01c76b4c-0c90-4fe8-b0b7-0aa982d8202d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"tripetto\"><\/div>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/runner\"><\/script>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/runner-autoscroll\"><\/script>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/studio\"><\/script>\n<script>\nTripettoStudio.form({\n    runner: TripettoAutoscroll,\n    token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNi9QZHk5MlFabU9CMHpQV2RKcXYxbUFGRERtK1lrb09ybGcyb2EzTjIrYz0iLCJkZWZpbml0aW9uIjoiTjJmME5qeDR3ZUMyY09lb1YrcG5KZnVRMzJmak9yNnpyODEySTUvcEhEVT0iLCJ0eXBlIjoiY29sbGVjdCJ9.1yB07nPu0-nGbpWN7X4ghtPCLHwmwb82aqTQiolJxz4\",\n    element: \"tripetto\",\n    pausable: true,\n    persistent: true\n});\n<\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "811ee850-2e7e-4fc1-bf68-3ba34052eed4",
     "69754ee3-c5f9-470e-a684-21e9c25658f4",
-    "4fe1e120-8b87-4d2c-b808-2bd4f8fd103e"
+    "4fe1e120-8b87-4d2c-b808-2bd4f8fd103e",
+    "e6f29e66-977b-48e9-a38e-568bbe017227",
+    "01c76b4c-0c90-4fe8-b0b7-0aa982d8202d"
   ]
 }
