@@ -1,75 +1,18 @@
 {
   "sections": {
-    "video": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/Christmas Banner.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Get Ready for the Next Big Thing!",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "full_width": true,
-        "padding_top": 16,
-        "padding_bottom": 8
-      }
-    },
-    "image_banner": {
+    "c899b1a1-451c-4a18-8702-2809c80b498c": {
       "type": "image-banner",
-      "blocks": {
-        "2ac734ae-a7ee-4ea5-b0ea-dbe4434dcc8b": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Get Your Tickets Now!",
-            "button_link_1": "shopify:\/\/metaobjects\/event\/coulsdon-yuletide-magic-2023",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "2ac734ae-a7ee-4ea5-b0ea-dbe4434dcc8b"
-      ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Logo.png_Title.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/Coulsdon_Easter_Egg_Hunt_Banner.png",
+        "image_overlay_opacity": 30,
         "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "image_behavior": "ambient",
+        "color_scheme": "",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
+        "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
@@ -138,9 +81,7 @@
     }
   },
   "order": [
-    "video",
-    "rich_text",
-    "image_banner",
+    "c899b1a1-451c-4a18-8702-2809c80b498c",
     "e4bb5afb-12db-4804-9e35-9819681a26a9",
     "94807e82-9ae7-40d4-97aa-beb5bf53a035",
     "0905f8be-2b4f-46a2-a173-ca7da7d5aab0"
