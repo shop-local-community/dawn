@@ -83,6 +83,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "accent-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -130,6 +131,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -150,7 +152,7 @@
         "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d": {
           "type": "text",
           "settings": {
-            "text": "<p>Join us for an enchanting Easter Egg Hunt on 30th March, from 11 am to 12 pm! <\/p><p>Immerse yourself in a whimsical Easter trail, where every twist and turn leads to hidden treasures and joyous discoveries around the business in Coulsdon.<\/p><p>🐰 Encounter the magical Easter Bunny along the way, spreading laughter and festive cheer. <\/p><p>🐣 Secure your ticket now for an unforgettable experience of family fun and delightful surprises!<\/p><p>Please arrive at the specified time on your Ticket, Early or late arrivals may not be accommodated. <\/p>",
+            "text": "<p>Join us for an enchanting Easter Egg Hunt on 30th March, from 11 am to 5pm! <\/p><p>Immerse yourself in a whimsical Easter trail, where every twist and turn leads to hidden treasures and joyous discoveries around the business in Coulsdon.<\/p><p>🐰 Encounter the magical Easter Bunny along the way, spreading laughter and festive cheer. <\/p><p>🐣 Secure your ticket now for an unforgettable experience of family fun and delightful surprises!<\/p><p>Please arrive at the specified time on your Ticket, Early or late arrivals may not be accommodated5<\/p>",
             "text_style": "body"
           }
         },
@@ -176,6 +178,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
