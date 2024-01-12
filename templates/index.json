@@ -2,14 +2,30 @@
   "sections": {
     "c899b1a1-451c-4a18-8702-2809c80b498c": {
       "type": "image-banner",
+      "blocks": {
+        "buttons_Gn89Xc": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get Your Tickets Now!",
+            "button_link_1": "shopify:\/\/metaobjects\/event\/easter-egg-hunt",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_Gn89Xc"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Coulsdon_Easter_Egg_Hunt_Banner.png",
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
