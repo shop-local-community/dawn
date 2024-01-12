@@ -7,6 +7,15 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_cDwhKz": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"tripetto\"><\/div>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/runner\"><\/script>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/runner-autoscroll\"><\/script>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/studio\"><\/script>\n<script>\nTripettoStudio.form({\n    runner: TripettoAutoscroll,\n    token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNi9QZHk5MlFabU9CMHpQV2RKcXYxbUFGRERtK1lrb09ybGcyb2EzTjIrYz0iLCJkZWZpbml0aW9uIjoiUzV1UE94MTBPOWRreTZxelFhN3RQeWxLSzkvTXVIaHhlMjl5bzhHdjVqQT0iLCJ0eXBlIjoiY29sbGVjdCJ9.U_LIG2Tko9QkSvAdK3xef_gUBKbhP_aXXxUbFVcdCg4\",\n    element: \"tripetto\",\n    pausable: true,\n    persistent: true\n});\n<\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1704726875d1ce386c": {
       "type": "apps",
       "blocks": {
@@ -22,6 +31,7 @@
       "block_order": [
         "fc99fbc2-e12a-4f1a-9469-21c7dffbfc3d"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -29,6 +39,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_cDwhKz",
     "1704726875d1ce386c"
   ]
 }
