@@ -39,6 +39,7 @@
     },
     "ae4e8569-f361-406b-964b-2ebc24ed51bd": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
