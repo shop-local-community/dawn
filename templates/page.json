@@ -10,6 +10,15 @@
         "padding_bottom": 12
       }
     },
+    "custom_liquid_MYEgxg": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"center\">\n<h3>Support Coulsdon Community Partnership Via JustGiving<h3>\n<a href=\"\/\/widgets.justgiving.com\/Button\/Redirect?p=eyJJZCI6ImQxNjIzYmM2LTY0OTYtNGQ4NS1hMmZiLWIzMmYxYmI5Mjc4ZSIsIkNoYXJpdHlJZCI6MzQyMDAzMywiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0=\"><img src=\"\/\/widgets.justgiving.com\/Button?p=eyJJZCI6ImQxNjIzYmM2LTY0OTYtNGQ4NS1hMmZiLWIzMmYxYmI5Mjc4ZSIsIkNoYXJpdHlJZCI6MzQyMDAzMywiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0=\" \/><\/a>\n<\/div>",
+        "color_scheme": "background-2",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "ab977d87-d782-4cb8-ba79-1cc178004406": {
       "type": "featured-collection",
       "settings": {
@@ -41,6 +50,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_MYEgxg",
     "ab977d87-d782-4cb8-ba79-1cc178004406"
   ]
 }
