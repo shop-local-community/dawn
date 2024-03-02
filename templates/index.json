@@ -77,22 +77,12 @@
         "padding_top": 8,
         "padding_bottom": 16
       }
-    },
-    "custom_liquid_rTRaya": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script src=\"https:\/\/www.justgiving.com\/widgets\/scripts\/widget.js\" data-version=\"2\" data-widgetType=\"donateButton\" data-linkType=\"givingCheckout\" data-donateButtonType=\"justgivingLarge\" data-linkId=\"62upgmf9bl\" data-marketCode=\"GB\"  data-showPaymentLogos=\"true\" data-popupCheckout=\"true\" type=\"text\/javascript\"><\/script>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "c899b1a1-451c-4a18-8702-2809c80b498c",
     "e4bb5afb-12db-4804-9e35-9819681a26a9",
     "94807e82-9ae7-40d4-97aa-beb5bf53a035",
-    "0905f8be-2b4f-46a2-a173-ca7da7d5aab0",
-    "custom_liquid_rTRaya"
+    "0905f8be-2b4f-46a2-a173-ca7da7d5aab0"
   ]
 }
