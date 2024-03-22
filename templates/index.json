@@ -55,7 +55,7 @@
     "94807e82-9ae7-40d4-97aa-beb5bf53a035": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<centre> \n<script src=\"https:\/\/www.justgiving.com\/widgets\/scripts\/widget.js\" data-version=\"2\" data-widgetType=\"donateButton\" data-linkType=\"givingCheckout\" data-donateButtonType=\"justgivingSmall\" data-linkId=\"62upgmf9bl\" data-marketCode=\"GB\"  data-showPaymentLogos=\"true\" data-popupCheckout=\"true\" type=\"text\/javascript\"><\/script>",
+        "custom_liquid": "<script src=\"https:\/\/www.justgiving.com\/widgets\/scripts\/widget.js\" data-version=\"2\" data-widgetType=\"donateButton\" data-linkType=\"givingCheckout\" data-donateButtonType=\"justgivingSmall\" data-linkId=\"62upgmf9bl\" data-marketCode=\"GB\"  data-showPaymentLogos=\"true\" data-popupCheckout=\"true\" type=\"text\/javascript\"><centre><\/script>",
         "color_scheme": "background-2",
         "padding_top": 4,
         "padding_bottom": 4
