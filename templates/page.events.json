@@ -63,7 +63,7 @@
         "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Find Out More",
+            "button_label": "",
             "button_link": "shopify:\/\/metaobjects\/event\/the-big-lunch",
             "button_style_secondary": false
           }
