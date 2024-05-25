@@ -49,22 +49,22 @@
         "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Easter Egg Hunt",
+            "heading": "The Big Lunch",
             "heading_size": "h1"
           }
         },
         "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d": {
           "type": "text",
           "settings": {
-            "text": "<p>Gather around, folks, and prepare for a remarkable Easter celebration right here in Coulsdon High Street!<br\/><br\/>Join us on the 30th of March, from 10 am to 5 pm, for an Easter Egg Hunt like no other!<\/p><p>Easter Market and Street Food<\/p><p>Easter Egg Trail<\/p><p>Easter Bunny Meet & Greet<\/p><p>Immerse yourself in a whimsical Easter trail, organsied by Cozy Glow, where every twist and turn unveils hidden treasures and joyous discoveries throughout the town.<\/p><p>And guess who'll you'll meet along the way? The magical Easter Bunny himself, spreading laughter and cheer at The Hive Community Garden. <\/p><p>Dive into an enchanting  the Easter Market, adorned with food and craft stalls galore!<br\/><br\/>Secure your tickets now for an unforgettable experience of family fun and delightful surprises! <\/p><p><a href=\"https:\/\/cozyglow.store\/products\/easter-egg-hunt-2024-ticket\" target=\"_blank\" title=\"Cozy Glow Easter Egg Hunt Tickets\">Get your tickets from Cozy Glow Now <\/a><\/p><p>Event sponsored and supported by Kia Coulsdon, <a href=\"http:\/\/www.streetermarshall.com\/\" target=\"_blank\">Streeter Marshall <\/a>& <a href=\"https:\/\/hallwaysproperty.uk\/\">Hallways Residential Estate Agents<\/a><\/p>",
+            "text": "<p>The Big Lunch is the UK’s annual get-together for neighbours and communities, with millions of people coming together to share friendship, food and fun and celebrate community connections.<\/p><p>At Marlpit Lane Park<\/p><p>With Field Games, Food from the Poppy Cafe and a chance to hear more about Coulsdon Community Partnership.<\/p>",
             "text_style": "body"
           }
         },
         "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Get Your Tickets Now",
-            "button_link": "https:\/\/cozyglow.store\/products\/easter-egg-hunt-2024-ticket?_pos=3&_psq=easter&_ss=e&_v=1.0",
+            "button_label": "Find Out More",
+            "button_link": "shopify:\/\/metaobjects\/event\/the-big-lunch",
             "button_style_secondary": false
           }
         }
@@ -74,9 +74,8 @@
         "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d",
         "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Easter_Flyer_A5.png",
+        "image": "shopify:\/\/shop_images\/Big-Lunch-logo.jpg",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
