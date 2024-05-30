@@ -43,13 +43,60 @@
         "padding_bottom": 36
       }
     },
+    "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Big Lunch",
+            "heading_size": "h1"
+          }
+        },
+        "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Big Lunch is the UK’s annual get-together for neighbours and communities, with millions of people coming together to share friendship, food and fun and celebrate community connections.<\/p><p>At Marlpit Lane Park<\/p><p>With Field Games, Food from the Poppy Cafe and a chance to hear more about Coulsdon Community Partnership.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "shopify:\/\/metaobjects\/event\/the-big-lunch",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1",
+        "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d",
+        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/GHRm6ahXYAEmxEN.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 4,
+        "padding_bottom": 8
+      }
+    },
     "24259923-70b0-49e9-8e54-73f776910d78": {
       "type": "image-with-text",
       "blocks": {
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Coulsdon's trick or Treat 2023",
+            "heading": "Coulsdon's Trick or Treat 2024",
             "heading_size": "h2"
           }
         },
@@ -64,7 +111,7 @@
           "type": "button",
           "settings": {
             "button_label": "Get your Tickets Now",
-            "button_link": "shopify:\/\/metaobjects\/event\/trick-or-treat",
+            "button_link": "https:\/\/cozyglow.store\/pages\/events\/coulsdons-trick-or-treat",
             "button_style_secondary": false
           }
         }
@@ -74,15 +121,15 @@
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1",
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat_Instagram_Post_2.png",
+        "image": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat_Instagram_Post_Square_notoriousinkuk.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "accent-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -103,7 +150,7 @@
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Embrace the enchantment of the holiday season at Coulsdon Yuletide Magic on December 2nd! Our picturesque town will come alive with festive cheer as we kick off the holiday spirit. Explore our magical market, where you'll discover unique gifts and seasonal treats. Little ones can meet Santa Claus himself in his cozy grotto, while the main stage will be alive with entertainment that will warm your heart. And for thrill-seekers, the funfair will be in full swing, lighting up the night with excitement. Don't forget to savor the delicious delights at our food market. Join us for a joyous evening of celebration and community at Coulsdon Yuletide Magic!<\/p>",
+            "text": "<p>Embrace the enchantment of the holiday season at Coulsdon Yuletide Magic on December 7th! Our picturesque town will come alive with festive cheer as we kick off the holiday spirit. Explore our magical market, where you'll discover unique gifts and seasonal treats. Little ones can meet Santa Claus himself in his cozy grotto, while the main stage will be alive with entertainment that will warm your heart. And for thrill-seekers, the funfair will be in full swing, lighting up the night with excitement. Don't forget to savor the delicious delights at our food market. Join us for a joyous evening of celebration and community at Coulsdon Yuletide Magic!<\/p>",
             "text_style": "body"
           }
         },
@@ -121,62 +168,16 @@
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1",
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yuletide_Magic_Instagram_Post_Square.png",
+        "image": "shopify:\/\/shop_images\/Yuletide_Flyer_2024_148_x_210mm_Instagram_Post_-3.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Easter Egg Hunt",
-            "heading_size": "h1"
-          }
-        },
-        "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Join us for an enchanting Easter Egg Hunt on 30th March, from 11 am to 12 pm! <\/p><p>Immerse yourself in a whimsical Easter trail, where every twist and turn leads to hidden treasures and joyous discoveries around the business in Coulsdon.<\/p><p>🐰 Encounter the magical Easter Bunny along the way, spreading laughter and festive cheer. <\/p><p>🐣 Secure your ticket now for an unforgettable experience of family fun and delightful surprises!<\/p><p>Please arrive at the specified time on your Ticket, Early or late arrivals may not be accommodated. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Your Tickets Now",
-            "button_link": "https:\/\/cozyglow.store\/products\/easter-egg-hunt-2024-ticket?_pos=3&_psq=easter&_ss=e&_v=1.0",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1",
-        "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d",
-        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Green_Illustrative_Playful_Easter_Egg_Hunt_Event_Outdoor_Banner_Instagram_Post.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -187,8 +188,8 @@
   "order": [
     "main",
     "916f5912-e340-459c-b4aa-6fb56a92d77b",
+    "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220",
     "24259923-70b0-49e9-8e54-73f776910d78",
-    "cda48985-57af-470d-8bf2-189e90443d23",
-    "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220"
+    "cda48985-57af-470d-8bf2-189e90443d23"
   ]
 }

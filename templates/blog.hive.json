@@ -1,5 +1,21 @@
 {
   "sections": {
+    "image_banner_yTdH6k": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Welcome_to_The_Hive_Community_Garden_Banner-3.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -8,12 +24,13 @@
         "image_height": "medium",
         "show_date": true,
         "show_author": false,
-        "padding_top": 16,
-        "padding_bottom": 16
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     }
   },
   "order": [
+    "image_banner_yTdH6k",
     "main"
   ]
 }

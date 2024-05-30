@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_pUwg4r": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6GjR4T": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transform Your Mind and Body with Free Funded Yoga Classes!",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6GjR4T"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_cDwhKz": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<div id=\"tripetto\"><\/div>\n<\/div>\n\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/runner\"><\/script>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/runner-autoscroll\"><\/script>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/studio\"><\/script>\n<script>\nTripettoStudio.form({\n    runner: TripettoAutoscroll,\n    token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNi9QZHk5MlFabU9CMHpQV2RKcXYxbUFGRERtK1lrb09ybGcyb2EzTjIrYz0iLCJkZWZpbml0aW9uIjoiUzV1UE94MTBPOWRreTZxelFhN3RQeWxLSzkvTXVIaHhlMjl5bzhHdjVqQT0iLCJ0eXBlIjoiY29sbGVjdCJ9.U_LIG2Tko9QkSvAdK3xef_gUBKbhP_aXXxUbFVcdCg4\",\n    element: \"tripetto\",\n    pausable: true,\n    persistent: true\n});\n<\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1704726875d1ce386c": {
+      "type": "apps",
+      "blocks": {
+        "fc99fbc2-e12a-4f1a-9469-21c7dffbfc3d": {
+          "type": "shopify:\/\/apps\/acerill-appointment-booking\/blocks\/booking-form\/dccce24b-7a0f-4b47-bb37-4276d78e2bb5",
+          "settings": {
+            "bookingFormId": "",
+            "behavior": "standard",
+            "serviceNameFilter": ""
+          }
+        }
+      },
+      "block_order": [
+        "fc99fbc2-e12a-4f1a-9469-21c7dffbfc3d"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_pUwg4r",
+    "custom_liquid_cDwhKz",
+    "1704726875d1ce386c"
+  ]
+}

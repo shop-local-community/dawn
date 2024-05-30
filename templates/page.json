@@ -10,6 +10,15 @@
         "padding_bottom": 12
       }
     },
+    "custom_liquid_MYEgxg": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<center> <script id=\"jgGive\" data-charity=\"3420033\" data-env=\"https:\/\/www.justgiving.com\" src=\"https:\/\/www.justgiving.com\/bundles\/js\/givewidgetloader.js\" data-width=\"330\"><\/script>",
+        "color_scheme": "background-2",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "ab977d87-d782-4cb8-ba79-1cc178004406": {
       "type": "featured-collection",
       "settings": {
@@ -41,6 +50,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_MYEgxg",
     "ab977d87-d782-4cb8-ba79-1cc178004406"
   ]
 }
