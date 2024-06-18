@@ -122,6 +122,7 @@
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Art_Classes.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
