@@ -62,12 +62,83 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
+    },
+    "featured_product_xgdXKm": {
+      "type": "featured-product",
+      "blocks": {
+        "text_eUxKnC": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_yHxCXR": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_Wat8dV": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_XVV9Dg": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_6Mn7NE": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_mk78Cf": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_xpp4Yj": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_eUxKnC",
+        "title_yHxCXR",
+        "price_Wat8dV",
+        "variant_picker_XVV9Dg",
+        "quantity_selector_6Mn7NE",
+        "buy_buttons_mk78Cf",
+        "share_xpp4Yj"
+      ],
+      "settings": {
+        "product": "🎨-mindfulness-art-classes-at-abuela-play-cafe-🖌️",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner_dMPxa7",
     "main",
     "custom_liquid_MYEgxg",
-    "ab977d87-d782-4cb8-ba79-1cc178004406"
+    "ab977d87-d782-4cb8-ba79-1cc178004406",
+    "featured_product_xgdXKm"
   ]
 }
