@@ -142,14 +142,14 @@
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Coulsdon Yuletide Magic",
+            "heading": "The Hive Community Garden",
             "heading_size": "h1"
           }
         },
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Embrace the enchantment of the holiday season at Coulsdon Yuletide Magic on December 7th! Our picturesque town will come alive with festive cheer as we kick off the holiday spirit. Explore our magical market, where you'll discover unique gifts and seasonal treats. Little ones can meet Santa Claus himself in his cozy grotto, while the main stage will be alive with entertainment that will warm your heart. And for thrill-seekers, the funfair will be in full swing, lighting up the night with excitement. Don't forget to savor the delicious delights at our food market. Join us for a joyous evening of celebration and community at Coulsdon Yuletide Magic!<\/p>",
+            "text": "<p>Join The Hive Community Garden to explore volunteering opportunities in gardening. <\/p><p>Located in the heart of Coulsdon behind the library, the Hive is a peaceful oasis where you can contribute to sustainable urban gardening practices. <\/p><p>Whether you're an experienced gardener or looking to learn, our program offers hands-on experience in nurturing plants and cultivating green spaces. <\/p><p>Embrace the chance to connect with nature, beautify our community, and foster a sense of belonging through shared gardening efforts.<\/p>",
             "text_style": "body"
           }
         },
@@ -168,7 +168,7 @@
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yuletide_Flyer_2024_148_x_210mm_Instagram_Post_-3.png",
+        "image": "shopify:\/\/shop_images\/The_Hive_Logo.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -176,7 +176,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
-        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
