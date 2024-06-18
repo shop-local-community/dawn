@@ -96,22 +96,22 @@
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Coulsdon's Trick or Treat 2024",
+            "heading": "🎨 Mindfulness Art Classes at Abuela Play Cafe 🖌️",
             "heading_size": "h2"
           }
         },
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Get ready for a spooktacular time at Coulsdon's Trick or Treat event! Join us on October 31st as we transform our charming neighborhood into a Halloween wonderland. Dress up in your most creative costumes and wander the streets, knocking on doors for delicious treats or spine-tingling tricks. It's a night of community fun and eerie excitement you won't want to miss. So, gather your little ghouls and ghosts and come join us for a howling good time at Coulsdon's Trick or Treat event!<\/p>",
+            "text": "<p>CCP is thrilled to announce the launch of our new community initiative, funded from grants obtained to support our mission of enhancing community well-being through creative engagement.<\/p>",
             "text_style": "body"
           }
         },
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Get your Tickets Now",
-            "button_link": "https:\/\/cozyglow.store\/pages\/events\/coulsdons-trick-or-treat",
+            "button_label": "Find Out More & Book",
+            "button_link": "shopify:\/\/pages\/mindfulness-art-classes",
             "button_style_secondary": false
           }
         }
@@ -122,7 +122,6 @@
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat_Instagram_Post_Square_notoriousinkuk.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -130,7 +129,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
-        "color_scheme": "accent-2",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
