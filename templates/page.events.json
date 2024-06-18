@@ -43,6 +43,53 @@
         "padding_bottom": 36
       }
     },
+    "24259923-70b0-49e9-8e54-73f776910d78": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "🎨 Mindfulness Art Classes at Abuela Play Cafe 🖌️",
+            "heading_size": "h2"
+          }
+        },
+        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CCP is thrilled to announce the launch of our new community initiative, funded from grants obtained to support our mission of enhancing community well-being through creative engagement.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Out More & Book",
+            "button_link": "shopify:\/\/pages\/mindfulness-art-classes",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-heading-1",
+        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1",
+        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Art_Class_Logo.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220": {
       "type": "image-with-text",
       "blocks": {
@@ -88,53 +135,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 4,
         "padding_bottom": 8
-      }
-    },
-    "24259923-70b0-49e9-8e54-73f776910d78": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "🎨 Mindfulness Art Classes at Abuela Play Cafe 🖌️",
-            "heading_size": "h2"
-          }
-        },
-        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>CCP is thrilled to announce the launch of our new community initiative, funded from grants obtained to support our mission of enhancing community well-being through creative engagement.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Find Out More & Book",
-            "button_link": "shopify:\/\/pages\/mindfulness-art-classes",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-heading-1",
-        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1",
-        "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Art_Classes.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "cda48985-57af-470d-8bf2-189e90443d23": {
@@ -188,8 +188,8 @@
   "order": [
     "main",
     "916f5912-e340-459c-b4aa-6fb56a92d77b",
-    "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220",
     "24259923-70b0-49e9-8e54-73f776910d78",
+    "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220",
     "cda48985-57af-470d-8bf2-189e90443d23"
   ]
 }
