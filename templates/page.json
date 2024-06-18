@@ -3,9 +3,9 @@
     "image_banner_dMPxa7": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Mindfulness_Art_Classes.png",
+        "image": "shopify:\/\/shop_images\/Untitled_design-2.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
