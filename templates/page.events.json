@@ -49,14 +49,14 @@
         "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "The Big Lunch",
+            "heading": "Free Community Yoga",
             "heading_size": "h1"
           }
         },
         "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d": {
           "type": "text",
           "settings": {
-            "text": "<p>The Big Lunch is the UK’s annual get-together for neighbours and communities, with millions of people coming together to share friendship, food and fun and celebrate community connections.<\/p><p>At Marlpit Lane Park<\/p><p>With Field Games, Food from the Poppy Cafe and a chance to hear more about Coulsdon Community Partnership.<\/p>",
+            "text": "<p>Experience serenity and strength with CCP's yoga classes, designed to nurture both body and mind. Whether you're a seasoned practitioner or new to yoga, our classes offer a welcoming environment for all levels. <\/p><p>Led by experienced instructors, each session focuses on enhancing flexibility, improving posture, and fostering inner calm through mindful movement and breath. <\/p>",
             "text_style": "body"
           }
         },
@@ -75,7 +75,7 @@
         "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/GHRm6ahXYAEmxEN.png",
+        "image": "shopify:\/\/shop_images\/CCPTollers_YOGA_Poster-2.png",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
