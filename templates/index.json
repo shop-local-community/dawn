@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner_CJrrPz": {
@@ -15,7 +24,7 @@
         "heading_YAmnW6"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Welcome_to_The_Hive_Community_Garden_Banner-3.png",
+        "image": "shopify:\/\/shop_images\/Untitled_design-2.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -31,8 +40,8 @@
     "0905f8be-2b4f-46a2-a173-ca7da7d5aab0": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Join Us for The Big Lunch on June 2",
-        "heading_size": "h1",
+        "heading": "Latest News & Events",
+        "heading_size": "h2",
         "blog": "news",
         "post_limit": 3,
         "columns_desktop": 2,
@@ -42,7 +51,7 @@
         "show_author": false,
         "show_view_all": true,
         "padding_top": 8,
-        "padding_bottom": 16
+        "padding_bottom": 8
       }
     },
     "c899b1a1-451c-4a18-8702-2809c80b498c": {
