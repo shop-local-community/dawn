@@ -16,41 +16,6 @@
         "padding_bottom": 12
       }
     },
-    "916f5912-e340-459c-b4aa-6fb56a92d77b": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--20538807058731__916f5912-e340-459c-b4aa-6fb56a92d77b-column-1": {
-          "type": "column",
-          "repeater": "{{ page.metafields.custom.events.value }}",
-          "settings": {
-            "image": "{{ block.repeater.cover.value }}",
-            "title": "{{ block.repeater.title.value }}",
-            "text": "{{ block.repeater.description | metafield_tag }}",
-            "link_label": "Find Out More",
-            "link": "{{ block.repeater.system.url }}"
-          }
-        }
-      },
-      "block_order": [
-        "template--20538807058731__916f5912-e340-459c-b4aa-6fb56a92d77b-column-1"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "24259923-70b0-49e9-8e54-73f776910d78": {
       "type": "image-with-text",
       "blocks": {
@@ -185,7 +150,7 @@
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "accent-1",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -232,7 +197,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "accent-2",
-        "color_scheme": "",
+        "color_scheme": "accent-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -290,7 +255,6 @@
   },
   "order": [
     "main",
-    "916f5912-e340-459c-b4aa-6fb56a92d77b",
     "24259923-70b0-49e9-8e54-73f776910d78",
     "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220",
     "cda48985-57af-470d-8bf2-189e90443d23",
