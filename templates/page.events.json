@@ -110,53 +110,6 @@
         "padding_bottom": 8
       }
     },
-    "cda48985-57af-470d-8bf2-189e90443d23": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Hive Community Garden",
-            "heading_size": "h1"
-          }
-        },
-        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Join The Hive Community Garden to explore volunteering opportunities in gardening. <\/p><p>Located in the heart of Coulsdon behind the library, the Hive is a peaceful oasis where you can contribute to sustainable urban gardening practices. <\/p><p>Whether you're an experienced gardener or looking to learn, our program offers hands-on experience in nurturing plants and cultivating green spaces. <\/p><p>Embrace the chance to connect with nature, beautify our community, and foster a sense of belonging through shared gardening efforts.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Find Out More",
-            "button_link": "shopify:\/\/metaobjects\/event\/coulsdon-yuletide-magic-2023",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-heading-1",
-        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1",
-        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/The_Hive_Logo.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "accent-1",
-        "color_scheme": "accent-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_nqVRBm": {
       "type": "image-with-text",
       "blocks": {
@@ -251,14 +204,61 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "cda48985-57af-470d-8bf2-189e90443d23": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Hive Community Garden",
+            "heading_size": "h1"
+          }
+        },
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join The Hive Community Garden to explore volunteering opportunities in gardening. <\/p><p>Located in the heart of Coulsdon behind the library, the Hive is a peaceful oasis where you can contribute to sustainable urban gardening practices. <\/p><p>Whether you're an experienced gardener or looking to learn, our program offers hands-on experience in nurturing plants and cultivating green spaces. <\/p><p>Embrace the chance to connect with nature, beautify our community, and foster a sense of belonging through shared gardening efforts.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Out More",
+            "button_link": "shopify:\/\/metaobjects\/event\/coulsdon-yuletide-magic-2023",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-heading-1",
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1",
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/The_Hive_Logo.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "24259923-70b0-49e9-8e54-73f776910d78",
     "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220",
-    "cda48985-57af-470d-8bf2-189e90443d23",
     "image_with_text_nqVRBm",
-    "image_with_text_nVNeD6"
+    "image_with_text_nVNeD6",
+    "cda48985-57af-470d-8bf2-189e90443d23"
   ]
 }
