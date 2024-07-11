@@ -184,7 +184,7 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "section_color_scheme": "accent-1",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -231,8 +231,55 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "section_color_scheme": "accent-2",
         "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_nVNeD6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jehqgp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coulsdon Yuletide Magic 2024",
+            "heading_size": "h1"
+          }
+        },
+        "text_RdqcBj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>December 7th, 2024 11am-7pm<br\/>Brighton Road Coulsdon<\/p><p>Experience the Magic:<\/p><p><strong>Holiday Market<\/strong><\/p><p><strong>Santa's Grotto<\/strong><\/p><p><strong>Main Stage Entertainment <\/strong><\/p><p><strong>Sponsored By <\/strong><a href=\"https:\/\/www.surrey-scaffolding.co.uk\/\"><strong>Surrey Scaffolding<\/strong><\/a><\/p><p><strong>Funfair<\/strong><\/p><p><strong>Food Market<\/strong><\/p><p><strong>Seasonal Snowfall <\/strong><\/p><p>To book a stall at Coulsdon Yuletide Magic, become a sponsor or advertise<\/p><p>Please Contact : Ashley.Baruti-cooke@CoulsdonPartnership.org<\/p><p>For Stage Performance slots contact John@LeadingNote.co.uk<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_8k7bzD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jehqgp",
+        "text_RdqcBj",
+        "button_8k7bzD"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Yuletide_Flyer_2024_148_x_210mm_Instagram_Post.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -246,6 +293,7 @@
     "24259923-70b0-49e9-8e54-73f776910d78",
     "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220",
     "cda48985-57af-470d-8bf2-189e90443d23",
-    "image_with_text_nqVRBm"
+    "image_with_text_nqVRBm",
+    "image_with_text_nVNeD6"
   ]
 }
