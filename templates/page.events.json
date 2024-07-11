@@ -34,12 +34,11 @@
       "block_order": [
         "template--20538807058731__916f5912-e340-459c-b4aa-6fb56a92d77b-column-1"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
@@ -192,6 +191,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_nqVRBm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dMdMWx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cozy Glow's Trick or Treat",
+            "heading_size": "h1"
+          }
+        },
+        "text_4mpMyp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get your favourite costume ready for a frightfully fun event! Come collect candies and treats whilst your travel the thrills you and chills along the trick-or-treat trail.<\/p><p>This year will you brave the perils of our town on Old Hallows Eve? Ghosts on Ghouls beware!<\/p><p>The trail has early daytime slots for little ones who need to get to bed earlier, starting at 4 pm. Then our usual nighttime haunt will be from 6-8 pm, make sure you book your time slot now.<\/p><p>Take part in the Trick or Treat Trail Halloween Market, Costume Contest, Food & Drink & More!<\/p><p>To become a Stall Holder at this event email team@cozyglow.co.uk<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_9t4N4g": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Your Tickets Now",
+            "button_link": "https:\/\/cozyglow.store\/products\/coulsdons-trick-or-treat-ticket?_pos=1&_psq=trick&_ss=e&_v=1.0",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dMdMWx",
+        "text_4mpMyp",
+        "button_9t4N4g"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat_Instagram_Post_Square_notoriousinkuk.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -199,6 +245,7 @@
     "916f5912-e340-459c-b4aa-6fb56a92d77b",
     "24259923-70b0-49e9-8e54-73f776910d78",
     "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220",
-    "cda48985-57af-470d-8bf2-189e90443d23"
+    "cda48985-57af-470d-8bf2-189e90443d23",
+    "image_with_text_nqVRBm"
   ]
 }
