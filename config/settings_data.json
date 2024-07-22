@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/Logo_263f2d0a-f408-4c78-bd09-50b8ffd84c43.png",
@@ -150,6 +159,12 @@
       "13768625480086291342": {
         "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": true,
+        "settings": {
+        }
+      },
+      "14060646107696862457": {
+        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": false,
         "settings": {
         }
       }
