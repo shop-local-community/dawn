@@ -84,7 +84,7 @@
           "type": "button",
           "settings": {
             "button_label": "Buy Your Tickets Now",
-            "button_link": "",
+            "button_link": "https:\/\/cozyglow.store\/pages\/events\/coulsdons-trick-or-treat",
             "button_style_secondary": false
           }
         }
