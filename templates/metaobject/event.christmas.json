@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "de089f90-b8cc-40cf-bd2b-6dab1128b9fc": {
@@ -155,6 +164,76 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "featured_product_FYLMaD": {
+      "type": "featured-product",
+      "blocks": {
+        "text_H9Q88A": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_H6z99i": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_cKNnFt": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_WnVGB7": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_w7hVYn": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_kjKK7y": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_XwqjiD": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_H9Q88A",
+        "title_H6z99i",
+        "price_cKNnFt",
+        "variant_picker_WnVGB7",
+        "quantity_selector_w7hVYn",
+        "buy_buttons_kjKK7y",
+        "share_XwqjiD"
+      ],
+      "settings": {
+        "product": "santas-grotto-ticket",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
     }
   },
   "order": [
@@ -163,6 +242,7 @@
     "69754ee3-c5f9-470e-a684-21e9c25658f4",
     "3d71bed2-04af-4c22-9106-c46ab0d53b28",
     "627a2862-8633-4cdb-97d6-746dcfa7a795",
-    "4fe1e120-8b87-4d2c-b808-2bd4f8fd103e"
+    "4fe1e120-8b87-4d2c-b808-2bd4f8fd103e",
+    "featured_product_FYLMaD"
   ]
 }
