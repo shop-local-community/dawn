@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner_dMPxa7": {
@@ -96,6 +105,80 @@
         "padding_bottom": 36
       }
     },
+    "slideshow_Gb83XB": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_8mwGfy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-07-25_at_20.58.15.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Ych7Vm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-07-14_at_18.45.44.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_nBDkax": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-07-25_at_20.58.19.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_8mwGfy",
+        "slide_Ych7Vm",
+        "slide_nBDkax"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_banner_kgFWkJ": {
       "type": "image-banner",
       "settings": {
@@ -154,6 +237,7 @@
     "image_banner_dMPxa7",
     "main",
     "featured_product_xgdXKm",
+    "slideshow_Gb83XB",
     "image_banner_kgFWkJ",
     "custom_liquid_MYEgxg",
     "ab977d87-d782-4cb8-ba79-1cc178004406"
