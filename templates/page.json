@@ -11,6 +11,7 @@
   "sections": {
     "image_banner_dMPxa7": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design-2.png",
         "image_overlay_opacity": 0,
@@ -90,6 +91,7 @@
         "buy_buttons_mk78Cf",
         "share_xpp4Yj"
       ],
+      "disabled": true,
       "settings": {
         "product": "🎨-mindfulness-art-classes-at-abuela-play-cafe-🖌️",
         "color_scheme": "",
@@ -168,6 +170,7 @@
         "slide_Ych7Vm",
         "slide_nBDkax"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -181,6 +184,7 @@
     },
     "image_banner_kgFWkJ": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Coulsdon_Art_sessions_4.png",
         "image_overlay_opacity": 0,
