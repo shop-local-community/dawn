@@ -29,7 +29,10 @@
 
       var map = new mapkit.Map("map-container", {
         center: new mapkit.Coordinate(51.320219, -0.138661), // Center on Coulsdon
-        span: new mapkit.CoordinateSpan(0.02, 0.02), // Adjust the zoom level
+        region: new mapkit.CoordinateRegion(
+          new mapkit.Coordinate(51.320219, -0.138661), // Center on Coulsdon
+          new mapkit.CoordinateSpan(0.02, 0.02) // Adjust the zoom level
+        ),
         showsCompass: mapkit.FeatureVisibility.Hidden,
         showsZoomControl: true
       });
