@@ -18,7 +18,7 @@
       } else {
         document.querySelector('script[src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"]').addEventListener('load', initializeMap, { passive: true });
       }
-    });
+    }, { passive: true }); // Marking the event listener as passive
 
     function initializeMap() {
       mapkit.init({
@@ -75,7 +75,7 @@
       "type": "text",
       "id": "mapkit_js_token",
       "label": "MapKit JS Token",
-      "default": "eyJraWQiOiI3SjVTWEg5VjI0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiIzNFdVS1FCWFhIIiwiaWF0IjoxNzIzNDE2NDQ4LCJvcmlnaW4iOiJjb3Vsc2RvbnBhcnRuZXJzaGlwLm9yZyJ9.gyRL0cZt5czLMczBCb8zgJECAC6Xs01tAIJR_SVv8-VreqZpddA1gyk0WPQAdezehLtZsvqYfztEuF2i-0OC1Q",
+      "default": "eyJraWQiOiI3SjVTWEg5VjI0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiIzNFdVS1BCWFhIIiwiaWF0IjoxNzIzNDE2NDQ4LCJvcmlnaW4iOiJjb3Vsc2RvbnBhcnRuZXJzaGlwLm9yZyJ9.gyRL0cZt5czLMczBCb8zgJECAC6Xs01tAIJR_SVv8-VreqZpddA1gyk0WPQAdezehLtZsvqYfztEuF2i-0OC1Q",
       "info": "Enter your MapKit JS token. You can get it from your Apple Developer account."
     }
   ],
