@@ -12,39 +12,49 @@
   <div id="map-container" style="width: 100%; height: 480px;"></div>
 
   <script type="text/javascript">
-    mapkit.init({
-      authorizationCallback: function(done) {
-        done("{{ mapkit_js_token }}"); // Use the mapkit_js_token variable here
+    document.addEventListener("DOMContentLoaded", function() {
+      if (typeof mapkit !== 'undefined') {
+        initializeMap();
+      } else {
+        document.querySelector('script[src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"]').addEventListener('load', initializeMap);
       }
     });
 
-    var map = new mapkit.Map("map-container", {
-      center: new mapkit.Coordinate(51.320219, -0.138661), // Center on Coulsdon
-      span: new mapkit.CoordinateSpan(0.02, 0.02), // Adjust the zoom level
-      showsCompass: mapkit.FeatureVisibility.Hidden,
-      showsZoomControl: true
-    });
+    function initializeMap() {
+      mapkit.init({
+        authorizationCallback: function(done) {
+          done("{{ mapkit_js_token }}"); // Use the mapkit_js_token variable here
+        }
+      });
 
-    // Fetching locations from Metaobjects
-    var locations = [
-      {% for location in locations %}
-        {
-          title: "{{ location.fields.title.value }}",
-          latitude: {{ location.fields.latitude.value }},
-          longitude: {{ location.fields.longitude.value }},
-          description: "{{ location.fields.description.value }}"
-        }{% if forloop.last == false %},{% endif %}
-      {% endfor %}
-    ];
+      var map = new mapkit.Map("map-container", {
+        center: new mapkit.Coordinate(51.320219, -0.138661), // Center on Coulsdon
+        span: new mapkit.CoordinateSpan(0.02, 0.02), // Adjust the zoom level
+        showsCompass: mapkit.FeatureVisibility.Hidden,
+        showsZoomControl: true
+      });
 
-    // Adding markers to the map
-    locations.forEach(function(location) {
-      var annotation = new mapkit.MarkerAnnotation(
-        new mapkit.Coordinate(location.latitude, location.longitude),
-        { title: location.title, subtitle: location.description }
-      );
-      map.addAnnotation(annotation);
-    });
+      // Fetching locations from Metaobjects
+      var locations = [
+        {% for location in locations %}
+          {
+            title: "{{ location.fields.title.value }}",
+            latitude: {{ location.fields.latitude.value }},
+            longitude: {{ location.fields.longitude.value }},
+            description: "{{ location.fields.description.value }}"
+          }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+      ];
+
+      // Adding markers to the map
+      locations.forEach(function(location) {
+        var annotation = new mapkit.MarkerAnnotation(
+          new mapkit.Coordinate(location.latitude, location.longitude),
+          { title: location.title, subtitle: location.description }
+        );
+        map.addAnnotation(annotation);
+      });
+    }
   </script>
 </div>
 
