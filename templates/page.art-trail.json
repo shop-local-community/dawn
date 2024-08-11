@@ -79,6 +79,12 @@
         "padding_bottom": 52
       }
     },
+    "art_trail_wFxNUf": {
+      "type": "art-trail",
+      "settings": {
+        "mapkit_js_token": "eyJraWQiOiJEQUdYVDQ0SFNHIiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiIzNFdVS1FCWFhIIiwiaWF0IjoxNzIzNDE0MzU0LCJvcmlnaW4iOiIqLmNvdWxzZG9ucGFydG5lcnNoaXAub3JnIiwiZXhwIjoxNzQ1NjIyMDAwfQ.gBNFjn13WASm2FZjrWz-h0FAPFUHZa0OXGLQkq0VryQ2eYSmCvIUpcqATHZ3HsgDWnjzrUcfmvvCOQfqQPYQiA"
+      }
+    },
     "rich_text_PKQDk3": {
       "type": "rich-text",
       "blocks": {
@@ -389,6 +395,7 @@
   "order": [
     "rich_text_XLXX7B",
     "rich_text_wdRXdE",
+    "art_trail_wFxNUf",
     "rich_text_PKQDk3",
     "multicolumn_AApkaW",
     "rich_text_qhXbRn",
