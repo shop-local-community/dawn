@@ -47,12 +47,15 @@
       ];
 
       // Adding markers to the map
-      locations.forEach(function(location) {
-        requestAnimationFrame(function() {
-          var annotation = new mapkit.MarkerAnnotation(
-            new mapkit.Coordinate(location.latitude, location.longitude),
-            { title: location.title, subtitle: location.description }
-          );
+      var annotations = locations.map(function(location) {
+        return new mapkit.MarkerAnnotation(
+          new mapkit.Coordinate(location.latitude, location.longitude),
+          { title: location.title, subtitle: location.description }
+        );
+      });
+
+      requestAnimationFrame(function() {
+        annotations.forEach(function(annotation) {
           map.addAnnotation(annotation);
         });
       });
