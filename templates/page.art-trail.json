@@ -9,194 +9,206 @@
 */
 {
   "sections": {
-    "image_banner_dMPxa7": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design-2.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
-    "featured_product_xgdXKm": {
-      "type": "featured-product",
+    "rich_text_XLXX7B": {
+      "type": "rich-text",
       "blocks": {
-        "text_eUxKnC": {
-          "type": "text",
+        "heading_TCMbrJ": {
+          "type": "heading",
           "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_yHxCXR": {
-          "type": "title",
-          "settings": {
+            "heading": "Coulsdon Art Trail",
             "heading_size": "h1"
           }
         },
-        "price_Wat8dV": {
-          "type": "price",
+        "caption_wHXQmy": {
+          "type": "caption",
           "settings": {
+            "caption": "Welcome to the Coulsdon Art Trail!",
+            "text_style": "subtitle",
+            "text_size": "medium"
           }
         },
-        "variant_picker_XVV9Dg": {
-          "type": "variant_picker",
+        "text_dib7y8": {
+          "type": "text",
           "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector_6Mn7NE": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons_mk78Cf": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_xpp4Yj": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
+            "text": "<p>Explore the vibrant streets of Coulsdon through our interactive art trail, designed to guide you through the town's rich history, cultural heritage, and local artistry. Each stop on this trail features unique artworks that tell a story, offer a glimpse into the past, or inspire the future. Whether you’re a local resident or a visitor, this trail is your gateway to discovering the hidden gems of Coulsdon.<\/p>"
           }
         }
       },
       "block_order": [
-        "text_eUxKnC",
-        "title_yHxCXR",
-        "price_Wat8dV",
-        "variant_picker_XVV9Dg",
-        "quantity_selector_6Mn7NE",
-        "buy_buttons_mk78Cf",
-        "share_xpp4Yj"
+        "heading_TCMbrJ",
+        "caption_wHXQmy",
+        "text_dib7y8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_wdRXdE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6Tx8P4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Interactive Map",
+            "heading_size": "h1"
+          }
+        },
+        "text_HfbmUQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use our interactive map to navigate the trail. Simply click on the sign locations to learn more about each artwork, including the artist's inspiration and the story behind the piece.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6Tx8P4",
+        "text_HfbmUQ"
       ],
       "disabled": true,
       "settings": {
-        "product": "🎨-mindfulness-art-classes-at-abuela-play-cafe-🖌️",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_PKQDk3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7UejMP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Health Tips for Trail Walkers",
+            "heading_size": "h1"
+          }
+        },
+        "text_xWdfrn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Walking is a great way to stay healthy and active. Here are some quick tips to help you make the most of your journey:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7UejMP",
+        "text_xWdfrn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_AApkaW": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UmxiHW": {
+          "type": "column",
+          "settings": {
+            "title": "Stay Hydrated",
+            "text": "<p>Bring a water bottle to keep yourself hydrated.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LNUaec": {
+          "type": "column",
+          "settings": {
+            "title": "Wear Comfortable Shoes",
+            "text": "<p>Ensure your shoes are suitable for walking and provide adequate support.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qM7Y8F": {
+          "type": "column",
+          "settings": {
+            "title": "Sun Protection",
+            "text": "<p>Don’t forget to apply sunscreen and wear a hat if it’s sunny.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9GqAKq": {
+          "type": "column",
+          "settings": {
+            "title": "Take Breaks",
+            "text": "<p>Feel free to rest at any of the stops along the trail. There are benches available for you to sit and enjoy the surroundings.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UmxiHW",
+        "column_LNUaec",
+        "column_qM7Y8F",
+        "column_9GqAKq"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "slideshow_Gb83XB": {
-      "type": "slideshow",
+    "rich_text_qhXbRn": {
+      "type": "rich-text",
       "blocks": {
-        "slide_8mwGfy": {
-          "type": "slide",
+        "heading_chEjmT": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-07-25_at_20.58.15.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "heading": "Get Involved",
+            "heading_size": "h1"
           }
         },
-        "slide_Ych7Vm": {
-          "type": "slide",
+        "caption_DPaRyK": {
+          "type": "caption",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-07-14_at_18.45.44.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "caption": "Love what you see?",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         },
-        "slide_nBDkax": {
-          "type": "slide",
+        "text_ArKPcH": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-07-25_at_20.58.19.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "text": "<p>Consider supporting local artists and the Coulsdon Community Partnership.<\/p>"
           }
         }
       },
       "block_order": [
-        "slide_8mwGfy",
-        "slide_Ych7Vm",
-        "slide_nBDkax"
+        "heading_chEjmT",
+        "caption_DPaRyK",
+        "text_ArKPcH"
       ],
-      "disabled": true,
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image_banner_kgFWkJ": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Coulsdon_Art_sessions_4.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "custom_liquid_MYEgxg": {
@@ -204,6 +216,143 @@
       "settings": {
         "custom_liquid": "<center> <script id=\"jgGive\" data-charity=\"3420033\" data-env=\"https:\/\/www.justgiving.com\" src=\"https:\/\/www.justgiving.com\/bundles\/js\/givewidgetloader.js\" data-width=\"330\"><\/script>",
         "color_scheme": "background-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "newsletter_8cN7JW": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_L3REtW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Updated on the Art Trail",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_FbLKm6": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Don’t miss out on the latest news and updates about the Coulsdon Art Trail! Sign up for our newsletter to receive exclusive content, event announcements, and special offers directly in your inbox.<\/p>"
+          }
+        },
+        "email_form_C6epJK": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_L3REtW",
+        "paragraph_FbLKm6",
+        "email_form_C6epJK"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_a6k4cQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BVXtD7": {
+          "type": "column",
+          "settings": {
+            "title": "Exclusive Updates",
+            "text": "<p>Be the first to know about new installations and events.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DihKpt": {
+          "type": "column",
+          "settings": {
+            "title": "Special Offers",
+            "text": "<p>Receive discounts and special deals from local businesses.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wYBxUN": {
+          "type": "column",
+          "settings": {
+            "title": "Community News",
+            "text": "<p>Stay connected with the Coulsdon art scene and its vibrant community.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BVXtD7",
+        "column_DihKpt",
+        "column_wYBxUN"
+      ],
+      "settings": {
+        "title": "Why Subscribe?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_EqRg4W": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TBeTgV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Share Your Experience",
+            "heading_size": "h1"
+          }
+        },
+        "caption_aHixkf": {
+          "type": "caption",
+          "settings": {
+            "caption": "We’d love to hear about your experience on the trail!",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_XKVrqL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use the hashtag #CoulsdonArtTrail to share your photos and stories on social media.<\/p><p>Your feedback helps us improve and grow this community initiative.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TBeTgV",
+        "caption_aHixkf",
+        "text_XKVrqL"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
         "padding_top": 12,
         "padding_bottom": 12
       }
@@ -229,7 +378,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 12,
@@ -238,12 +387,16 @@
     }
   },
   "order": [
-    "image_banner_dMPxa7",
-    "main",
-    "featured_product_xgdXKm",
-    "slideshow_Gb83XB",
-    "image_banner_kgFWkJ",
+    "rich_text_XLXX7B",
+    "rich_text_wdRXdE",
+    "rich_text_PKQDk3",
+    "multicolumn_AApkaW",
+    "rich_text_qhXbRn",
     "custom_liquid_MYEgxg",
+    "newsletter_8cN7JW",
+    "multicolumn_a6k4cQ",
+    "rich_text_EqRg4W",
+    "main",
     "ab977d87-d782-4cb8-ba79-1cc178004406"
   ]
 }
