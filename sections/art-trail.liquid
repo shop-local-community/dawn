@@ -57,10 +57,9 @@
         );
       });
 
+      // Batch adding annotations to the map
       requestAnimationFrame(function() {
-        annotations.forEach(function(annotation) {
-          map.addAnnotation(annotation);
-        });
+        map.addAnnotations(annotations);
       });
     }
   </script>
