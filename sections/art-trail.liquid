@@ -3,7 +3,7 @@
   Dynamically pulling locations from Metaobjects
 {% endcomment %}
 
-{% assign locations = shop.metaobjects.finial %}
+{% assign finial_definition = shop.metaobject_definitions.finial.values %}
 {% assign mapkit_js_token = section.settings.mapkit_js_token %}
 
 <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js" async></script>
@@ -44,11 +44,11 @@
       });
 
       // Debugging line to check the value of locations
-      console.log('Metaobjects locations:', {{ locations }});
+      console.log('Metaobjects locations:', {{ finial_definition }});
 
       // Manually construct the locations array in JavaScript
       var locations = [
-        {% for location in locations %}
+        {% for location in finial_definition %}
         {
           "fields": {
             "latitude": { "value": {{ location.fields.latitude.value }} },
