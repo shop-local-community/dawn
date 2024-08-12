@@ -27,7 +27,8 @@
         ),
         showsCompass: mapkit.FeatureVisibility.Hidden,
         showsZoomControl: true,
-        tintColor: "{{ section.settings.map_tint_color }}" // Use the selected tint color from theme settings
+        tintColor: "{{ section.settings.map_tint_color }}", // Use the selected tint color from theme settings
+        colorScheme: mapkit.Map.ColorSchemes.{{ section.settings.color_scheme | downcase }} // Apply the selected color scheme
       });
 
       // Debugging line to check the value of locations
@@ -134,6 +135,26 @@
       "label": "MapKit JS Token",
       "default": "YOUR_MAPKIT_JS_TOKEN_HERE",
       "info": "Enter your MapKit JS token. You can get it from your Apple Developer account."
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "default": "Hybrid",
+      "options": [
+        {
+          "value": "Light",
+          "label": "Light"
+        },
+        {
+          "value": "Dark",
+          "label": "Dark"
+        },
+        {
+          "value": "Hybrid",
+          "label": "Hybrid"
+        }
+      ]
     }
   ],
   "presets": [
