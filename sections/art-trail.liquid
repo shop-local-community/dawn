@@ -51,7 +51,13 @@
         var annotations = locations.map(function (location) {
           return new mapkit.Annotation(
             new mapkit.Coordinate(location.latitude, location.longitude),
-            function () {},
+            function () {
+              // Create a DOM element for the annotation
+              var element = document.createElement('div');
+              element.className = 'mapkit-annotation';
+              element.innerHTML = '<strong>' + location.title + '</strong><br>' + location.description;
+              return element;
+            },
             {
               title: location.title,
               subtitle: location.description,
