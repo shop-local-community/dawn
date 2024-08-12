@@ -12,20 +12,6 @@
   <div id="map-container" style="width: 100%; height: 480px;"></div>
 
   <script type="text/javascript">
-    document.addEventListener(
-      'DOMContentLoaded',
-      function () {
-        if (typeof mapkit !== 'undefined') {
-          initializeMap();
-        } else {
-          document
-            .querySelector('script[src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"]')
-            .addEventListener('load', initializeMap, { passive: true });
-        }
-      },
-      { passive: true }
-    );
-
     function initializeMap() {
       mapkit.init({
         authorizationCallback: function (done) {
@@ -65,7 +51,7 @@
         var annotations = locations.map(function (location) {
           return new mapkit.Annotation(
             new mapkit.Coordinate(location.latitude, location.longitude),
-            undefined,
+            null, // Changed from undefined to null
             {
               title: location.title,
               subtitle: location.description,
@@ -95,6 +81,20 @@
         console.log('No locations available to display on the map.');
       }
     }
+
+    document.addEventListener(
+      'DOMContentLoaded',
+      function () {
+        if (typeof mapkit !== 'undefined') {
+          initializeMap();
+        } else {
+          document
+            .querySelector('script[src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"]')
+            .addEventListener('load', initializeMap, { passive: true });
+        }
+      },
+      { passive: true }
+    );
   </script>
 </div>
 
