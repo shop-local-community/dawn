@@ -50,27 +50,31 @@
 
       console.log("Locations array:", locations); // Debugging line
 
-      // Adding annotations to the map using mapkit.Annotation
-      var annotations = locations.map(function(location) {
-        return new mapkit.Annotation(
-          new mapkit.Coordinate(location.latitude, location.longitude),
-          {
-            title: location.title,
-            subtitle: location.description,
-            callout: new mapkit.CalloutElement({ title: location.title, subtitle: location.description })
-          }
-        );
-      });
+      if (locations.length > 0) {
+        // Adding annotations to the map using mapkit.Annotation
+        var annotations = locations.map(function(location) {
+          return new mapkit.Annotation(
+            new mapkit.Coordinate(location.latitude, location.longitude),
+            {
+              title: location.title,
+              subtitle: location.description,
+              callout: new mapkit.CalloutElement({ title: location.title, subtitle: location.description })
+            }
+          );
+        });
 
-      // Batch adding annotations to the map
-      requestAnimationFrame(function() {
-        map.addAnnotations(annotations);
-      });
+        // Batch adding annotations to the map
+        requestAnimationFrame(function() {
+          map.addAnnotations(annotations);
+        });
 
-      // Enable clustering
-      map.annotationsForCluster = function(annotations) {
-        return annotations.length > 1; // Enable clustering when there are more than one annotation in the same area
-      };
+        // Enable clustering
+        map.annotationsForCluster = function(annotations) {
+          return annotations.length > 1; // Enable clustering when there are more than one annotation in the same area
+        };
+      } else {
+        console.log("No locations available to display on the map.");
+      }
     }
   </script>
 </div>
