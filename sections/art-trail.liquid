@@ -13,7 +13,9 @@
 <div class="coulsdon-art-trail">
   <div id="map-container" style="width: 100%; height: 480px;"></div>
 
-  <script type="text/javascript">
+  <script
+    type="text/javascript"
+  >
     function initializeMap() {
       mapkit.init({
         authorizationCallback: function (done) {
@@ -72,7 +74,7 @@
               // Create a DOM element for the annotation
               var element = document.createElement('div');
               element.className = 'mapkit-annotation';
-              element.innerHTML = '<strong>' + location.title + '</strong>';
+              element.innerHTML = `<strong>${location.title}</strong>`;
               return element;
             },
             {
