@@ -81,7 +81,12 @@
     "art_trail_wFxNUf": {
       "type": "art-trail",
       "settings": {
-        "mapkit_js_token": "eyJraWQiOiI3SjVTWEg5VjI0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiIzNFdVS1FCWFhIIiwiaWF0IjoxNzIzNDE2NDQ4LCJvcmlnaW4iOiJjb3Vsc2RvbnBhcnRuZXJzaGlwLm9yZyJ9.gyRL0cZt5czLMczBCb8zgJECAC6Xs01tAIJR_SVv8-VreqZpddA1gyk0WPQAdezehLtZsvqYfztEuF2i-0OC1Q"
+        "color_scheme": "background-2",
+        "map_tint_color": "#9E185D",
+        "mapkit_js_token": "eyJraWQiOiI3SjVTWEg5VjI0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiIzNFdVS1FCWFhIIiwiaWF0IjoxNzIzNDE2NDQ4LCJvcmlnaW4iOiJjb3Vsc2RvbnBhcnRuZXJzaGlwLm9yZyJ9.gyRL0cZt5czLMczBCb8zgJECAC6Xs01tAIJR_SVv8-VreqZpddA1gyk0WPQAdezehLtZsvqYfztEuF2i-0OC1Q",
+        "map_color_scheme": "Hybrid",
+        "poi_filter_parks": true,
+        "poi_filter_restaurants": true
       }
     },
     "rich_text_PKQDk3": {
