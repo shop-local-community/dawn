@@ -41,7 +41,7 @@
       });
 
       var locations = [
-        {% for location in locations %}
+        {% for location in {{ locations }} %}
           {
             title: "{{ location.fields.title.value }}",
             latitude: {{ location.fields.latitude.value }},
