@@ -33,7 +33,8 @@
         tintColor: "{{ map_tint_color }}", // Use the selected tint color from theme settings
         colorScheme: mapkit.Map.ColorSchemes.{{ color_scheme | downcase }}, // Apply the selected color scheme
         pointOfInterestFilter: mapkit.PointOfInterestFilter.including([{{ poi_filter }}]), // Use the including method
-        showsUserLocation: true // Show the user's current location on the map
+        showsUserLocation: true, // Show the user's current location on the map
+        tracksUserLocation: true // Track the user's location as they move
       });
 
       // Debugging line to check the value of locations
