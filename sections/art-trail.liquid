@@ -24,7 +24,7 @@
         },
       });
 
-      const pointOfInterestFilter = new mapkit.PointOfInterestFilter.including([
+      const pointOfInterestFilter = mapkit.PointOfInterestFilter.including([
         mapkit.PointOfInterestCategory.Park,
         mapkit.PointOfInterestCategory.Museum,
         mapkit.PointOfInterestCategory.Restaurant
@@ -73,31 +73,15 @@
       if (locations.length > 0) {
         // Adding annotations to the map using mapkit.Annotation
         var annotations = locations.map(function (location, index) {
+          // Create a new marker annotation
           var annotation = new mapkit.MarkerAnnotation(
             new mapkit.Coordinate(location.latitude, location.longitude),
-            function () {
-              // Create a DOM element for the annotation
-              var element = document.createElement('div');
-              element.className = 'mapkit-annotation';
-              element.innerHTML = `<strong>${location.title}</strong>`;
-              return element;
-            },
             {
               title: location.title,
               subtitle: location.description,
-              animates: true,
-              collisionMode: mapkit.Annotation.CollisionMode.Circle,
-              callout: {
-                title: location.title,
-                subtitle: location.description,
-              },
-              selected: false,
-              draggable: false,
-              enabled: true,
-              data: {
-                index: index, // Store the index of the location
-                location: location
-              }
+              // color: "#9E185D", // Custom color for the marker
+              /glyphText: location.title[0], // Glyph inside the marker
+              selected: false // Marker is selected by default
             }
           );
 
