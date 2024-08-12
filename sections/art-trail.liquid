@@ -136,7 +136,8 @@
                   var sidebar = document.querySelector('.coulsdon-art-trail-sidebar');
                   if (sidebar) {
                     sidebar.innerHTML = `
-                      <h2>Route Information</h2>
+                      <h3>${event.target.data.location.title}</h3>
+                      <p>${event.target.data.location.description}</p>
                       <p>Distance: ${(data.routes[0].distance / 1000).toFixed(2)} km</p>
                       <p>Expected Travel Time: ${(data.routes[0].expectedTravelTime / 60).toFixed(2)} minutes</p>
                     `;
