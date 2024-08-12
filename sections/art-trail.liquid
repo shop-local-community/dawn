@@ -76,11 +76,13 @@
           );
         });
 
+        // Debugging line to check annotations
+        console.log('Annotations array:', annotations);
+
         // Batch adding annotations to the map
         requestAnimationFrame(function () {
           map.addAnnotations(annotations);
         });
-
         // Enable clustering
         map.annotationsForCluster = function (annotations) {
           return annotations.length > 1; // Enable clustering when there are more than one annotation in the same area
