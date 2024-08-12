@@ -127,6 +127,11 @@
                   data.routes.forEach(function(route) {
                     var polyline = route.polyline; // Get the polyline from the route
 
+                    // Convert polyline points to mapkit.Coordinate objects
+                    var coordinates = polyline.map(function(point) {
+                      return new mapkit.Coordinate(point.latitude, point.longitude);
+                    });
+
                     // Create a new mapkit.Style object for the polyline
                     var routeStyle = new mapkit.Style({
                       strokeColor: "{{ map_tint_color }}", // Color
@@ -135,7 +140,7 @@
                     });
 
                     // Customize the polyline appearance
-                    var routeOverlay = new mapkit.PolylineOverlay(polyline, {
+                    var routeOverlay = new mapkit.PolylineOverlay(coordinates, {
                       style: routeStyle
                     });
 
