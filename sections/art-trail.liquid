@@ -98,6 +98,9 @@
         // Batch adding annotations to the map
         requestAnimationFrame(function () {
           map.addAnnotations(annotations);
+
+          // Ensure all annotations are visible
+          map.showItems(annotations);
         });
         // Enable clustering
         map.annotationsForCluster = function (annotations) {
