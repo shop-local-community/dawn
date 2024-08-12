@@ -10,7 +10,7 @@
 
 <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js" async></script>
 
-<div class="coulsdon-art-trail">
+<div class="coulsdon-art-trail color-{{ section.settings.color_scheme }} gradient">
   <div id="map-container"></div>
   <div class="coulsdon-art-trail-sidebar"></div>
 
@@ -211,6 +211,12 @@
 {
   "name": "Art Trail",
   "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-2"
+    },
     {
       "type": "color",
       "id": "map_tint_color",
