@@ -48,6 +48,9 @@
         )
       });
 
+      // Create a new Directions object
+var directions = new mapkit.Directions();
+
       // Debugging line to check the value of locations
       console.log('Metaobjects locations:', {{ finial_definition | json }});
 
@@ -90,8 +93,8 @@
               draggable: false,
               enabled: true,
               data: {
-                customProperty: "customValue",
-                index: index // Store the index of the location
+                index: index, // Store the index of the location
+                location: location
               }
             }
           );
@@ -101,27 +104,47 @@
             if (event.annotation && event.annotation.data) {
               var selectedLocation = locations[event.annotation.data.index];
               var nextLocation = locations[(event.annotation.data.index + 1) % locations.length];
-              var distance = calculateDistance(
-                selectedLocation.latitude,
-                selectedLocation.longitude,
-                nextLocation.latitude,
-                nextLocation.longitude
-              );
+              // Define the start and end points
+              var start = new mapkit.Coordinate(selectedLocation.latitude, selectedLocation.longitude);
+              var end = new mapkit.Coordinate(nextLocation.latitude, nextLocation.longitude);
 
               console.log('Selected location:', selectedLocation);
               console.log('Next location:', nextLocation);
               console.log('Distance to next point:', distance);
 
               var sidebar = document.querySelector('.coulsdon-art-trail-sidebar');
-              if (sidebar) {
-                sidebar.innerHTML = `
-                  <h2>${selectedLocation.title}</h2>
-                  <p>${selectedLocation.description}</p>
-                  <p>Distance to next point: ${distance.toFixed(2)} km</p>
-                `;
-              } else {
-                console.error('Sidebar element not found.');
-              }
+              // Request a route
+              directions.route(
+                {
+                  origin: start,
+                  destination: end,
+                  transportType: mapkit.Directions.Transport.Walking // Use Automobile, Walking, etc.
+                },
+                function(error, data) {
+                  if (error) {
+                    console.error("Error fetching directions:", error);
+                    return;
+                  }
+
+                  // Display the route on the map
+                  data.routes.forEach(function(route) {
+                    var routeOverlay = new mapkit.PolylineOverlay(route.path);
+                    map.addOverlay(routeOverlay);
+                  });
+
+                  // Display the route information in the sidebar
+                  var sidebar = document.querySelector('.coulsdon-art-trail-sidebar');
+                  if (sidebar) {
+                    sidebar.innerHTML = `
+                      <h2>Route Information</h2>
+                      <p>Distance: ${(data.routes[0].distance / 1000).toFixed(2)} km</p>
+                      <p>Expected Travel Time: ${(data.routes[0].expectedTravelTime / 60).toFixed(2)} minutes</p>
+                    `;
+                  } else {
+                    console.error('Sidebar element not found.');
+                  }
+                }
+              );
             } else {
               console.error('Annotation data is undefined.');
             }
@@ -147,19 +170,6 @@
       } else {
         console.log('No locations available to display on the map.');
       }
-    }
-
-    // Function to calculate the distance between two coordinates in kilometers
-    function calculateDistance(lat1, lon1, lat2, lon2) {
-      var R = 6371; // Radius of the Earth in kilometers
-      var dLat = (lat2 - lat1) * Math.PI / 180;
-      var dLon = (lon2 - lon1) * Math.PI / 180;
-      var a =
-        0.5 - Math.cos(dLat) / 2 +
-        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-        (1 - Math.cos(dLon)) / 2;
-
-      return R * 2 * Math.asin(Math.sqrt(a));
     }
 
     document.addEventListener(
