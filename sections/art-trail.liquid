@@ -18,26 +18,25 @@
       } else {
         document.querySelector('script[src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"]').addEventListener('load', initializeMap, { passive: true });
       }
-    }, { passive: true }); // Marking the event listener as passive
+    }, { passive: true });
 
     function initializeMap() {
       mapkit.init({
         authorizationCallback: function(done) {
-          done("{{ mapkit_js_token }}"); // Use the mapkit_js_token variable here
+          done("{{ mapkit_js_token }}");
         }
       });
 
       var map = new mapkit.Map("map-container", {
         center: new mapkit.Coordinate(51.320219, -0.138661), // Center on Coulsdon
         region: new mapkit.CoordinateRegion(
-          new mapkit.Coordinate(51.320219, -0.138661), // Center on Coulsdon
+          new mapkit.Coordinate(51.320219, -0.138661),
           new mapkit.CoordinateSpan(0.02, 0.02) // Adjust the zoom level
         ),
         showsCompass: mapkit.FeatureVisibility.Hidden,
         showsZoomControl: true
       });
 
-      // Fetching locations from Metaobjects
       var locations = [
         {% for location in locations %}
           {
@@ -49,11 +48,15 @@
         {% endfor %}
       ];
 
-      // Adding markers to the map
+      // Adding annotations to the map using mapkit.Annotation
       var annotations = locations.map(function(location) {
-        return new mapkit.MarkerAnnotation(
+        return new mapkit.Annotation(
           new mapkit.Coordinate(location.latitude, location.longitude),
-          { title: location.title, subtitle: location.description }
+          {
+            title: location.title,
+            subtitle: location.description,
+            callout: new mapkit.CalloutElement({ title: location.title, subtitle: location.description })
+          }
         );
       });
 
@@ -67,8 +70,7 @@
 
 <style>
   #map-container {
-    /* border: 1px solid #ccc;
-    margin: 20px 0; */
+    /* Custom styles can be added here */
   }
 </style>
 
@@ -80,7 +82,7 @@
       "type": "text",
       "id": "mapkit_js_token",
       "label": "MapKit JS Token",
-      "default": "eyJraWQiOiI3SjVTWEg5VjI0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiIzNFdVS1BCWFhIIiwiaWF0IjoxNzIzNDE2NDQ4LCJvcmlnaW4iOiJjb3Vsc2RvbnBhcnRuZXJzaGlwLm9yZyJ9.gyRL0cZt5czLMczBCb8zgJECAC6Xs01tAIJR_SVv8-VreqZpddA1gyk0WPQAdezehLtZsvqYfztEuF2i-0OC1Q",
+      "default": "YOUR_MAPKIT_JS_TOKEN_HERE",
       "info": "Enter your MapKit JS token. You can get it from your Apple Developer account."
     }
   ],
