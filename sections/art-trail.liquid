@@ -6,7 +6,7 @@
 {% assign finial_definition = shop.metaobjects.finial.values %}
 {% assign mapkit_js_token = section.settings.mapkit_js_token %}
 {% assign map_tint_color = section.settings.map_tint_color %}
-{% assign color_scheme = section.settings.color_scheme %}
+{% assign color_scheme = section.settings.map_color_scheme %}
 
 <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js" async></script>
 
@@ -233,8 +233,8 @@
     },
     {
       "type": "select",
-      "id": "color_scheme",
-      "label": "Color Scheme",
+      "id": "map_color_scheme",
+      "label": "Map Color Scheme",
       "default": "Hybrid",
       "options": [
         {
