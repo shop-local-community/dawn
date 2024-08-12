@@ -124,7 +124,12 @@
                   }
 
                   data.routes.forEach(function(route) {
-                    var routeOverlay = new mapkit.PolylineOverlay(route.path);
+                    // Convert route.path to mapkit.Coordinate objects
+                    var coordinates = route.path.map(function(point) {
+                      return new mapkit.Coordinate(point.latitude, point.longitude);
+                    });
+
+                    var routeOverlay = new mapkit.PolylineOverlay(coordinates);
                     map.addOverlay(routeOverlay);
                   });
 
