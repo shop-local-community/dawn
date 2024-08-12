@@ -141,15 +141,14 @@
                       return;
                     }
 
+                    map.removeOverlays(map.overlays);
+
                     // Display the route on the map using the polyline
                     data.routes.forEach(function(route) {
                       var polylines = data.routes.map(function(route) {
                         route.polyline.style = style;
                         return route.polyline;
                       });
-                  
-                  
-                      map.removeOverlays(map.overlays);
                       map.showItems(polylines);
                     });
 
