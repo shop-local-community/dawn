@@ -183,7 +183,7 @@
           });
 
           return annotation;
-        });
+        }).filter(annotation => annotation !== null); // Filter out invalid annotations
 
         // Debugging line to check annotations
         console.log('Annotations array:', annotations);
@@ -195,10 +195,22 @@
           // Ensure all annotations are visible
           map.showItems(annotations);
         });
+
         // Enable clustering
         map.annotationsForCluster = function (annotations) {
           return annotations.length > 1; // Enable clustering when there are more than one annotation in the same area
         };
+
+        // Update clusters dynamically
+        map.addEventListener('region-change-end', function() {
+          map.annotations.forEach(annotation => {
+            if (map.annotationsForCluster([annotation])) {
+              annotation.clusterAnnotation = true;
+            } else {
+              annotation.clusterAnnotation = false;
+            }
+          });
+        });
       } else {
         console.log('No locations available to display on the map.');
       }
