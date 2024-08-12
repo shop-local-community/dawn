@@ -73,6 +73,12 @@
       if (locations.length > 0) {
         // Adding annotations to the map using mapkit.Annotation
         var annotations = locations.map(function (location, index) {
+          // Check if location object is valid
+          if (!location || !location.latitude || !location.longitude) {
+            console.error('Invalid location object:', location);
+            return null;
+          }
+
           // Create a new marker annotation
           var annotation = new mapkit.MarkerAnnotation(
             new mapkit.Coordinate(location.latitude, location.longitude),
@@ -88,6 +94,7 @@
           // Add click event listener to the annotation
           annotation.addEventListener('select', function (event) {
             console.log('Event:', event);
+            console.log('Target:', event.target);
 
             if (event.target && event.target.data) {
               var selectedLocation = event.target.data.location;
