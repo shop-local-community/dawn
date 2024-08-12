@@ -24,6 +24,12 @@
         },
       });
 
+      const pointOfInterestFilter = mapkit.PointOfInterestFilter.including([
+        mapkit.PointOfInterestCategory.Park,
+        mapkit.PointOfInterestCategory.Museum,
+        mapkit.PointOfInterestCategory.Restaurant
+      ]);
+
       var map = new mapkit.Map('map-container', {
         center: new mapkit.Coordinate(51.320219, -0.138661), // Center on Coulsdon
         region: new mapkit.CoordinateRegion(
@@ -35,11 +41,7 @@
         isZoomEnabled: true, // Set to false to disable zoom
         tintColor: "{{ map_tint_color }}", // Use the selected tint color from theme settings
         colorScheme: mapkit.Map.ColorSchemes.{{ color_scheme | downcase }}, // Apply the selected color scheme
-        pointOfInterestFilter: mapkit.PointOfInterestFilter.including([
-          mapkit.PointOfInterestCategory.Park,
-          mapkit.PointOfInterestCategory.Museum,
-          mapkit.PointOfInterestCategory.Restaurant
-        ]), // Include parks, museums, and restaurants
+        pointOfInterestFilter: pointOfInterestFilter, // Include parks, museums, and restaurants
         showsUserLocation: true, // Show the user's current location on the map
         tracksUserLocation: true, // Track the user's location as they move
         cameraBoundary: new mapkit.CoordinateRegion(
@@ -49,7 +51,7 @@
       });
 
       // Create a new Directions object
-var directions = new mapkit.Directions();
+      var directions = new mapkit.Directions();
 
       // Debugging line to check the value of locations
       console.log('Metaobjects locations:', {{ finial_definition | json }});
