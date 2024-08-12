@@ -47,36 +47,44 @@
         showsZoomControl: true,
       });
 
-      var locations = JSON.parse(document.getElementById('locations-data').textContent);
+      var locationsDataElement = document.getElementById('locations-data');
+      var locationsData = locationsDataElement.textContent;
 
-      console.log('Locations array:', locations); // Debugging line
-      if (locations.length > 0) {
-        // Adding annotations to the map using mapkit.Annotation
-        var annotations = locations.map(function (location) {
-          return new mapkit.Annotation(
-            new mapkit.Coordinate(location.fields.latitude.value, location.fields.longitude.value),
-            {
-              title: location.fields.title.value,
-              subtitle: location.fields.description.value,
-              callout: new mapkit.CalloutElement({
+      try {
+        var locations = JSON.parse(locationsData);
+        console.log('Locations array:', locations); // Debugging line
+
+        if (locations.length > 0) {
+          // Adding annotations to the map using mapkit.Annotation
+          var annotations = locations.map(function (location) {
+            return new mapkit.Annotation(
+              new mapkit.Coordinate(location.fields.latitude.value, location.fields.longitude.value),
+              {
                 title: location.fields.title.value,
                 subtitle: location.fields.description.value,
-              }),
-            }
-          );
-        });
+                callout: new mapkit.CalloutElement({
+                  title: location.fields.title.value,
+                  subtitle: location.fields.description.value,
+                }),
+              }
+            );
+          });
 
-        // Batch adding annotations to the map
-        requestAnimationFrame(function () {
-          map.addAnnotations(annotations);
-        });
+          // Batch adding annotations to the map
+          requestAnimationFrame(function () {
+            map.addAnnotations(annotations);
+          });
 
-        // Enable clustering
-        map.annotationsForCluster = function (annotations) {
-          return annotations.length > 1; // Enable clustering when there are more than one annotation in the same area
-        };
-      } else {
-        console.log('No locations available to display on the map.');
+          // Enable clustering
+          map.annotationsForCluster = function (annotations) {
+            return annotations.length > 1; // Enable clustering when there are more than one annotation in the same area
+          };
+        } else {
+          console.log('No locations available to display on the map.');
+        }
+      } catch (error) {
+        console.error('Error parsing locations data:', error);
+        console.log('Raw locations data:', locationsData);
       }
     }
   </script>
