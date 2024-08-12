@@ -31,6 +31,7 @@
         ),
         showsCompass: mapkit.FeatureVisibility.Hidden,
         showsZoomControl: true,
+        isZoomEnabled: true, // Set to false to disable zoom
         tintColor: "{{ map_tint_color }}", // Use the selected tint color from theme settings
         colorScheme: mapkit.Map.ColorSchemes.{{ color_scheme | downcase }}, // Apply the selected color scheme
         pointOfInterestFilter: mapkit.PointOfInterestFilter.including([
