@@ -35,7 +35,7 @@
         pointOfInterestFilter: mapkit.PointOfInterestFilter.including([{{ poi_filter }}]), // Use the including method
         showsUserLocation: true, // Show the user's current location on the map
         tracksUserLocation: true, // Track the user's location as they move
-        cameraBoundary: { // Set the camera boundary
+        cameraBoundaryRegion: { // Set the camera boundary
           region: new mapkit.CoordinateRegion(
             new mapkit.Coordinate(51.320219, -0.138661), // Center of the boundary
             new mapkit.CoordinateSpan(0.05, 0.05) // Span defining the boundary size
