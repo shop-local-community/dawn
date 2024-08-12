@@ -11,14 +11,14 @@
 <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js" async></script>
 
 <div class="coulsdon-art-trail color-{{ section.settings.color_scheme }} gradient">
-  <div id="map-container"></div>
-  <div class="coulsdon-art-trail-sidebar">
+  <div id="map-container" tabindex="0" aria-label="Interactive map of Coulsdon Art Trail"></div>
+  <div class="coulsdon-art-trail-sidebar" tabindex="0" aria-label="Sidebar with information about the art trail">
     <h2>Interactive Map</h2>
     <p>
       Use our interactive map to navigate the trail. Simply click on the sign locations to learn more about each
       artwork, including the artist's inspiration and the story behind the piece.
     </p>
-    <div class="coulsdon-art-trail-sidebar-callout"></div>
+    <div class="coulsdon-art-trail-sidebar-callout" tabindex="0" aria-live="polite"></div>
   </div>
 
   <script
@@ -107,6 +107,16 @@
               }
             }
           );
+
+          // Add keyboard event listener to the annotation
+          annotation.element.setAttribute('tabindex', '0');
+          annotation.element.setAttribute('aria-label', location.title + ': ' + location.description);
+          annotation.element.addEventListener('keydown', function (event) {
+            if (event.key === 'Enter' || event.key === ' ') {
+              event.preventDefault();
+              annotation.select();
+            }
+          });
 
           // Add click event listener to the annotation
           annotation.addEventListener('select', function (event) {
@@ -210,6 +220,19 @@
               annotation.clusterAnnotation = false;
             }
           });
+        });
+
+        // Add keyboard navigation for the map container
+        document.getElementById('map-container').addEventListener('keydown', function (event) {
+          if (event.key === 'ArrowUp') {
+            map.region.center.latitude += 0.001;
+          } else if (event.key === 'ArrowDown') {
+            map.region.center.latitude -= 0.001;
+          } else if (event.key === 'ArrowLeft') {
+            map.region.center.longitude -= 0.001;
+          } else if (event.key === 'ArrowRight') {
+            map.region.center.longitude += 0.001;
+          }
         });
       } else {
         console.log('No locations available to display on the map.');
