@@ -11,7 +11,8 @@
 <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js" async></script>
 
 <div class="coulsdon-art-trail">
-  <div id="map-container" style="width: 100%; height: 480px;"></div>
+  <div id="map-container"></div>
+  <div class="coulsdon-art-trail-sidebar"></div>
 
   <script
     type="text/javascript"
@@ -66,8 +67,8 @@
 
       if (locations.length > 0) {
         // Adding annotations to the map using mapkit.Annotation
-        var annotations = locations.map(function (location) {
-          return new mapkit.Annotation(
+        var annotations = locations.map(function (location, index) {
+          var annotation = new mapkit.Annotation(
             new mapkit.Coordinate(location.latitude, location.longitude),
             function () {
               // Create a DOM element for the annotation
@@ -79,21 +80,42 @@
             {
               title: location.title,
               subtitle: location.description,
-              animates: true, // Set to false if you don't want the annotation to animate when added
-              collisionMode: mapkit.Annotation.CollisionMode.Circle, // Use Circle for collision detection
-              // Additional options for customizing the annotation
+              animates: true,
+              collisionMode: mapkit.Annotation.CollisionMode.Circle,
               callout: {
                 title: location.title,
                 subtitle: location.description,
               },
-              selected: false, // Set to true if you want the annotation to be selected by default
-              draggable: false, // Set to true if you want the annotation to be draggable
-              enabled: true, // Set to false if you want to disable interaction with the annotation
+              selected: false,
+              draggable: false,
+              enabled: true,
               data: {
-                customProperty: "customValue" // Any additional custom data you want to store with the annotation
+                customProperty: "customValue",
+                index: index // Store the index of the location
               }
             }
           );
+
+          // Add click event listener to the annotation
+          annotation.addEventListener('select', function (event) {
+            var selectedLocation = locations[event.annotation.data.index];
+            var nextLocation = locations[(event.annotation.data.index + 1) % locations.length];
+            var distance = calculateDistance(
+              selectedLocation.latitude,
+              selectedLocation.longitude,
+              nextLocation.latitude,
+              nextLocation.longitude
+            );
+
+            // Update the sidebar with the selected location info and distance to the next point
+            document.querySelector('.coulsdon-art-trail-sidebar').innerHTML = `
+              <h2>${selectedLocation.title}</h2>
+              <p>${selectedLocation.description}</p>
+              <p>Distance to next point: ${distance.toFixed(2)} km</p>
+            `;
+          });
+
+          return annotation;
         });
 
         // Debugging line to check annotations
@@ -115,6 +137,19 @@
       }
     }
 
+    // Function to calculate the distance between two coordinates in kilometers
+    function calculateDistance(lat1, lon1, lat2, lon2) {
+      var R = 6371; // Radius of the Earth in kilometers
+      var dLat = (lat2 - lat1) * Math.PI / 180;
+      var dLon = (lon2 - lon1) * Math.PI / 180;
+      var a =
+        0.5 - Math.cos(dLat) / 2 +
+        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+        (1 - Math.cos(dLon)) / 2;
+
+      return R * 2 * Math.asin(Math.sqrt(a));
+    }
+
     document.addEventListener(
       'DOMContentLoaded',
       function () {
@@ -132,8 +167,21 @@
 </div>
 
 <style>
-  #map-container {
-    /* Custom styles can be added here */
+  .coulsdon-art-trail {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .coulsdon-art-trail-sidebar {
+    width: 30%;
+    height: 480px;
+    overflow-y: auto;
+    padding: 2.5rem;
+  }
+
+  .coulsdon-art-trail #map-container {
+    width: 70%;
+    height: 480px;
   }
 </style>
 
