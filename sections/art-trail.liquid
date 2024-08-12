@@ -102,23 +102,19 @@ var directions = new mapkit.Directions();
           // Add click event listener to the annotation
           annotation.addEventListener('select', function (event) {
             if (event.annotation && event.annotation.data) {
-              var selectedLocation = locations[event.annotation.data.index];
+              var selectedLocation = event.annotation.data.location;
               var nextLocation = locations[(event.annotation.data.index + 1) % locations.length];
-              // Define the start and end points
               var start = new mapkit.Coordinate(selectedLocation.latitude, selectedLocation.longitude);
               var end = new mapkit.Coordinate(nextLocation.latitude, nextLocation.longitude);
 
               console.log('Selected location:', selectedLocation);
               console.log('Next location:', nextLocation);
-              console.log('Distance to next point:', distance);
 
-              var sidebar = document.querySelector('.coulsdon-art-trail-sidebar');
-              // Request a route
               directions.route(
                 {
                   origin: start,
                   destination: end,
-                  transportType: mapkit.Directions.Transport.Walking // Use Automobile, Walking, etc.
+                  transportType: mapkit.Directions.Transport.Walking
                 },
                 function(error, data) {
                   if (error) {
@@ -126,13 +122,11 @@ var directions = new mapkit.Directions();
                     return;
                   }
 
-                  // Display the route on the map
                   data.routes.forEach(function(route) {
                     var routeOverlay = new mapkit.PolylineOverlay(route.path);
                     map.addOverlay(routeOverlay);
                   });
 
-                  // Display the route information in the sidebar
                   var sidebar = document.querySelector('.coulsdon-art-trail-sidebar');
                   if (sidebar) {
                     sidebar.innerHTML = `
