@@ -24,7 +24,7 @@
         },
       });
 
-      const pointOfInterestFilter = mapkit.PointOfInterestFilter.including([
+      const pointOfInterestFilter = new mapkit.PointOfInterestFilter.including([
         mapkit.PointOfInterestCategory.Park,
         mapkit.PointOfInterestCategory.Museum,
         mapkit.PointOfInterestCategory.Restaurant
