@@ -98,30 +98,32 @@
 
           // Add click event listener to the annotation
           annotation.addEventListener('select', function (event) {
-            var selectedLocation = locations[event.annotation.data.index];
-            var nextLocation = locations[(event.annotation.data.index + 1) % locations.length];
-            var distance = calculateDistance(
-              selectedLocation.latitude,
-              selectedLocation.longitude,
-              nextLocation.latitude,
-              nextLocation.longitude
-            );
+            if (event.annotation && event.annotation.data) {
+              var selectedLocation = locations[event.annotation.data.index];
+              var nextLocation = locations[(event.annotation.data.index + 1) % locations.length];
+              var distance = calculateDistance(
+                selectedLocation.latitude,
+                selectedLocation.longitude,
+                nextLocation.latitude,
+                nextLocation.longitude
+              );
 
-            // Debugging log
-            console.log('Selected location:', selectedLocation);
-            console.log('Next location:', nextLocation);
-            console.log('Distance to next point:', distance);
+              console.log('Selected location:', selectedLocation);
+              console.log('Next location:', nextLocation);
+              console.log('Distance to next point:', distance);
 
-            // Update the sidebar with the selected location info and distance to the next point
-            var sidebar = document.querySelector('.coulsdon-art-trail-sidebar');
-            if (sidebar) {
-              sidebar.innerHTML = `
-                <h2>${selectedLocation.title}</h2>
-                <p>${selectedLocation.description}</p>
-                <p>Distance to next point: ${distance.toFixed(2)} km</p>
-              `;
+              var sidebar = document.querySelector('.coulsdon-art-trail-sidebar');
+              if (sidebar) {
+                sidebar.innerHTML = `
+                  <h2>${selectedLocation.title}</h2>
+                  <p>${selectedLocation.description}</p>
+                  <p>Distance to next point: ${distance.toFixed(2)} km</p>
+                `;
+              } else {
+                console.error('Sidebar element not found.');
+              }
             } else {
-              console.error('Sidebar element not found.');
+              console.error('Annotation data is undefined.');
             }
           });
 
