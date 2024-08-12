@@ -11,10 +11,6 @@
 <div class="coulsdon-art-trail">
   <div id="map-container" style="width: 100%; height: 480px;"></div>
 
-  <script type="application/json" id="locations-data">
-    {{ locations | json }}
-  </script>
-
   <script type="text/javascript">
     document.addEventListener(
       'DOMContentLoaded',
@@ -47,44 +43,49 @@
         showsZoomControl: true,
       });
 
-      var locationsDataElement = document.getElementById('locations-data');
-      var locationsData = locationsDataElement.textContent;
+      // Manually construct the locations array in JavaScript
+      var locations = [
+        {% for location in locations %}
+        {
+          "fields": {
+            "latitude": { "value": {{ location.fields.latitude.value }} },
+            "longitude": { "value": {{ location.fields.longitude.value }} },
+            "title": { "value": "{{ location.fields.title.value }}" },
+            "description": { "value": "{{ location.fields.description.value }}" }
+          }
+        }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+      ];
 
-      try {
-        var locations = JSON.parse(locationsData);
-        console.log('Locations array:', locations); // Debugging line
+      console.log('Locations array:', locations); // Debugging line
 
-        if (locations.length > 0) {
-          // Adding annotations to the map using mapkit.Annotation
-          var annotations = locations.map(function (location) {
-            return new mapkit.Annotation(
-              new mapkit.Coordinate(location.fields.latitude.value, location.fields.longitude.value),
-              {
+      if (locations.length > 0) {
+        // Adding annotations to the map using mapkit.Annotation
+        var annotations = locations.map(function (location) {
+          return new mapkit.Annotation(
+            new mapkit.Coordinate(location.fields.latitude.value, location.fields.longitude.value),
+            {
+              title: location.fields.title.value,
+              subtitle: location.fields.description.value,
+              callout: new mapkit.CalloutElement({
                 title: location.fields.title.value,
                 subtitle: location.fields.description.value,
-                callout: new mapkit.CalloutElement({
-                  title: location.fields.title.value,
-                  subtitle: location.fields.description.value,
-                }),
-              }
-            );
-          });
+              }),
+            }
+          );
+        });
 
-          // Batch adding annotations to the map
-          requestAnimationFrame(function () {
-            map.addAnnotations(annotations);
-          });
+        // Batch adding annotations to the map
+        requestAnimationFrame(function () {
+          map.addAnnotations(annotations);
+        });
 
-          // Enable clustering
-          map.annotationsForCluster = function (annotations) {
-            return annotations.length > 1; // Enable clustering when there are more than one annotation in the same area
-          };
-        } else {
-          console.log('No locations available to display on the map.');
-        }
-      } catch (error) {
-        console.error('Error parsing locations data:', error);
-        console.log('Raw locations data:', locationsData);
+        // Enable clustering
+        map.annotationsForCluster = function (annotations) {
+          return annotations.length > 1; // Enable clustering when there are more than one annotation in the same area
+        };
+      } else {
+        console.log('No locations available to display on the map.');
       }
     }
   </script>
