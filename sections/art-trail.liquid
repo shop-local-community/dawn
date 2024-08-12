@@ -1,5 +1,5 @@
 {% comment %}
-  Coulsdon Art Trail Interactive Map Section using Apple Maps with MapKit JS
+  Coulsdon Art Trail Interactive Map Section using Apple Maps with MapKit JS and Annotation Clustering
   Dynamically pulling locations from Metaobjects
 {% endcomment %}
 
@@ -34,7 +34,10 @@
           new mapkit.CoordinateSpan(0.02, 0.02) // Adjust the zoom level
         ),
         showsCompass: mapkit.FeatureVisibility.Hidden,
-        showsZoomControl: true
+        showsZoomControl: true,
+        annotationsForCluster: function(annotations) {
+          return annotations.length > 1; // Enable clustering when there are more than one annotation in the same area
+        }
       });
 
       var locations = [
