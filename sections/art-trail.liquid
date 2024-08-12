@@ -94,9 +94,11 @@
           // Add click event listener to the annotation
           annotation.addEventListener('select', function (event) {
             console.log('Event:', event);
-            console.log('Target:', event.target);
 
             if (event.target && event.target.data) {
+              console.log('Target:', event.target);
+              console.log('Target data:', event.target.data);
+              
               var selectedLocation = event.target.data.location;
               var nextLocation = locations[(event.target.data.index + 1) % locations.length];
               var start = new mapkit.Coordinate(selectedLocation.latitude, selectedLocation.longitude);
