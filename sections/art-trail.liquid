@@ -124,12 +124,10 @@
                 const userLongitude = position.coords.longitude;
               
                 var selectedLocation = event.target.data.location;
-                var nextLocation = locations[(event.target.data.index + 1) % locations.length];
                 var start = new mapkit.Coordinate(userLatitude, userLongitude); // Start from user's location
                 var end = new mapkit.Coordinate(selectedLocation.latitude, selectedLocation.longitude);
 
                 console.log('Selected location:', selectedLocation);
-                console.log('Next location:', nextLocation);
 
                 directions.route(
                   {
@@ -165,6 +163,20 @@
                     }
                   }
                 );
+              }, function(error) {
+                console.error("Geolocation error:", error);
+
+                var sidebar = document.querySelector('.coulsdon-art-trail-sidebar-callout');
+                if (sidebar) {
+                  sidebar.innerHTML = `
+                    <h3>${event.target.data.location.title}</h3>
+                    <p>${event.target.data.location.description}</p>
+                    <p>Distance: ${(data.routes[0].distance / 1000).toFixed(2)} km</p>
+                    <p>Expected Travel Time: ${(data.routes[0].expectedTravelTime / 60).toFixed(2)} minutes</p>
+                  `;
+                } else {
+                  console.error('Sidebar element not found.');
+                }
               });
             } else {
               console.error('Annotation data is undefined.');
