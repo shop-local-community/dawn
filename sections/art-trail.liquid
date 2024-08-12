@@ -171,8 +171,7 @@
                   sidebar.innerHTML = `
                     <h3>${event.target.data.location.title}</h3>
                     <p>${event.target.data.location.description}</p>
-                    <p>Distance: ${(data.routes[0].distance / 1000).toFixed(2)} km</p>
-                    <p>Expected Travel Time: ${(data.routes[0].expectedTravelTime / 60).toFixed(2)} minutes</p>
+                    <p>Unable to retrieve your location. Please ensure location services are enabled.</p>
                   `;
                 } else {
                   console.error('Sidebar element not found.');
