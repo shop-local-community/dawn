@@ -107,12 +107,22 @@
               nextLocation.longitude
             );
 
+            // Debugging log
+            console.log('Selected location:', selectedLocation);
+            console.log('Next location:', nextLocation);
+            console.log('Distance to next point:', distance);
+
             // Update the sidebar with the selected location info and distance to the next point
-            document.querySelector('.coulsdon-art-trail-sidebar').innerHTML = `
-              <h2>${selectedLocation.title}</h2>
-              <p>${selectedLocation.description}</p>
-              <p>Distance to next point: ${distance.toFixed(2)} km</p>
-            `;
+            var sidebar = document.querySelector('.coulsdon-art-trail-sidebar');
+            if (sidebar) {
+              sidebar.innerHTML = `
+                <h2>${selectedLocation.title}</h2>
+                <p>${selectedLocation.description}</p>
+                <p>Distance to next point: ${distance.toFixed(2)} km</p>
+              `;
+            } else {
+              console.error('Sidebar element not found.');
+            }
           });
 
           return annotation;
