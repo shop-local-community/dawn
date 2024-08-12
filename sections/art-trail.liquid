@@ -50,10 +50,10 @@
       var locations = [
         {% for location in finial_definition %}
         {
-          "latitude": { "value": {{ location.latitude.value }} },
-          "longitude": { "value": {{ location.longitude.value }} },
-          "title": { "value": "{{ location.title.value }}" },
-          "description": { "value": "{{ location.description.value }}" }
+          "latitude": {{ location.latitude.value }},
+          "longitude": {{ location.longitude.value }},
+          "title": "{{ location.title.value }}",
+          "description": "{{ location.description.value }}"
         }{% if forloop.last == false %},{% endif %}
         {% endfor %}
       ];
@@ -64,13 +64,13 @@
         // Adding annotations to the map using mapkit.Annotation
         var annotations = locations.map(function (location) {
           return new mapkit.Annotation(
-            new mapkit.Coordinate(location.fields.latitude.value, location.fields.longitude.value),
+            new mapkit.Coordinate(location.latitude, location.longitude),
             {
-              title: location.fields.title.value,
-              subtitle: location.fields.description.value,
+              title: location.title,
+              subtitle: location.description,
               callout: new mapkit.CalloutElement({
-                title: location.fields.title.value,
-                subtitle: location.fields.description.value,
+                title: location.title,
+                subtitle: location.description,
               }),
             }
           );
