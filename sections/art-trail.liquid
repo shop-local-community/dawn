@@ -40,9 +40,11 @@
         ]), // Include parks, museums, and restaurants
         showsUserLocation: true, // Show the user's current location on the map
         tracksUserLocation: true, // Track the user's location as they move
-        cameraBoundary: new mapkit.BoundingRegion( // Set the camera boundary
-          new mapkit.Coordinate(51.320219, -0.138661), // Center of the boundary
-          new mapkit.CoordinateSpan(0.05, 0.05) // Span defining the boundary size
+        cameraBoundary: new mapkit.BoundingRegion(
+          51.345219, // North latitude
+          -0.163661, // West longitude
+          51.295219, // South latitude
+          -0.113661  // East longitude
         )
       });
 
