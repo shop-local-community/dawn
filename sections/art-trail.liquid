@@ -89,9 +89,9 @@
           annotation.addEventListener('select', function (event) {
             console.log('Event:', event);
 
-            if (event.annotation && event.annotation.data) {
-              var selectedLocation = event.annotation.data.location;
-              var nextLocation = locations[(event.annotation.data.index + 1) % locations.length];
+            if (event.target && event.target.data) {
+              var selectedLocation = event.target.data.location;
+              var nextLocation = locations[(event.target.data.index + 1) % locations.length];
               var start = new mapkit.Coordinate(selectedLocation.latitude, selectedLocation.longitude);
               var end = new mapkit.Coordinate(nextLocation.latitude, nextLocation.longitude);
 
