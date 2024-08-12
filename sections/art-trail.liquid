@@ -3,7 +3,7 @@
   Dynamically pulling locations from Metaobjects
 {% endcomment %}
 
-{% assign locations = shop.metaobjects.art_trail_location %}
+{% assign locations = shop.metaobjects.finial %}
 {% assign mapkit_js_token = section.settings.mapkit_js_token %}
 
 <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js" async></script>
@@ -41,7 +41,7 @@
       });
 
       var locations = [
-        {% for location in {{ locations }} %}
+        {% for location in locations %}
           {
             title: "{{ location.fields.title.value }}",
             latitude: {{ location.fields.latitude.value }},
