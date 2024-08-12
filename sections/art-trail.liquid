@@ -37,6 +37,12 @@
         mapkit.PointOfInterestCategory.Restaurant
       ]);
 
+      const style = new mapkit.Style({
+        lineWidth: 4,
+        strokeColor: "{{ map_tint_color }}",
+        strokeOpacity: .8
+      });
+
       var map = new mapkit.Map('map-container', {
         center: new mapkit.Coordinate(51.320219, -0.138661), // Center on Coulsdon
         region: new mapkit.CoordinateRegion(
@@ -138,6 +144,7 @@
                     // Display the route on the map using the polyline
                     data.routes.forEach(function(route) {
                       var polylines = data.routes.map(function(route) {
+                        route.polyline.style = style;
                         return route.polyline;
                       });
                   
