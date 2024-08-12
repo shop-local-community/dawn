@@ -27,6 +27,7 @@
         ),
         showsCompass: mapkit.FeatureVisibility.Hidden,
         showsZoomControl: true,
+        tintColor: "{{ section.settings.map_tint_color }}" // Use the selected tint color from theme settings
       });
 
       // Debugging line to check the value of locations
@@ -120,6 +121,13 @@
 {
   "name": "Art Trail",
   "settings": [
+    {
+      "type": "color",
+      "id": "map_tint_color",
+      "label": "Map Tint Color",
+      "default": "#9E185D",
+      "info": "Select the tint color for the map elements."
+    },
     {
       "type": "text",
       "id": "mapkit_js_token",
