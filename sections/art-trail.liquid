@@ -107,50 +107,56 @@
             if (event.target && event.target.data) {
               console.log('Target:', event.target);
               console.log('Target data:', event.target.data);
+
+              // Get user's current location
+              navigator.geolocation.getCurrentPosition(function(position) {
+                const userLatitude = position.coords.latitude;
+                const userLongitude = position.coords.longitude;
               
-              var selectedLocation = event.target.data.location;
-              var nextLocation = locations[(event.target.data.index + 1) % locations.length];
-              var start = new mapkit.Coordinate(selectedLocation.latitude, selectedLocation.longitude);
-              var end = new mapkit.Coordinate(nextLocation.latitude, nextLocation.longitude);
+                var selectedLocation = event.target.data.location;
+                var nextLocation = locations[(event.target.data.index + 1) % locations.length];
+                var start = new mapkit.Coordinate(userLatitude, userLongitude); // Start from user's location
+                var end = new mapkit.Coordinate(selectedLocation.latitude, selectedLocation.longitude);
 
-              console.log('Selected location:', selectedLocation);
-              console.log('Next location:', nextLocation);
+                console.log('Selected location:', selectedLocation);
+                console.log('Next location:', nextLocation);
 
-              directions.route(
-                {
-                  origin: start,
-                  destination: end,
-                  transportType: mapkit.Directions.Transport.Walking
-                },
-                function(error, data) {
-                  if (error) {
-                    console.error("Error fetching directions:", error);
-                    return;
-                  }
+                directions.route(
+                  {
+                    origin: start,
+                    destination: end,
+                    transportType: mapkit.Directions.Transport.Walking
+                  },
+                  function(error, data) {
+                    if (error) {
+                      console.error("Error fetching directions:", error);
+                      return;
+                    }
 
-                  // Display the route on the map using the polyline
-                  data.routes.forEach(function(route) {
-                    var polylines = data.routes.map(function(route) {
-                      return route.polyline;
+                    // Display the route on the map using the polyline
+                    data.routes.forEach(function(route) {
+                      var polylines = data.routes.map(function(route) {
+                        return route.polyline;
+                      });
+                  
+                  
+                      map.showItems(polylines);
                     });
-                
-                
-                    map.showItems(polylines);
-                  });
 
-                  var sidebar = document.querySelector('.coulsdon-art-trail-sidebar');
-                  if (sidebar) {
-                    sidebar.innerHTML = `
-                      <h3>${event.target.data.location.title}</h3>
-                      <p>${event.target.data.location.description}</p>
-                      <p>Distance: ${(data.routes[0].distance / 1000).toFixed(2)} km</p>
-                      <p>Expected Travel Time: ${(data.routes[0].expectedTravelTime / 60).toFixed(2)} minutes</p>
-                    `;
-                  } else {
-                    console.error('Sidebar element not found.');
+                    var sidebar = document.querySelector('.coulsdon-art-trail-sidebar');
+                    if (sidebar) {
+                      sidebar.innerHTML = `
+                        <h3>${event.target.data.location.title}</h3>
+                        <p>${event.target.data.location.description}</p>
+                        <p>Distance: ${(data.routes[0].distance / 1000).toFixed(2)} km</p>
+                        <p>Expected Travel Time: ${(data.routes[0].expectedTravelTime / 60).toFixed(2)} minutes</p>
+                      `;
+                    } else {
+                      console.error('Sidebar element not found.');
+                    }
                   }
-                }
-              );
+                );
+              });
             } else {
               console.error('Annotation data is undefined.');
             }
