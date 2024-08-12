@@ -68,6 +68,23 @@
           );
         });
 
+        // Set up the callout delegate
+        var calloutDelegate = {
+          calloutContentForAnnotation: function(annotation) {
+            var element = document.createElement('div');
+            element.innerHTML = '<strong>' + annotation.title + '</strong><br>' + annotation.subtitle;
+            return element;
+          },
+          calloutAnchorOffsetForAnnotation: function(annotation) {
+            return new DOMPoint(0, -10); // Adjusts the callout's anchor position
+          }
+        };
+
+        // Assign the callout delegate to each annotation
+        annotations.forEach(function(annotation) {
+          annotation.calloutDelegate = calloutDelegate;
+        });
+
         // Debugging line to check annotations
         console.log('Annotations array:', annotations);
 
