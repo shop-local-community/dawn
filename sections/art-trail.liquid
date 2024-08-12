@@ -13,10 +13,12 @@
 <div class="coulsdon-art-trail color-{{ section.settings.color_scheme }} gradient">
   <div id="map-container"></div>
   <div class="coulsdon-art-trail-sidebar">
+    <h2>Interactive Map</h2>
     <p>
       Use our interactive map to navigate the trail. Simply click on the sign locations to learn more about each
       artwork, including the artist's inspiration and the story behind the piece.
     </p>
+    <div class="coulsdon-art-trail-sidebar-callout"></div>
   </div>
 
   <script
@@ -143,7 +145,7 @@
                       map.showItems(polylines);
                     });
 
-                    var sidebar = document.querySelector('.coulsdon-art-trail-sidebar');
+                    var sidebar = document.querySelector('.coulsdon-art-trail-sidebar-callout');
                     if (sidebar) {
                       sidebar.innerHTML = `
                         <h3>${event.target.data.location.title}</h3>
