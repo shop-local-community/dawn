@@ -80,7 +80,7 @@
               title: location.title,
               subtitle: location.description,
               // color: "#9E185D", // Custom color for the marker
-              glyphText: location.title[0], // Glyph inside the marker
+              glyphText: location.title.split(' ').map(word => word[0]).join(''), // Glyph inside the marker
               selected: false // Marker is selected by default
             }
           );
