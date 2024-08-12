@@ -116,6 +116,8 @@
               console.log('Target:', event.target);
               console.log('Target data:', event.target.data);
 
+              map.removeOverlays(map.overlays);
+
               // Get user's current location
               navigator.geolocation.getCurrentPosition(function(position) {
                 const userLatitude = position.coords.latitude;
@@ -128,8 +130,6 @@
 
                 console.log('Selected location:', selectedLocation);
                 console.log('Next location:', nextLocation);
-
-                map.removeOverlays(map.overlays);
 
                 directions.route(
                   {
@@ -152,7 +152,7 @@
                       map.showItems(polylines);
                     });
 
-                    var sidebar = document.querySelector('.coulsdon-art-trail-sidebar-callout');
+                    var sidebar = doxrcument.querySelector('.coulsdon-art-trail-sidebar-callout');
                     if (sidebar) {
                       sidebar.innerHTML = `
                         <h3>${event.target.data.location.title}</h3>
