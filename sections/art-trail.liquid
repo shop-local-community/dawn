@@ -5,6 +5,9 @@
 
 {% assign finial_definition = shop.metaobjects.finial.values %}
 {% assign mapkit_js_token = section.settings.mapkit_js_token %}
+{% assign map_tint_color = section.settings.map_tint_color %}
+{% assign color_scheme = section.settings.color_scheme %}
+{% assign poi_filter = section.settings.poi_filter %}
 
 <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js" async></script>
 
@@ -27,8 +30,11 @@
         ),
         showsCompass: mapkit.FeatureVisibility.Hidden,
         showsZoomControl: true,
-        tintColor: "{{ section.settings.map_tint_color }}", // Use the selected tint color from theme settings
-        colorScheme: mapkit.Map.ColorSchemes.{{ section.settings.color_scheme | downcase }} // Apply the selected color scheme
+        tintColor: "{{ map_tint_color }}", // Use the selected tint color from theme settings
+        colorScheme: mapkit.Map.ColorSchemes.{{ color_scheme | downcase }}, // Apply the selected color scheme
+        pointOfInterestFilter: new mapkit.PointOfInterestFilter({
+          including: {{ poi_filter | json }}
+        })
       });
 
       // Debugging line to check the value of locations
@@ -155,6 +161,18 @@
           "label": "Hybrid"
         }
       ]
+    },
+    {
+      "type": "checkbox",
+      "id": "poi_filter_parks",
+      "label": "Show Parks",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "poi_filter_restaurants",
+      "label": "Show Restaurants",
+      "default": true
     }
   ],
   "presets": [
