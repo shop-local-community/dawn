@@ -61,28 +61,23 @@
             {
               title: location.title,
               subtitle: location.description,
-              // Optionally, you can set a custom marker image
-              // pointOfInterestCategory: "custom-category", // Customize categories
-              // selected: true // If you want the annotation to appear selected
+              collisionMode: mapkit.Annotation.CollisionMode.Circle, // Use Circle for collision detection
+              // Optional: You can use Rectangle or None based on your requirements
+              // collisionMode: mapkit.Annotation.CollisionMode.Rectangle,
+              // collisionMode: mapkit.Annotation.CollisionMode.None,
+              // Additional options for customizing the annotation
+              callout: {
+                title: location.title,
+                subtitle: location.description,
+              },
+              selected: false, // Set to true if you want the annotation to be selected by default
+              draggable: false, // Set to true if you want the annotation to be draggable
+              enabled: true, // Set to false if you want to disable interaction with the annotation
+              data: {
+                // customProperty: "customValue" // Any additional custom data you want to store with the annotation
+              }
             }
           );
-        });
-
-        // Set up the callout delegate
-        var calloutDelegate = {
-          calloutContentForAnnotation: function(annotation) {
-            var element = document.createElement('div');
-            element.innerHTML = '<strong>' + annotation.title + '</strong><br>' + annotation.subtitle;
-            return element;
-          },
-          calloutAnchorOffsetForAnnotation: function(annotation) {
-            return new DOMPoint(0, -10); // Adjusts the callout's anchor position
-          }
-        };
-
-        // Assign the callout delegate to each annotation
-        annotations.forEach(function(annotation) {
-          annotation.calloutDelegate = calloutDelegate;
         });
 
         // Debugging line to check annotations
