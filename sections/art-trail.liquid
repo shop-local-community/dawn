@@ -73,7 +73,7 @@
       if (locations.length > 0) {
         // Adding annotations to the map using mapkit.Annotation
         var annotations = locations.map(function (location, index) {
-          var annotation = new mapkit.Annotation(
+          var annotation = new mapkit.MarkerAnnotation(
             new mapkit.Coordinate(location.latitude, location.longitude),
             function () {
               // Create a DOM element for the annotation
@@ -103,6 +103,8 @@
 
           // Add click event listener to the annotation
           annotation.addEventListener('select', function (event) {
+            console.log('Event:', event);
+
             if (event.annotation && event.annotation.data) {
               var selectedLocation = event.annotation.data.location;
               var nextLocation = locations[(event.annotation.data.index + 1) % locations.length];
