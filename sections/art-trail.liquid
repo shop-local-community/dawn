@@ -34,10 +34,7 @@
           new mapkit.CoordinateSpan(0.02, 0.02) // Adjust the zoom level
         ),
         showsCompass: mapkit.FeatureVisibility.Hidden,
-        showsZoomControl: true,
-        annotationsForCluster: function(annotations) {
-          return annotations.length > 1; // Enable clustering when there are more than one annotation in the same area
-        }
+        showsZoomControl: true
       });
 
       var locations = [
@@ -67,6 +64,11 @@
       requestAnimationFrame(function() {
         map.addAnnotations(annotations);
       });
+
+      // Enable clustering
+      map.annotationsForCluster = function(annotations) {
+        return annotations.length > 1; // Enable clustering when there are more than one annotation in the same area
+      };
     }
   </script>
 </div>
