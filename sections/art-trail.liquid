@@ -127,13 +127,16 @@
                   data.routes.forEach(function(route) {
                     var polyline = route.polyline; // Get the polyline from the route
 
+                    // Create a new mapkit.Style object for the polyline
+                    var routeStyle = new mapkit.Style({
+                      strokeColor: "{{ map_tint_color }}", // Color
+                      lineWidth: 4,
+                      strokeOpacity: 0.8
+                    });
+
                     // Customize the polyline appearance
                     var routeOverlay = new mapkit.PolylineOverlay(polyline, {
-                      style: {
-                        strokeColor: "{{ map_tint_color }}", // Color
-                        lineWidth: 4,
-                        strokeOpacity: 0.8
-                      }
+                      style: routeStyle
                     });
 
                     // Add the polyline to the map as an overlay
