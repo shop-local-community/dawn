@@ -43,6 +43,9 @@
         showsZoomControl: true,
       });
 
+      // Debugging line to check the value of locations
+      console.log('Metaobjects locations:', {{ locations | json }});
+
       // Manually construct the locations array in JavaScript
       var locations = [
         {% for location in locations %}
