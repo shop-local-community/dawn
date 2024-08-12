@@ -129,6 +129,8 @@
                 console.log('Selected location:', selectedLocation);
                 console.log('Next location:', nextLocation);
 
+                map.removeOverlays(map.overlays);
+
                 directions.route(
                   {
                     origin: start,
@@ -140,8 +142,6 @@
                       console.error("Error fetching directions:", error);
                       return;
                     }
-
-                    map.removeOverlays(map.overlays);
 
                     // Display the route on the map using the polyline
                     data.routes.forEach(function(route) {
