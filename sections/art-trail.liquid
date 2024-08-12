@@ -123,13 +123,20 @@
                     return;
                   }
 
+                  // Display the route on the map using the polyline
                   data.routes.forEach(function(route) {
-                    // Convert route.path to mapkit.Coordinate objects
-                    var coordinates = route.path.map(function(point) {
-                      return new mapkit.Coordinate(point.latitude, point.longitude);
+                    var polyline = route.polyline; // Get the polyline from the route
+
+                    // Customize the polyline appearance
+                    var routeOverlay = new mapkit.PolylineOverlay(polyline, {
+                      style: {
+                        strokeColor: "{{ map_tint_color }}", // Color
+                        lineWidth: 4,
+                        strokeOpacity: 0.8
+                      }
                     });
 
-                    var routeOverlay = new mapkit.PolylineOverlay(coordinates);
+                    // Add the polyline to the map as an overlay
                     map.addOverlay(routeOverlay);
                   });
 
