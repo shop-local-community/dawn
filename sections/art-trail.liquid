@@ -50,12 +50,10 @@
       var locations = [
         {% for location in finial_definition %}
         {
-          "fields": {
-            "latitude": { "value": {{ location.fields.latitude.value }} },
-            "longitude": { "value": {{ location.fields.longitude.value }} },
-            "title": { "value": "{{ location.fields.title.value }}" },
-            "description": { "value": "{{ location.fields.description.value }}" }
-          }
+          "latitude": { "value": {{ location.latitude.value }} },
+          "longitude": { "value": {{ location.longitude.value }} },
+          "title": { "value": "{{ location.title.value }}" },
+          "description": { "value": "{{ location.description.value }}" }
         }{% if forloop.last == false %},{% endif %}
         {% endfor %}
       ];
