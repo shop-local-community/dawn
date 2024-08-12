@@ -48,6 +48,8 @@
         {% endfor %}
       ];
 
+      console.log("Locations array:", locations); // Debugging line
+
       // Adding annotations to the map using mapkit.Annotation
       var annotations = locations.map(function(location) {
         return new mapkit.Annotation(
