@@ -61,10 +61,8 @@
             {
               title: location.title,
               subtitle: location.description,
+              animates: true, // Set to false if you don't want the annotation to animate when added
               collisionMode: mapkit.Annotation.CollisionMode.Circle, // Use Circle for collision detection
-              // Optional: You can use Rectangle or None based on your requirements
-              // collisionMode: mapkit.Annotation.CollisionMode.Rectangle,
-              // collisionMode: mapkit.Annotation.CollisionMode.None,
               // Additional options for customizing the annotation
               callout: {
                 title: location.title,
@@ -74,7 +72,7 @@
               draggable: false, // Set to true if you want the annotation to be draggable
               enabled: true, // Set to false if you want to disable interaction with the annotation
               data: {
-                // customProperty: "customValue" // Any additional custom data you want to store with the annotation
+                customProperty: "customValue" // Any additional custom data you want to store with the annotation
               }
             }
           );
