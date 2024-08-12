@@ -34,7 +34,13 @@
         colorScheme: mapkit.Map.ColorSchemes.{{ color_scheme | downcase }}, // Apply the selected color scheme
         pointOfInterestFilter: mapkit.PointOfInterestFilter.including([{{ poi_filter }}]), // Use the including method
         showsUserLocation: true, // Show the user's current location on the map
-        tracksUserLocation: true // Track the user's location as they move
+        tracksUserLocation: true, // Track the user's location as they move
+        cameraBoundary: new mapkit.CameraBoundary( // Set the camera boundary
+          new mapkit.CoordinateRegion(
+            new mapkit.Coordinate(51.320219, -0.138661), // Center of the boundary
+            new mapkit.CoordinateSpan(0.05, 0.05) // Span defining the boundary size
+          )
+        )
       });
 
       // Debugging line to check the value of locations
