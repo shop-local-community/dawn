@@ -192,6 +192,15 @@
             }
           });
 
+          annotation.addEventListener('mouseenter', function () {        
+            // Add a bounce animation
+            annotation.classList.add('bounce-animation');
+          });
+        
+          annotation.addEventListener('mouseleave', function () {
+            annotation.classList.remove('bounce-animation');
+          });
+
           return annotation;
         }).filter(annotation => annotation !== null); // Filter out invalid annotations
 
@@ -292,6 +301,26 @@
       width: 100%;
       height: 400px; /* Adjust height as needed for mobile */
     }
+  }
+
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+  .bounce-animation {
+    animation: bounce 1s;
   }
 </style>
 
