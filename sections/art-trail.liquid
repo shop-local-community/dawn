@@ -64,11 +64,11 @@
       });
 
       // Adding a tile overlay
-      const tileOverlay = new mapkit.TileOverlay({
+      const tileOverlay = new mapkit.TileOverlay(undefinied, 'https://coulsdonpartnership.org/cdn/shop/files/Art-Trail-Map-{z}-{x}-{y}.png', {
         minimumZ: 0, // Minimum zoom level at which tiles are visible
         maximumZ: 18, // Maximum zoom level at which tiles are visible
         opacity: 0.8 // Adjust opacity of the overlay
-      }, 'https://coulsdonpartnership.org/cdn/shop/files/Art-Trail-Map-{z}-{x}-{y}.png');
+      });
 
       map.addTileOverlay(tileOverlay);
 
