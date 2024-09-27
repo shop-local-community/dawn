@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -33,7 +42,7 @@
     "custom_liquid_cDwhKz": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<div id=\"tripetto\"><\/div>\n<\/div>\n\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/runner\"><\/script>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/runner-autoscroll\"><\/script>\n<script src=\"https:\/\/cdn.jsdelivr.net\/npm\/@tripetto\/studio\"><\/script>\n<script>\nTripettoStudio.form({\n    runner: TripettoAutoscroll,\n    token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNi9QZHk5MlFabU9CMHpQV2RKcXYxbUFGRERtK1lrb09ybGcyb2EzTjIrYz0iLCJkZWZpbml0aW9uIjoiUzV1UE94MTBPOWRreTZxelFhN3RQeWxLSzkvTXVIaHhlMjl5bzhHdjVqQT0iLCJ0eXBlIjoiY29sbGVjdCJ9.U_LIG2Tko9QkSvAdK3xef_gUBKbhP_aXXxUbFVcdCg4\",\n    element: \"tripetto\",\n    pausable: true,\n    persistent: true\n});\n<\/script>",
+        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<div id=\"tripetto\"></div>\n</div>\n\n<script src=\"https://cdn.jsdelivr.net/npm/@tripetto/runner\"></script>\n<script src=\"https://cdn.jsdelivr.net/npm/@tripetto/runner-autoscroll\"></script>\n<script src=\"https://cdn.jsdelivr.net/npm/@tripetto/studio\"></script>\n<script>\nTripettoStudio.form({\n    runner: TripettoAutoscroll,\n    token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNi9QZHk5MlFabU9CMHpQV2RKcXYxbUFGRERtK1lrb09ybGcyb2EzTjIrYz0iLCJkZWZpbml0aW9uIjoiUzV1UE94MTBPOWRreTZxelFhN3RQeWxLSzkvTXVIaHhlMjl5bzhHdjVqQT0iLCJ0eXBlIjoiY29sbGVjdCJ9.U_LIG2Tko9QkSvAdK3xef_gUBKbhP_aXXxUbFVcdCg4\",\n    element: \"tripetto\",\n    pausable: true,\n    persistent: true\n});\n</script>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
@@ -43,7 +52,7 @@
       "type": "apps",
       "blocks": {
         "fc99fbc2-e12a-4f1a-9469-21c7dffbfc3d": {
-          "type": "shopify:\/\/apps\/acerill-appointment-booking\/blocks\/booking-form\/dccce24b-7a0f-4b47-bb37-4276d78e2bb5",
+          "type": "shopify://apps/acerill-appointment-booking/blocks/booking-form/dccce24b-7a0f-4b47-bb37-4276d78e2bb5",
           "settings": {
             "bookingFormId": "",
             "behavior": "standard",
@@ -58,10 +67,82 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "featured_product_Pacf6D": {
+      "type": "featured-product",
+      "blocks": {
+        "text_G3WUpg": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_TNJAYy": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_tCRxHw": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_NEE4gA": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_NH3xPW": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_CpPUy6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_mcy7xH": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_G3WUpg",
+        "title_TNJAYy",
+        "price_tCRxHw",
+        "variant_picker_NEE4gA",
+        "quantity_selector_NH3xPW",
+        "buy_buttons_CpPUy6",
+        "share_mcy7xH"
+      ],
+      "settings": {
+        "product": "yoga-classes",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 16,
+        "padding_bottom": 12
+      }
     }
   },
   "order": [
     "main",
+    "featured_product_Pacf6D",
     "rich_text_pUwg4r",
     "custom_liquid_cDwhKz",
     "1704726875d1ce386c"

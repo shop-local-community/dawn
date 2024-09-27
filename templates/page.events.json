@@ -29,7 +29,7 @@
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>CCP is thrilled to announce the launch of our new community initiative, funded from grants obtained to support our mission of enhancing community well-being through creative engagement.<\/p>",
+            "text": "<p>CCP is thrilled to announce the launch of our new community initiative, funded from grants obtained to support our mission of enhancing community well-being through creative engagement.</p>",
             "text_style": "body"
           }
         },
@@ -37,7 +37,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find Out More & Book",
-            "button_link": "shopify:\/\/products\/🎨-mindfulness-art-classes-at-abuela-play-cafe-🖌️",
+            "button_link": "shopify://products/🎨-mindfulness-art-classes-at-abuela-play-cafe-🖌️",
             "button_style_secondary": false
           }
         }
@@ -48,7 +48,7 @@
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Art_Class_Logo.png",
+        "image": "shopify://shop_images/Art_Class_Logo.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -76,7 +76,7 @@
         "text_4mpMyp": {
           "type": "text",
           "settings": {
-            "text": "<p>Get your favourite costume ready for a frightfully fun event! Come collect candies and treats whilst your travel the thrills you and chills along the trick-or-treat trail.<\/p><p>This year will you brave the perils of our town on Old Hallows Eve? Ghosts on Ghouls beware!<\/p><p>The trail has early daytime slots for little ones who need to get to bed earlier, starting at 3 pm. Then our usual nighttime haunt will be from 6-8 pm, make sure you book your time slot now.<\/p><p>Take part in the Trick or Treat Trail Halloween Market, Costume Contest, Food & Drink & More!<\/p><p>To become a Stall Holder at this event email team@cozyglow.co.uk<\/p>",
+            "text": "<p>Get your favourite costume ready for a frightfully fun event! Come collect candies and treats whilst your travel the thrills you and chills along the trick-or-treat trail.</p><p>This year will you brave the perils of our town on Old Hallows Eve? Ghosts on Ghouls beware!</p><p>The trail has early daytime slots for little ones who need to get to bed earlier, starting at 3 pm. Then our usual nighttime haunt will be from 6-8 pm, make sure you book your time slot now.</p><p>Take part in the Trick or Treat Trail Halloween Market, Costume Contest, Food & Drink & More!</p><p>To become a Stall Holder at this event email team@cozyglow.co.uk</p>",
             "text_style": "body"
           }
         },
@@ -84,7 +84,7 @@
           "type": "button",
           "settings": {
             "button_label": "Buy Your Tickets Now",
-            "button_link": "https:\/\/cozyglow.store\/pages\/events\/coulsdons-trick-or-treat",
+            "button_link": "https://cozyglow.store/pages/events/coulsdons-trick-or-treat",
             "button_style_secondary": false
           }
         }
@@ -95,7 +95,7 @@
         "button_9t4N4g"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Halloween_FB_Cover_Trick_or_Treat_Instagram_Post_Square_notoriousinkuk.png",
+        "image": "shopify://shop_images/Halloween_FB_Cover_Trick_or_Treat_Instagram_Post_Square_notoriousinkuk.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -123,7 +123,7 @@
         "text_RdqcBj": {
           "type": "text",
           "settings": {
-            "text": "<p>December 7th, 2024 11am-7pm<br\/>Brighton Road Coulsdon<\/p><p>Experience the Magic:<\/p><p><strong>Holiday Market<\/strong><\/p><p><strong>Santa's Grotto<\/strong><\/p><p><strong>Main Stage Entertainment <\/strong><\/p><p><strong>Sponsored By <\/strong><a href=\"https:\/\/www.surrey-scaffolding.co.uk\/\"><strong>Surrey Scaffolding<\/strong><\/a><\/p><p><strong>Funfair<\/strong><\/p><p><\/p><p><strong>Food Market<\/strong><\/p><p><strong>Seasonal Snowfall <\/strong><\/p><p>To book a stall at Coulsdon Yuletide Magic, become a sponsor or advertise<\/p><p>Please Contact : Ashley.Baruti-cooke@CoulsdonPartnership.org<\/p><p>For Stage Performance slots contact John@LeadingNote.co.uk<\/p>",
+            "text": "<p>December 7th, 2024 11am-7pm<br/>Brighton Road Coulsdon</p><p>Experience the Magic:</p><p><strong>Holiday Market</strong></p><p><strong>Santa's Grotto</strong></p><p><strong>Main Stage Entertainment </strong></p><p><strong>Sponsored By </strong><a href=\"https://www.surrey-scaffolding.co.uk/\"><strong>Surrey Scaffolding</strong></a></p><p><strong>Funfair</strong></p><p></p><p><strong>Food Market</strong></p><p><strong>Seasonal Snowfall </strong></p><p>To book a stall at Coulsdon Yuletide Magic, become a sponsor or advertise</p><p>Please Contact : Ashley.Baruti-cooke@CoulsdonPartnership.org</p><p>For Stage Performance slots contact John@LeadingNote.co.uk</p>",
             "text_style": "body"
           }
         },
@@ -131,7 +131,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find Out more",
-            "button_link": "https:\/\/coulsdonpartnership.org\/pages\/events\/coulsdon-yuletide-magic-2024",
+            "button_link": "https://coulsdonpartnership.org/pages/events/coulsdon-yuletide-magic-2024",
             "button_style_secondary": false
           }
         }
@@ -142,7 +142,7 @@
         "button_8k7bzD"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yuletide_Flyer_2024_148_x_210mm_Instagram_Post.png",
+        "image": "shopify://shop_images/Yuletide_Flyer_2024_148_x_210mm_Instagram_Post.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -163,14 +163,14 @@
         "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Free Community Yoga",
+            "heading": "Community Yoga",
             "heading_size": "h1"
           }
         },
         "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d": {
           "type": "text",
           "settings": {
-            "text": "<p>Experience serenity and strength with CCP's yoga classes, designed to nurture both body and mind. Whether you're a seasoned practitioner or new to yoga, our classes offer a welcoming environment for all levels. <\/p><p>Led by experienced instructors, each session focuses on enhancing flexibility, improving posture, and fostering inner calm through mindful movement and breath. <\/p>",
+            "text": "<p>Experience serenity and strength with CCP's yoga classes, designed to nurture both body and mind. Whether you're a seasoned practitioner or new to yoga, our classes offer a welcoming environment for all levels. </p><p>Led by experienced instructors, each session focuses on enhancing flexibility, improving posture, and fostering inner calm through mindful movement and breath. </p>",
             "text_style": "body"
           }
         },
@@ -178,7 +178,7 @@
           "type": "button",
           "settings": {
             "button_label": "Book Your Spot Now",
-            "button_link": "shopify:\/\/pages\/yoga-classes",
+            "button_link": "shopify://pages/yoga-classes",
             "button_style_secondary": false
           }
         }
@@ -189,7 +189,7 @@
         "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yoga_Poster_Sq_update.png",
+        "image": "shopify://shop_images/Yoga_Poster_Sq_update.png",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -217,7 +217,7 @@
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Join The Hive Community Garden to explore volunteering opportunities in gardening. <\/p><p>Located in the heart of Coulsdon behind the library, the Hive is a peaceful oasis where you can contribute to sustainable urban gardening practices. <\/p><p>Whether you're an experienced gardener or looking to learn, our program offers hands-on experience in nurturing plants and cultivating green spaces. <\/p><p>Embrace the chance to connect with nature, beautify our community, and foster a sense of belonging through shared gardening efforts.<\/p>",
+            "text": "<p>Join The Hive Community Garden to explore volunteering opportunities in gardening. </p><p>Located in the heart of Coulsdon behind the library, the Hive is a peaceful oasis where you can contribute to sustainable urban gardening practices. </p><p>Whether you're an experienced gardener or looking to learn, our program offers hands-on experience in nurturing plants and cultivating green spaces. </p><p>Embrace the chance to connect with nature, beautify our community, and foster a sense of belonging through shared gardening efforts.</p>",
             "text_style": "body"
           }
         },
@@ -225,7 +225,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find Out More",
-            "button_link": "shopify:\/\/metaobjects\/event\/coulsdon-yuletide-magic-2023",
+            "button_link": "shopify://metaobjects/event/coulsdon-yuletide-magic-2023",
             "button_style_secondary": false
           }
         }
@@ -236,7 +236,7 @@
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/The_Hive_Logo.png",
+        "image": "shopify://shop_images/The_Hive_Logo.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
