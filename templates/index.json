@@ -23,8 +23,9 @@
       "block_order": [
         "heading_YAmnW6"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Septembe_Cover.jpg",
+        "image": "shopify://shop_images/Septembe_Cover.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -58,7 +59,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Coulsdon_Easter_egg_hunt_by_Cozy_Glow_Website_banner.png",
+        "image": "shopify://shop_images/Coulsdon_Easter_egg_hunt_by_Cozy_Glow_Website_banner.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
@@ -78,11 +79,11 @@
           "type": "column",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Logo_cce6dd1d-d8bd-48e9-92c8-f6e44e2ec9e7.png",
+            "image": "shopify://shop_images/Logo_cce6dd1d-d8bd-48e9-92c8-f6e44e2ec9e7.png",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/metaobjects\/event\/coulsdon-yuletide-magic-2023"
+            "link": "shopify://metaobjects/event/coulsdon-yuletide-magic-2023"
           }
         }
       },
@@ -99,7 +100,7 @@
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "Get Your Tickets Now!",
-        "button_link": "shopify:\/\/metaobjects\/event\/coulsdon-yuletide-magic-2023",
+        "button_link": "shopify://metaobjects/event/coulsdon-yuletide-magic-2023",
         "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -110,7 +111,7 @@
     "94807e82-9ae7-40d4-97aa-beb5bf53a035": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<center> <script id=\"jgGive\" data-charity=\"3420033\" data-env=\"https:\/\/www.justgiving.com\" src=\"https:\/\/www.justgiving.com\/bundles\/js\/givewidgetloader.js\" data-width=\"330\"><\/script>",
+        "custom_liquid": "<center> <script id=\"jgGive\" data-charity=\"3420033\" data-env=\"https://www.justgiving.com\" src=\"https://www.justgiving.com/bundles/js/givewidgetloader.js\" data-width=\"330\"></script>",
         "color_scheme": "background-2",
         "padding_top": 4,
         "padding_bottom": 4
