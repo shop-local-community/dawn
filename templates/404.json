@@ -18,22 +18,6 @@
       "settings": {
       }
     },
-    "3a6de499-739f-494d-9080-253010dee226": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/Logo.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "image_with_text_BynC4X": {
       "type": "image-with-text",
       "blocks": {
@@ -66,7 +50,7 @@
         "button_3kEKLF"
       ],
       "settings": {
-        "image": "shopify://shop_images/Halloween_Market_Post_-2.png",
+        "image": "shopify://shop_images/halloween_Vertical.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,6 +63,22 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "3a6de499-739f-494d-9080-253010dee226": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Logo.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "731b533d-e113-4db0-803b-bf33f70cf128": {
