@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -12,7 +21,7 @@
     "3a6de499-739f-494d-9080-253010dee226": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Logo.jpg",
+        "image": "shopify://shop_images/Logo.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -38,7 +47,7 @@
         "template--20537374867755__731b533d-e113-4db0-803b-bf33f70cf128-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>December 2nd, 2023 11am-7pm<br\/>Brighton Road Coulsdon<\/p><p>We are thrilled to invite you to a heartwarming celebration of the holiday season at Coulsdon Yuletide Magic, made possible by our generous sponsor, <a href=\"https:\/\/www.kia.com\/uk\/dealers\/group1coulsdon\/?cmpid=ppc%7c2272%7CUK%7CEN%7CGO%7CGroup+1+(Coulsdon)%7cgoogle%7ce%7ckia+Coulsdon&gclid=EAIaIQobChMIzvjtp8_ZgQMVSuTtCh2D-Au1EAAYASAAEgIiq_D_BwE&gclsrc=aw.ds\" target=\"_blank\" title=\"Auto 1 Kia Coulsdon Sponsor of our Christmas Event\">KIA Coulsdon<\/a>. <\/p><p>Experience the Magic: <a href=\"https:\/\/www.woodsjewellers.co.uk\/\" target=\"_blank\" title=\"Chistmas Market Surrey and Coulsdon Sponsored by Woods Jewllers \">Woods <br\/>Jewellers<\/a> Holiday Market: Stroll through our enchanting holiday market, where local artisans and vendors showcase their unique gifts and treats.<br\/>Find that perfect something special for your loved ones or yourself. <\/p><p>Santa's Grotto: Bring your little ones to meet Santa Claus himself in his <br\/>magical grotto. Capture the joy and wonder on their faces as they share <br\/>their holiday wishes with the man in red. Sponsored by <a href=\"https:\/\/hallwaysproperty.uk\/\" target=\"_blank\" title=\"https:\/\/hallwaysproperty.uk\/\">Hallways Estate Agents<\/a><br\/>Get Your Tickets Below <\/p><p>Main Stage Entertainment: Enjoy live performances on our main stage that <br\/>will fill the air with holiday cheer. From carolers to dance troupes, <br\/>our stage will keep your toes tapping and your heart singing. Sponsored by <a href=\"https:\/\/www.surrey-scaffolding.co.uk\/\" target=\"_blank\" title=\"https:\/\/www.surrey-scaffolding.co.uk\/\">Surrey Scaffolding<\/a><\/p><p>Funfair: Thrill-seekers, don't miss our funfair! Lights, laughter, and rides for all ages will make this a night to remember.<\/p><p>Food Market: Satisfy your taste buds with a mouthwatering array of culinary delights at our food market. From savory to sweet, we have something to satisfy every craving.<\/p><p>Thank You, KIA Coulsdon and all of our genres sponsors We would like to extend our heartfelt gratitude to our sponsor, KIA Coulsdon, for their generous support in making this event possible. <br\/>Their commitment to our community has truly brought the magic of the <br\/>season to life.<\/p><p>To book a stall at Coulsdon Yuletide Magic, become a sponsor or advertise<\/p><p>Please Contact : Ashley.Baruti-cooke@CoulsdonPartnership.org<\/p><p>For Stage Performance slots contact John@LeadingNote.co.uk<\/p>"
+            "text": "<h2>Welcome to Coulsdon Yuletide Magic - A Festive Celebration!</h2><p>Starts at Dec 7, 2024, 11:00 am to Dec 7, 2024, 7:00 pm</p><p>December 7th, 2024 11am-7pm<br/>Brighton Road Coulsdon</p><p>Experience the Magic:</p><h2>Holiday Market: </h2><p>Stroll through our enchanting holiday market, located at Brighton Road, the heart of Coulsdon where local artisans and vendors showcase their unique gifts and treats.<br/>Find that perfect something special for your loved ones or yourself. </p><h2><strong>Santa's Grotto at The Coulsdon Club:</strong> </h2><p>Bring your little ones to meet Santa Claus himself in his<br/>magical grotto. Capture the joy and wonder on their faces as they share<br/>their holiday wishes with the man in red.</p><p>Get Your Tickets Below</p><p>To find Santa, head to the Coulsdon Club at 194 Brighton Road, Coulsdon, CR5 2NF. It's a delightful spot where festive cheer awaits! Have a wonderful time!</p><p>Main Stage Entertainment : Enjoy live performances on our main stage that<br/>will fill the air with holiday cheer. From caro<strong>ll</strong>ers to dance troupes,<br/>our stage will keep your toes tapping and your heart singing.</p><p>Sponsored By <a href=\"https://www.surrey-scaffolding.co.uk/\">Surrey Scaffolding</a></p><p>Funfair: Thrill-seekers, don't miss our funfair! Lights, laughter, and rides for all ages will make this a night to remember, new for this year our Helter-Skelter.</p><p>Food Market: Satisfy your taste buds with a mouthwatering array of culinary<br/>delights at our food market. From savoury to sweet, we have something to<br/>satisfy every craving.</p><p>First Aid Sponsor:</p><p>We would like to extend our heartfelt gratitude to our sponsor, KIA Coulsdon, for their generous support in making this event possible as our platinum sponsor.<br/>Their commitment to our community has truly brought the magic of the<br/>season to life.</p><p>To book a stall at Coulsdon Yuletide Magic, become a sponsor or advertise</p><p>Please Contact : Ashley.Baruti-cooke@CoulsdonPartnership.org</p><p>Here are the details for your market stall:</p><p>- Date: December 7th, 2024</p><p>- Time: 10 AM to 7 PM</p><p>- Location: Brighton Road, Coulsdon, CR5 2NE, United Kingdom</p><p>Why should you join us?</p><p>- Affordable rates for stalls: £60 stalls and £100 for Food stalls.</p><p>- Exposure to a lively local community.</p><p>- Contribution to the success of community events on our vibrant high street throughout the year.</p><p>For Stage Performance slots contact John@LeadingNote.co.uk</p>"
           }
         },
         "template--20537374867755__731b533d-e113-4db0-803b-bf33f70cf128-button-1": {
@@ -91,13 +100,75 @@
         "padding_bottom": 12
       }
     },
-    "bedcad86-d624-45fb-a766-04858028d571": {
-      "type": "custom-liquid",
+    "featured_product_8QE7qd": {
+      "type": "featured-product",
+      "blocks": {
+        "text_BJPKkz": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_LkjWEj": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_eJwzXJ": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_eh6dWW": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_Y7Jdfb": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_RE3MVX": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_a3xkLn": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_BJPKkz",
+        "title_LkjWEj",
+        "price_eJwzXJ",
+        "variant_picker_eh6dWW",
+        "quantity_selector_Y7Jdfb",
+        "buy_buttons_RE3MVX",
+        "share_a3xkLn"
+      ],
       "settings": {
-        "custom_liquid": "<div id=\"eventbrite-widget-container-528334842737\"><\/div>\n\n<script src=\"https:\/\/www.eventbrite.co.uk\/static\/widgets\/eb_widgets.js\"><\/script>\n\n<script type=\"text\/javascript\">\n    var exampleCallback = function() {\n        console.log('Order complete!');\n    };\n\n    window.EBWidgets.createWidget({\n        \/\/ Required\n        widgetType: 'checkout',\n        eventId: '528334842737',\n        iframeContainerId: 'eventbrite-widget-container-528334842737',\n\n        \/\/ Optional\n        iframeContainerHeight: 425,  \/\/ Widget height in pixels. Defaults to a minimum of 425px if not provided\n        onOrderComplete: exampleCallback  \/\/ Method called when an order has successfully completed\n    });\n<\/script>",
+        "product": "santas-grotto-ticket",
         "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "padding_top": 16,
-        "padding_bottom": 16
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -106,6 +177,6 @@
     "3a6de499-739f-494d-9080-253010dee226",
     "731b533d-e113-4db0-803b-bf33f70cf128",
     "b37c2d62-bba5-438a-b0d7-e76e82084e62",
-    "bedcad86-d624-45fb-a766-04858028d571"
+    "featured_product_8QE7qd"
   ]
 }
