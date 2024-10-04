@@ -170,6 +170,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_BynC4X": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YNzNfB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coulsdon's Trick or Treat Ticket",
+            "heading_size": "h1"
+          }
+        },
+        "text_gNB4Tc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This year let's get spooky don your favourite costume ready for a frightfully fun event!</p><p>This Halloween is bigger and bolder than any in the past, come join us for a bone-chilling Halloween trail full of spooks and surprises! (all family friendly)</p><p>Come collect candies and treats whilst you travel the town with thrills and chills along the trick-or-treat trail.</p><p>This year will you brave the perils of our town on old hallows eve? Ghosts on Ghouls beware!</p><ul><li>Trick or Treat Trail, Start and Finish at Cozy Glow</li><li>Food Trucks & Drinks Available (Crepes, Pulled Meats, German Sausages, Hot Chocolate & Artisan Coffee)  </li><li>Street Market with Cakes, and jewellery. </li><li>Extended Street Theming!</li><li>& Much More!</li></ul><p>Start at Cozy Glow and your journey begins with the spell-bound map provided.</p><p><strong>Children should be accompanied by at least one adult ticket.</strong></p><p><strong>Businesses Taking Part</strong></p><p>Cozy Glow</p><p>The Hive Community Garden (behind the library) </p><p>Advanced Print</p><p>Bliss Cafe</p><p>Coulsdon Home Hardware (3-6pm)</p><p>Coulsdon Tattoos</p><p>Ben Taylor  (The Labour Party office) </p><p>Waitrose Cousldon</p>",
+            "text_style": "body"
+          }
+        },
+        "button_3kEKLF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Your Tickets Here",
+            "button_link": "https://cozyglow.store/products/coulsdons-trick-or-treat-ticket",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YNzNfB",
+        "text_gNB4Tc",
+        "button_3kEKLF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Halloween_Market_Post_-2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-2",
+        "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -177,6 +224,7 @@
     "3a6de499-739f-494d-9080-253010dee226",
     "731b533d-e113-4db0-803b-bf33f70cf128",
     "b37c2d62-bba5-438a-b0d7-e76e82084e62",
-    "featured_product_8QE7qd"
+    "featured_product_8QE7qd",
+    "image_with_text_BynC4X"
   ]
 }
