@@ -24,13 +24,13 @@
         "heading_YAmnW6"
       ],
       "settings": {
-        "image": "shopify://shop_images/Halloween_FB_Cover_24-2.png",
+        "image": "shopify://shop_images/Yuletide_Flyer_2023_148_x_210mm_Facebook_Cover.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "accent-2",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,

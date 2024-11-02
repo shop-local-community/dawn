@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -94,6 +94,7 @@
         "text_4mpMyp",
         "button_9t4N4g"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Halloween_FB_Cover_Trick_or_Treat_Instagram_Post_Square_notoriousinkuk.png",
         "height": "adapt",
@@ -254,9 +255,9 @@
   },
   "order": [
     "main",
+    "image_with_text_nVNeD6",
     "24259923-70b0-49e9-8e54-73f776910d78",
     "image_with_text_nqVRBm",
-    "image_with_text_nVNeD6",
     "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220",
     "cda48985-57af-470d-8bf2-189e90443d23"
   ]
