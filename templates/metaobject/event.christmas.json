@@ -1,17 +1,26 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "de089f90-b8cc-40cf-bd2b-6dab1128b9fc": {
       "type": "multicolumn",
       "blocks": {
+        "column_YACegD": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "template--21375543214379__de089f90-b8cc-40cf-bd2b-6dab1128b9fc-column-2": {
           "type": "column",
           "settings": {
@@ -19,11 +28,12 @@
             "title": "",
             "text": "",
             "link_label": "Grotto Tickets",
-            "link": "#eventbrite-widget-container"
+            "link": "shopify://products/santas-grotto-ticket"
           }
         }
       },
       "block_order": [
+        "column_YACegD",
         "template--21375543214379__de089f90-b8cc-40cf-bd2b-6dab1128b9fc-column-2"
       ],
       "settings": {
@@ -57,7 +67,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
         "template--21375543214379__d3c25f90-5bfb-48a0-8053-84c6b9e48736-button-1": {
@@ -122,7 +132,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Santa_s_Grotto_Logo_515b8bcc-064d-4114-894a-55324c9cfcef.png",
+        "image": "shopify://shop_images/Santa_s_Grotto_Logo_515b8bcc-064d-4114-894a-55324c9cfcef.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -142,7 +152,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>To find Santa, head to the Coulsdon Club at 194 Brighton Road, Coulsdon, CR5 2NF. It's a delightful spot where festive cheer awaits!  Have a wonderful time! <\/p>"
+            "text": "<p>To find Santa, head to the Coulsdon Club at 194 Brighton Road, Coulsdon, CR5 2NF. It's a delightful spot where festive cheer awaits!  Have a wonderful time! </p>"
           }
         }
       },
@@ -177,19 +187,18 @@
         },
         "price_cKNnFt": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_WnVGB7": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "quantity_selector_w7hVYn": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_kjKK7y": {
           "type": "buy_buttons",
