@@ -26,26 +26,18 @@
         "show_text_below": true
       }
     },
-    "main": {
-      "type": "main-page",
-      "custom_css": [],
-      "settings": {
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
     "ab977d87-d782-4cb8-ba79-1cc178004406": {
       "type": "featured-collection",
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "donations",
         "products_to_show": 25,
         "columns_desktop": 5,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
@@ -58,6 +50,15 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "custom_liquid_MYEgxg": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<center> <script id=\"jgGive\" data-charity=\"3420033\" data-env=\"https://www.justgiving.com\" src=\"https://www.justgiving.com/bundles/js/givewidgetloader.js\" data-width=\"330\"></script>",
+        "color_scheme": "background-2",
         "padding_top": 12,
         "padding_bottom": 12
       }
@@ -130,6 +131,14 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [],
+      "settings": {
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "slideshow_Gb83XB": {
@@ -222,15 +231,6 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
-      }
-    },
-    "custom_liquid_MYEgxg": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<center> <script id=\"jgGive\" data-charity=\"3420033\" data-env=\"https://www.justgiving.com\" src=\"https://www.justgiving.com/bundles/js/givewidgetloader.js\" data-width=\"330\"></script>",
-        "color_scheme": "background-2",
-        "padding_top": 12,
-        "padding_bottom": 12
       }
     }
   },
