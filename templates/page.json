@@ -1,19 +1,19 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_dMPxa7": {
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design-2.png",
+        "image": "shopify://shop_images/Untitled_design-2.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -28,10 +28,36 @@
     },
     "main": {
       "type": "main-page",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "ab977d87-d782-4cb8-ba79-1cc178004406": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "donations",
+        "products_to_show": 25,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "square",
+        "image_shape": "round",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 12,
         "padding_bottom": 12
       }
@@ -54,19 +80,18 @@
         },
         "price_Wat8dV": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_XVV9Dg": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "quantity_selector_6Mn7NE": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_mk78Cf": {
           "type": "buy_buttons",
@@ -113,7 +138,7 @@
         "slide_8mwGfy": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-07-25_at_20.58.15.png",
+            "image": "shopify://shop_images/WhatsApp_Image_2024-07-25_at_20.58.15.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -131,7 +156,7 @@
         "slide_Ych7Vm": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-07-14_at_18.45.44.png",
+            "image": "shopify://shop_images/WhatsApp_Image_2024-07-14_at_18.45.44.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -149,7 +174,7 @@
         "slide_nBDkax": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2024-07-25_at_20.58.19.png",
+            "image": "shopify://shop_images/WhatsApp_Image_2024-07-25_at_20.58.19.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -186,7 +211,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Coulsdon_Art_sessions_4.png",
+        "image": "shopify://shop_images/Coulsdon_Art_sessions_4.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -202,36 +227,8 @@
     "custom_liquid_MYEgxg": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<center> <script id=\"jgGive\" data-charity=\"3420033\" data-env=\"https:\/\/www.justgiving.com\" src=\"https:\/\/www.justgiving.com\/bundles\/js\/givewidgetloader.js\" data-width=\"330\"><\/script>",
+        "custom_liquid": "<center> <script id=\"jgGive\" data-charity=\"3420033\" data-env=\"https://www.justgiving.com\" src=\"https://www.justgiving.com/bundles/js/givewidgetloader.js\" data-width=\"330\"></script>",
         "color_scheme": "background-2",
-        "padding_top": 12,
-        "padding_bottom": 12
-      }
-    },
-    "ab977d87-d782-4cb8-ba79-1cc178004406": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "donations",
-        "products_to_show": 25,
-        "columns_desktop": 5,
-        "full_width": true,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "",
-        "image_ratio": "square",
-        "image_shape": "round",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
         "padding_top": 12,
         "padding_bottom": 12
       }
@@ -239,11 +236,11 @@
   },
   "order": [
     "image_banner_dMPxa7",
-    "main",
-    "featured_product_xgdXKm",
-    "slideshow_Gb83XB",
-    "image_banner_kgFWkJ",
+    "ab977d87-d782-4cb8-ba79-1cc178004406",
     "custom_liquid_MYEgxg",
-    "ab977d87-d782-4cb8-ba79-1cc178004406"
+    "featured_product_xgdXKm",
+    "main",
+    "slideshow_Gb83XB",
+    "image_banner_kgFWkJ"
   ]
 }
