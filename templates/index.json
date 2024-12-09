@@ -11,6 +11,7 @@
   "sections": {
     "image_banner_CJrrPz": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Yuletide_Flyer_2023_148_x_210mm_Facebook_Cover_-2.png",
         "image_overlay_opacity": 0,
@@ -43,6 +44,7 @@
       "block_order": [
         "button_BpmdQA"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
