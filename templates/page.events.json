@@ -22,8 +22,8 @@
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "🎨 Mindfulness Art Classes at Abuela Play Cafe 🖌️",
-            "heading_size": "h2"
+            "heading": "Mindfulness Art Classes",
+            "heading_size": "h1"
           }
         },
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1": {
@@ -48,7 +48,7 @@
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1"
       ],
       "settings": {
-        "image": "shopify://shop_images/Art_Class_Logo.png",
+        "image": "shopify://shop_images/Art_Next_Class-6.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -61,6 +61,100 @@
         "mobile_content_alignment": "left",
         "padding_top": 12,
         "padding_bottom": 12
+      }
+    },
+    "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Community Yoga",
+            "heading_size": "h1"
+          }
+        },
+        "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Experience serenity and strength with CCP's yoga classes, designed to nurture both body and mind. Whether you're a seasoned practitioner or new to yoga, our classes offer a welcoming environment for all levels. </p><p>Led by experienced instructors, each session focuses on enhancing flexibility, improving posture, and fostering inner calm through mindful movement and breath. </p>",
+            "text_style": "body"
+          }
+        },
+        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Your Spot Now",
+            "button_link": "shopify://pages/yoga-classes",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1",
+        "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d",
+        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Yoga_Poster_Sq_update.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 4,
+        "padding_bottom": 8
+      }
+    },
+    "cda48985-57af-470d-8bf2-189e90443d23": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Hive Community Garden",
+            "heading_size": "h1"
+          }
+        },
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join The Hive Community Garden to explore volunteering opportunities in gardening. </p><p>Located in the heart of Coulsdon behind the library, the Hive is a peaceful oasis where you can contribute to sustainable urban gardening practices. </p><p>Whether you're an experienced gardener or looking to learn, our program offers hands-on experience in nurturing plants and cultivating green spaces. </p><p>Embrace the chance to connect with nature, beautify our community, and foster a sense of belonging through shared gardening efforts.</p>",
+            "text_style": "body"
+          }
+        },
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Out More",
+            "button_link": "shopify://metaobjects/event/coulsdon-yuletide-magic-2023",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-heading-1",
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1",
+        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/The_Hive_Logo.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_nVNeD6": {
@@ -152,100 +246,6 @@
         "content_layout": "no-overlap",
         "section_color_scheme": "accent-2",
         "color_scheme": "accent-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Community Yoga",
-            "heading_size": "h1"
-          }
-        },
-        "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Experience serenity and strength with CCP's yoga classes, designed to nurture both body and mind. Whether you're a seasoned practitioner or new to yoga, our classes offer a welcoming environment for all levels. </p><p>Led by experienced instructors, each session focuses on enhancing flexibility, improving posture, and fostering inner calm through mindful movement and breath. </p>",
-            "text_style": "body"
-          }
-        },
-        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Book Your Spot Now",
-            "button_link": "shopify://pages/yoga-classes",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1",
-        "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d",
-        "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Yoga_Poster_Sq_update.png",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 4,
-        "padding_bottom": 8
-      }
-    },
-    "cda48985-57af-470d-8bf2-189e90443d23": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "The Hive Community Garden",
-            "heading_size": "h1"
-          }
-        },
-        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Join The Hive Community Garden to explore volunteering opportunities in gardening. </p><p>Located in the heart of Coulsdon behind the library, the Hive is a peaceful oasis where you can contribute to sustainable urban gardening practices. </p><p>Whether you're an experienced gardener or looking to learn, our program offers hands-on experience in nurturing plants and cultivating green spaces. </p><p>Embrace the chance to connect with nature, beautify our community, and foster a sense of belonging through shared gardening efforts.</p>",
-            "text_style": "body"
-          }
-        },
-        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Find Out More",
-            "button_link": "shopify://metaobjects/event/coulsdon-yuletide-magic-2023",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-heading-1",
-        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1",
-        "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/The_Hive_Logo.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "accent-1",
-        "color_scheme": "accent-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
