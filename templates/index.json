@@ -11,6 +11,7 @@
   "sections": {
     "image_banner_CJrrPz": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/xmas_thank_you.png",
         "image_overlay_opacity": 0,
