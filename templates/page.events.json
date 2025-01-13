@@ -37,7 +37,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find Out More & Book",
-            "button_link": "shopify://products/🎨-mindfulness-art-classes-at-abuela-play-cafe-🖌️",
+            "button_link": "shopify://products/mindfulness-art-classes",
             "button_style_secondary": false
           }
         }
