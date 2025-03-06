@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_XLXX7B": {
@@ -30,7 +30,7 @@
         "text_dib7y8": {
           "type": "text",
           "settings": {
-            "text": "<p>Explore the vibrant streets of Coulsdon through our interactive art trail, designed to guide you through the town's rich history, cultural heritage, and local artistry. Each stop on this trail features unique artworks that tell a story, offer a glimpse into the past, or inspire the future. Whether you’re a local resident or a visitor, this trail is your gateway to discovering the hidden gems of Coulsdon.<\/p>"
+            "text": "<p>Explore the vibrant streets of Coulsdon through our interactive art trail, designed to guide you through the town's rich history, cultural heritage, and local artistry. Each stop on this trail features unique artworks that tell a story, offer a glimpse into the past, or inspire the future. Whether you’re a local resident or a visitor, this trail is your gateway to discovering the hidden gems of Coulsdon.</p>"
           }
         }
       },
@@ -39,6 +39,7 @@
         "caption_wHXQmy",
         "text_dib7y8"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -46,6 +47,80 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "slideshow_cqPdmU": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_qTyYGi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Coulsdon_History_Trail.png",
+            "heading": "",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_YreMhR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Coulsdon_History_Trail-2.png",
+            "heading": "",
+            "heading_size": "hxl",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_jjChyU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Coulsdon_History_Trail-3.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_qTyYGi",
+        "slide_YreMhR",
+        "slide_jjChyU"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "rich_text_wdRXdE": {
@@ -61,7 +136,7 @@
         "text_HfbmUQ": {
           "type": "text",
           "settings": {
-            "text": "<p>Use our interactive map to navigate the trail. Simply click on the sign locations to learn more about each artwork, including the artist's inspiration and the story behind the piece.<\/p>"
+            "text": "<p>Use our interactive map to navigate the trail. Simply click on the sign locations to learn more about each artwork, including the artist's inspiration and the story behind the piece.</p>"
           }
         }
       },
@@ -83,7 +158,7 @@
       "type": "art-trail",
       "settings": {
         "color_scheme": "background-2",
-        "map_tint_color": "#9E185D",
+        "map_tint_color": "#9e185d",
         "mapkit_js_token": "eyJraWQiOiI3SjVTWEg5VjI0IiwidHlwIjoiSldUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiIzNFdVS1FCWFhIIiwiaWF0IjoxNzIzNDE2NDQ4LCJvcmlnaW4iOiJjb3Vsc2RvbnBhcnRuZXJzaGlwLm9yZyJ9.gyRL0cZt5czLMczBCb8zgJECAC6Xs01tAIJR_SVv8-VreqZpddA1gyk0WPQAdezehLtZsvqYfztEuF2i-0OC1Q",
         "map_color_scheme": "Hybrid",
         "poi_filter_parks": true,
@@ -103,7 +178,7 @@
         "text_xWdfrn": {
           "type": "text",
           "settings": {
-            "text": "<p>Walking is a great way to stay healthy and active. Here are some quick tips to help you make the most of your journey:<\/p>"
+            "text": "<p>Walking is a great way to stay healthy and active. Here are some quick tips to help you make the most of your journey:</p>"
           }
         }
       },
@@ -127,7 +202,7 @@
           "type": "column",
           "settings": {
             "title": "Stay Hydrated",
-            "text": "<p>Bring a water bottle to keep yourself hydrated.<\/p>",
+            "text": "<p>Bring a water bottle to keep yourself hydrated.</p>",
             "link_label": "",
             "link": ""
           }
@@ -136,7 +211,7 @@
           "type": "column",
           "settings": {
             "title": "Wear Comfortable Shoes",
-            "text": "<p>Ensure your shoes are suitable for walking and provide adequate support.<\/p>",
+            "text": "<p>Ensure your shoes are suitable for walking and provide adequate support.</p>",
             "link_label": "",
             "link": ""
           }
@@ -145,7 +220,7 @@
           "type": "column",
           "settings": {
             "title": "Sun Protection",
-            "text": "<p>Don’t forget to apply sunscreen and wear a hat if it’s sunny.<\/p>",
+            "text": "<p>Don’t forget to apply sunscreen and wear a hat if it’s sunny.</p>",
             "link_label": "",
             "link": ""
           }
@@ -154,7 +229,7 @@
           "type": "column",
           "settings": {
             "title": "Take Breaks",
-            "text": "<p>Feel free to rest at any of the stops along the trail. There are benches available for you to sit and enjoy the surroundings.<\/p>",
+            "text": "<p>Feel free to rest at any of the stops along the trail. There are benches available for you to sit and enjoy the surroundings.</p>",
             "link_label": "",
             "link": ""
           }
@@ -204,7 +279,7 @@
         "text_ArKPcH": {
           "type": "text",
           "settings": {
-            "text": "<p>Consider supporting local artists and the Coulsdon Community Partnership.<\/p>"
+            "text": "<p>Consider supporting local artists and the Coulsdon Community Partnership.</p>"
           }
         }
       },
@@ -225,134 +300,8 @@
     "custom_liquid_MYEgxg": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<center> <script id=\"jgGive\" data-charity=\"3420033\" data-env=\"https:\/\/www.justgiving.com\" src=\"https:\/\/www.justgiving.com\/bundles\/js\/givewidgetloader.js\" data-width=\"330\"><\/script>",
+        "custom_liquid": "<center> <script id=\"jgGive\" data-charity=\"3420033\" data-env=\"https://www.justgiving.com\" src=\"https://www.justgiving.com/bundles/js/givewidgetloader.js\" data-width=\"330\"></script>",
         "color_scheme": "background-2",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "newsletter_8cN7JW": {
-      "type": "newsletter",
-      "blocks": {
-        "heading_L3REtW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stay Updated on the Art Trail",
-            "heading_size": "h1"
-          }
-        },
-        "paragraph_FbLKm6": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Don’t miss out on the latest news and updates about the Coulsdon Art Trail! Sign up for our newsletter to receive exclusive content, event announcements, and special offers directly in your inbox.<\/p>"
-          }
-        },
-        "email_form_C6epJK": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "heading_L3REtW",
-        "paragraph_FbLKm6",
-        "email_form_C6epJK"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "multicolumn_a6k4cQ": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_BVXtD7": {
-          "type": "column",
-          "settings": {
-            "title": "Exclusive Updates",
-            "text": "<p>Be the first to know about new installations and events.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_DihKpt": {
-          "type": "column",
-          "settings": {
-            "title": "Special Offers",
-            "text": "<p>Receive discounts and special deals from local businesses.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_wYBxUN": {
-          "type": "column",
-          "settings": {
-            "title": "Community News",
-            "text": "<p>Stay connected with the Coulsdon art scene and its vibrant community.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_BVXtD7",
-        "column_DihKpt",
-        "column_wYBxUN"
-      ],
-      "settings": {
-        "title": "Why Subscribe?",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_EqRg4W": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_TBeTgV": {
-          "type": "heading",
-          "settings": {
-            "heading": "Share Your Experience",
-            "heading_size": "h1"
-          }
-        },
-        "caption_aHixkf": {
-          "type": "caption",
-          "settings": {
-            "caption": "We’d love to hear about your experience on the trail!",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "text_XKVrqL": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Use the hashtag #CoulsdonArtTrail to share your photos and stories on social media.<\/p><p>Your feedback helps us improve and grow this community initiative.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_TBeTgV",
-        "caption_aHixkf",
-        "text_XKVrqL"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -360,9 +309,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "padding_top": 12,
         "padding_bottom": 12
@@ -399,15 +346,13 @@
   },
   "order": [
     "rich_text_XLXX7B",
+    "slideshow_cqPdmU",
     "rich_text_wdRXdE",
     "art_trail_wFxNUf",
     "rich_text_PKQDk3",
     "multicolumn_AApkaW",
     "rich_text_qhXbRn",
     "custom_liquid_MYEgxg",
-    "newsletter_8cN7JW",
-    "multicolumn_a6k4cQ",
-    "rich_text_EqRg4W",
     "main",
     "ab977d87-d782-4cb8-ba79-1cc178004406"
   ]
