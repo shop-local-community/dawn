@@ -110,13 +110,60 @@
         "padding_bottom": 12
       }
     },
+    "image_with_text_bUwdDq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6MdWHM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Community Yoga at Fine Toad (Central Coulsdon)",
+            "heading_size": "h1"
+          }
+        },
+        "text_b4kgPi": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Find your balance with CCP’s yoga classes!</strong> Led by experienced instructor Kate, these sessions are designed for all levels, helping to improve flexibility, posture, and inner calm. Fully funded until the end of May</p>",
+            "text_style": "body"
+          }
+        },
+        "button_meWkQR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Your Space Now",
+            "button_link": "shopify://products/yoga-classes-fine-toad",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6MdWHM",
+        "text_b4kgPi",
+        "button_meWkQR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/YogaClassesFineToad.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220": {
       "type": "image-with-text",
       "blocks": {
         "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Community Yoga",
+            "heading": "Community Yoga at Tollers",
             "heading_size": "h1"
           }
         },
@@ -332,6 +379,7 @@
   "order": [
     "main",
     "image_with_text_jNthEi",
+    "image_with_text_bUwdDq",
     "24259923-70b0-49e9-8e54-73f776910d78",
     "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220",
     "cda48985-57af-470d-8bf2-189e90443d23",
