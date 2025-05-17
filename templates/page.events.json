@@ -376,6 +376,54 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "image_with_text_3jKxjx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QTDEkK": {
+          "type": "heading",
+          "settings": {
+            "heading": "🌼 Hanging Basket Masterclass – One-Day Special Workshop 🌼",
+            "heading_size": "h1"
+          }
+        },
+        "text_qeYfaC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join expert horticulturist <strong>Tanya</strong> for an exclusive one-off <strong>Hanging Basket Masterclass</strong> in support of Coulsdon Community Partnership and The Hive.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Cd4gfR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Book Your Space",
+            "button_link": "shopify://products/hanging-basket-masterclass-one-day-special-workshop",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QTDEkK",
+        "text_qeYfaC",
+        "button_Cd4gfR"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Hanging_Basket_Masterclass.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -387,6 +435,7 @@
     "cda48985-57af-470d-8bf2-189e90443d23",
     "image_with_text_nVNeD6",
     "image_with_text_nqVRBm",
-    "1739804558c0bfc93d"
+    "1739804558c0bfc93d",
+    "image_with_text_3jKxjx"
   ]
 }
