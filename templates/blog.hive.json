@@ -1,9 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_yTdH6k": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Welcome_to_The_Hive_Community_Garden_Banner-3.png",
+        "image": "shopify://shop_images/Welcome_to_The_Hive_Community_Garden_Banner-3.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -27,10 +36,82 @@
         "padding_top": 8,
         "padding_bottom": 8
       }
+    },
+    "featured_product_PVnw37": {
+      "type": "featured-product",
+      "blocks": {
+        "text_iceYyY": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_byfG4J": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_6E4nNJ": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_tAkcWW": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_A9x6Gd": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_Mb67Bp": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_DeD4QJ": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_iceYyY",
+        "title_byfG4J",
+        "price_6E4nNJ",
+        "variant_picker_tAkcWW",
+        "quantity_selector_A9x6Gd",
+        "buy_buttons_Mb67Bp",
+        "share_DeD4QJ"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "hanging-basket-masterclass-one-day-special-workshop",
+        "color_scheme": "accent-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner_yTdH6k",
+    "featured_product_PVnw37",
     "main"
   ]
 }
