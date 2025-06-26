@@ -190,7 +190,7 @@
       "name": "t:sections.featured-product.presets.name",
       "settings": {
         "product": "open-air-art-workshop-the-hive",
-        "color_scheme": "inverse",
+        "color_scheme": "accent-1",
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
