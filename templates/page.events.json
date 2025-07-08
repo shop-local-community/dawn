@@ -258,14 +258,14 @@
         "heading_jehqgp": {
           "type": "heading",
           "settings": {
-            "heading": "Coulsdon Yuletide Magic 2024",
+            "heading": "Coulsdon Yuletide Magic 2025",
             "heading_size": "h1"
           }
         },
         "text_RdqcBj": {
           "type": "text",
           "settings": {
-            "text": "<p>December 7th, 2024 11am-7pm<br/>Brighton Road Coulsdon</p><p>Experience the Magic:</p><p><strong>Holiday Market</strong></p><p><strong>Santa's Grotto</strong></p><p><strong>Main Stage Entertainment </strong></p><p><strong>Sponsored By </strong><a href=\"https://www.surrey-scaffolding.co.uk/\"><strong>Surrey Scaffolding</strong></a></p><p><strong>Funfair</strong></p><p></p><p><strong>Food Market</strong></p><p><strong>Seasonal Snowfall </strong></p><p>To book a stall at Coulsdon Yuletide Magic, become a sponsor or advertise</p><p>Please Contact : Ashley.Baruti-cooke@CoulsdonPartnership.org</p><p>For Stage Performance slots contact John@LeadingNote.co.uk</p>",
+            "text": "<p>December 6th, 2024 11am-7pm<br/>Brighton Road Coulsdon</p><p>Experience the Magic:</p><p><strong>Holiday Market</strong></p><p><strong>Santa's Grotto</strong></p><p><strong>Main Stage Entertainment </strong></p><p><strong>Funfair</strong></p><p><strong>Food Market</strong></p><p><strong>Seasonal Snowfall by Cozy Glow</strong></p><p>To book a stall at Coulsdon Yuletide Magic, become a sponsor or advertise</p><p>For Stage Performance slots contact John@LeadingNote.co.uk</p>",
             "text_style": "body"
           }
         },
@@ -283,7 +283,6 @@
         "text_RdqcBj",
         "button_8k7bzD"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Yuletide_Flyer_2024_148_x_210mm_Instagram_Post.png",
         "height": "adapt",
