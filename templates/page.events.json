@@ -117,7 +117,7 @@
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Mindfulness Art Classes",
+            "heading": "Mindfulness Art Classes with Hue & Bristle",
             "heading_size": "h1"
           }
         },
@@ -164,7 +164,7 @@
         "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Community Yoga at Tollers",
+            "heading": "Community Yoga at Tollers with Simone",
             "heading_size": "h1"
           }
         },
@@ -253,53 +253,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_nVNeD6": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_jehqgp": {
-          "type": "heading",
-          "settings": {
-            "heading": "Coulsdon Yuletide Magic 2025",
-            "heading_size": "h1"
-          }
-        },
-        "text_RdqcBj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>December 6th, 2025 11am-7pm<br/>Brighton Road Coulsdon</p><p>Experience the Magic:</p><p><strong>Holiday Market</strong></p><p><strong>Santa's Grotto</strong></p><p><strong>Main Stage Entertainment </strong></p><p><strong>Funfair</strong></p><p><strong>Food Market</strong></p><p><strong>Seasonal Snowfall by Cozy Glow</strong></p><p>To book a stall at Coulsdon Yuletide Magic, become a sponsor or advertise</p><p>For Stage Performance slots contact John@LeadingNote.co.uk</p>",
-            "text_style": "body"
-          }
-        },
-        "button_8k7bzD": {
-          "type": "button",
-          "settings": {
-            "button_label": "Find Out more",
-            "button_link": "https://coulsdonpartnership.org/pages/events/coulsdon-yuletide-magic-2024",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_jehqgp",
-        "text_RdqcBj",
-        "button_8k7bzD"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Copy_of_Yuletide_Flyer_2025_A3_Portrait.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_nqVRBm": {
       "type": "image-with-text",
       "blocks": {
@@ -341,6 +294,53 @@
         "content_layout": "no-overlap",
         "section_color_scheme": "accent-2",
         "color_scheme": "accent-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_nVNeD6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jehqgp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coulsdon Yuletide Magic 2025",
+            "heading_size": "h1"
+          }
+        },
+        "text_RdqcBj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>December 6th, 2025 11am-7pm<br/>Brighton Road Coulsdon</p><p>Experience the Magic:</p><p><strong>Holiday Market</strong></p><p><strong>Santa's Grotto</strong></p><p><strong>Main Stage Entertainment </strong></p><p><strong>Funfair</strong></p><p><strong>Food Market</strong></p><p><strong>Seasonal Snowfall by Cozy Glow</strong></p><p>To book a stall at Coulsdon Yuletide Magic, become a sponsor or advertise</p><p>For Stage Performance slots contact John@LeadingNote.co.uk</p>",
+            "text_style": "body"
+          }
+        },
+        "button_8k7bzD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Out more",
+            "button_link": "https://coulsdonpartnership.org/pages/events/coulsdon-yuletide-magic-2024",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jehqgp",
+        "text_RdqcBj",
+        "button_8k7bzD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Copy_of_Yuletide_Flyer_2025_A3_Portrait.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -481,8 +481,8 @@
     "24259923-70b0-49e9-8e54-73f776910d78",
     "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220",
     "cda48985-57af-470d-8bf2-189e90443d23",
-    "image_with_text_nVNeD6",
     "image_with_text_nqVRBm",
+    "image_with_text_nVNeD6",
     "1739804558c0bfc93d",
     "image_with_text_3jKxjx",
     "image_with_text_jNthEi"
