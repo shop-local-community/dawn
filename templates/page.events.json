@@ -236,6 +236,7 @@
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1",
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/The_Hive_Logo.png",
         "height": "adapt",
@@ -407,9 +408,58 @@
         "text_qeYfaC",
         "button_Cd4gfR"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Hanging_Basket_Masterclass.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_yBJtQ4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_k7L8xx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Strength & Stillness Summer Course",
+            "heading_size": "h1"
+          }
+        },
+        "text_gb6yJa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find your balance this summer with <strong>Strength & Stillness</strong>—a gentle class blending resistance-based bodyweight exercises, calming breath work, and guided visualisation to reset both body and mind. (£1 booking Fee)</p>",
+            "text_style": "body"
+          }
+        },
+        "button_mYCigN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Out More",
+            "button_link": "shopify://products/strength-stillness-free-funded-summer-course-hosted-by-kate",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_k7L8xx",
+        "text_gb6yJa",
+        "button_mYCigN"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Strength_Stillness.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -435,6 +485,7 @@
     "image_with_text_nVNeD6",
     "image_with_text_nqVRBm",
     "1739804558c0bfc93d",
-    "image_with_text_3jKxjx"
+    "image_with_text_3jKxjx",
+    "image_with_text_yBJtQ4"
   ]
 }
