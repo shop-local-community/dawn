@@ -14,7 +14,7 @@
       "settings": {
         "image": "shopify://shop_images/Impact_report_Blog_Banner.png",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "medium",
         "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
