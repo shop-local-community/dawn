@@ -11,13 +11,12 @@
   "sections": {
     "image_banner_CJrrPz": {
       "type": "image-banner",
-      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/xmas_thank_you.png",
+        "image": "shopify://shop_images/Impact_report_Blog_Banner.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
         "image_behavior": "none",
