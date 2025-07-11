@@ -188,8 +188,8 @@
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "product": "open-air-art-workshop-the-hive",
-        "color_scheme": "accent-1",
+        "product": "strength-stillness-free-funded-summer-course-hosted-by-kate",
+        "color_scheme": "background-1",
         "secondary_background": false,
         "media_size": "medium",
         "constrain_to_viewport": true,
