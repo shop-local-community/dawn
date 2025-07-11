@@ -16,40 +16,40 @@
         "padding_bottom": 12
       }
     },
-    "image_with_text_jNthEi": {
+    "image_with_text_yBJtQ4": {
       "type": "image-with-text",
       "blocks": {
-        "heading_aRg8XD": {
+        "heading_k7L8xx": {
           "type": "heading",
           "settings": {
-            "heading": "Coulsdon's Easter Festival",
+            "heading": "Strength & Stillness Summer Course",
             "heading_size": "h1"
           }
         },
-        "text_pHfY93": {
+        "text_gb6yJa": {
           "type": "text",
           "settings": {
-            "text": "<p>There’s lots happening in Coulsdon this spring, and we’re thrilled to share some fantastic updates with you! Whether you're passionate about gardening, mindfulness, or Easter festivities, there’s something for everyone to get involved in.</p><p></p><p>Book a Market stall email </p><p>ashley.baruti-cooke@coulsdonpartnership.org</p>",
+            "text": "<p>Find your balance this summer with <strong>Strength & Stillness</strong>—a gentle class blending resistance-based bodyweight exercises, calming breath work, and guided visualisation to reset both body and mind. (£1 booking Fee)</p>",
             "text_style": "body"
           }
         },
-        "button_hPdfiA": {
+        "button_mYCigN": {
           "type": "button",
           "settings": {
-            "button_label": "Get Tickets Now",
-            "button_link": "https://cozyglow.store/products/easter-egg-hunt-2025-ticket",
+            "button_label": "Find Out More",
+            "button_link": "shopify://products/strength-stillness-free-funded-summer-course-hosted-by-kate",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_aRg8XD",
-        "text_pHfY93",
-        "button_hPdfiA"
+        "heading_k7L8xx",
+        "text_gb6yJa",
+        "button_mYCigN"
       ],
-      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Sponsor_Insta_Square.png",
+        "image": "shopify://shop_images/Strength_Stillness.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -306,14 +306,14 @@
         "heading_dMdMWx": {
           "type": "heading",
           "settings": {
-            "heading": "Cozy Glow's Trick or Treat - With Halloween Market!",
+            "heading": "Cozy Glow's Trick or Treat 2025",
             "heading_size": "h1"
           }
         },
         "text_4mpMyp": {
           "type": "text",
           "settings": {
-            "text": "<p>Get your favourite costume ready for a frightfully fun event! Come collect candies and treats whilst your travel the thrills you and chills along the trick-or-treat trail.</p><p>This year will you brave the perils of our town on Old Hallows Eve? Ghosts on Ghouls beware!</p><p>The trail has early daytime slots for little ones who need to get to bed earlier, starting at 3 pm. Then our usual nighttime haunt will be from 6-8 pm, make sure you book your time slot now.</p><p>Take part in the Trick or Treat Trail Halloween Market, Costume Contest, Food & Drink & More!</p><p>To become a Stall Holder at this event email team@cozyglow.co.uk</p>",
+            "text": "<p>Get your favourite costume ready for a frightfully fun event! Come collect candies and treats whilst your travel the thrills you and chills along the trick-or-treat trail.</p><p>This year will you brave the perils of our town on Old Hallows Eve? Ghosts on Ghouls beware!</p><p>The trail has early daytime slots for little ones who need to get to bed earlier, starting at 3 pm. Then our usual nighttime haunt will be from 6-8 pm, make sure you book your time slot now.</p><p>Take part in the Trick or Treat Trail Halloween Market, Costume Contest & More!</p><p>To become a Stall Holder at this event email team@cozyglow.co.uk</p>",
             "text_style": "body"
           }
         },
@@ -331,7 +331,6 @@
         "text_4mpMyp",
         "button_9t4N4g"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Halloween_FB_Cover_Trick_or_Treat_Instagram_Post_Square_notoriousinkuk.png",
         "height": "adapt",
@@ -426,40 +425,40 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_yBJtQ4": {
+    "image_with_text_jNthEi": {
       "type": "image-with-text",
       "blocks": {
-        "heading_k7L8xx": {
+        "heading_aRg8XD": {
           "type": "heading",
           "settings": {
-            "heading": "Strength & Stillness Summer Course",
+            "heading": "Coulsdon's Easter Festival",
             "heading_size": "h1"
           }
         },
-        "text_gb6yJa": {
+        "text_pHfY93": {
           "type": "text",
           "settings": {
-            "text": "<p>Find your balance this summer with <strong>Strength & Stillness</strong>—a gentle class blending resistance-based bodyweight exercises, calming breath work, and guided visualisation to reset both body and mind. (£1 booking Fee)</p>",
+            "text": "<p>There’s lots happening in Coulsdon this spring, and we’re thrilled to share some fantastic updates with you! Whether you're passionate about gardening, mindfulness, or Easter festivities, there’s something for everyone to get involved in.</p><p></p><p>Book a Market stall email </p><p>ashley.baruti-cooke@coulsdonpartnership.org</p>",
             "text_style": "body"
           }
         },
-        "button_mYCigN": {
+        "button_hPdfiA": {
           "type": "button",
           "settings": {
-            "button_label": "Find Out More",
-            "button_link": "shopify://products/strength-stillness-free-funded-summer-course-hosted-by-kate",
+            "button_label": "Get Tickets Now",
+            "button_link": "https://cozyglow.store/products/easter-egg-hunt-2025-ticket",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_k7L8xx",
-        "text_gb6yJa",
-        "button_mYCigN"
+        "heading_aRg8XD",
+        "text_pHfY93",
+        "button_hPdfiA"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/Strength_Stillness.png",
+        "image": "shopify://shop_images/Sponsor_Insta_Square.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -477,7 +476,7 @@
   },
   "order": [
     "main",
-    "image_with_text_jNthEi",
+    "image_with_text_yBJtQ4",
     "image_with_text_bUwdDq",
     "24259923-70b0-49e9-8e54-73f776910d78",
     "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220",
@@ -486,6 +485,6 @@
     "image_with_text_nqVRBm",
     "1739804558c0bfc93d",
     "image_with_text_3jKxjx",
-    "image_with_text_yBJtQ4"
+    "image_with_text_jNthEi"
   ]
 }
