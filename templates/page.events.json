@@ -407,7 +407,6 @@
         "text_qeYfaC",
         "button_Cd4gfR"
       ],
-      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Hanging_Basket_Masterclass.png",
@@ -476,6 +475,7 @@
   },
   "order": [
     "main",
+    "image_with_text_3jKxjx",
     "image_with_text_yBJtQ4",
     "image_with_text_bUwdDq",
     "24259923-70b0-49e9-8e54-73f776910d78",
@@ -484,7 +484,6 @@
     "image_with_text_nqVRBm",
     "image_with_text_nVNeD6",
     "1739804558c0bfc93d",
-    "image_with_text_3jKxjx",
     "image_with_text_jNthEi"
   ]
 }
