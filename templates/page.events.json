@@ -369,7 +369,7 @@
           "type": "button",
           "settings": {
             "button_label": "Find Out more",
-            "button_link": "https://coulsdonpartnership.org/pages/events/coulsdon-yuletide-magic-2024",
+            "button_link": "shopify://metaobjects/event/coulsdon-yuletide-magic-2025",
             "button_style_secondary": false
           }
         }
