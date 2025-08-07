@@ -37,7 +37,7 @@
           "type": "button",
           "settings": {
             "button_label": "Book Your Space",
-            "button_link": "shopify://products/hanging-basket-masterclass-one-day-special-workshop",
+            "button_link": "shopify://products/gardening-masterclass",
             "button_style_secondary": false
           }
         }
