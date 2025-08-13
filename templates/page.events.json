@@ -47,6 +47,7 @@
         "text_qeYfaC",
         "button_Cd4gfR"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/GardeningMasterclass.png",
@@ -95,6 +96,7 @@
         "text_gb6yJa",
         "button_mYCigN"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Strength_Stillness.png",
@@ -143,6 +145,7 @@
         "text_b4kgPi",
         "button_meWkQR"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/YogaClassesFineToad.png",
         "height": "adapt",
@@ -190,6 +193,7 @@
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1",
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Art_Next_Class-6.png",
         "height": "adapt",
@@ -237,6 +241,7 @@
         "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d",
         "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/YogaPosterUpdateNEW_48.png",
         "height": "small",
