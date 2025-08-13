@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -16,63 +16,12 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_pUwg4r": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_6GjR4T": {
-          "type": "heading",
-          "settings": {
-            "heading": "Transform Your Mind and Body with Free Funded Yoga Classes!",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_6GjR4T"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "custom_liquid_cDwhKz": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<div id=\"tripetto\"></div>\n</div>\n\n<script src=\"https://cdn.jsdelivr.net/npm/@tripetto/runner\"></script>\n<script src=\"https://cdn.jsdelivr.net/npm/@tripetto/runner-autoscroll\"></script>\n<script src=\"https://cdn.jsdelivr.net/npm/@tripetto/studio\"></script>\n<script>\nTripettoStudio.form({\n    runner: TripettoAutoscroll,\n    token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNi9QZHk5MlFabU9CMHpQV2RKcXYxbUFGRERtK1lrb09ybGcyb2EzTjIrYz0iLCJkZWZpbml0aW9uIjoiUzV1UE94MTBPOWRreTZxelFhN3RQeWxLSzkvTXVIaHhlMjl5bzhHdjVqQT0iLCJ0eXBlIjoiY29sbGVjdCJ9.U_LIG2Tko9QkSvAdK3xef_gUBKbhP_aXXxUbFVcdCg4\",\n    element: \"tripetto\",\n    pausable: true,\n    persistent: true\n});\n</script>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "1704726875d1ce386c": {
-      "type": "apps",
-      "blocks": {
-        "fc99fbc2-e12a-4f1a-9469-21c7dffbfc3d": {
-          "type": "shopify://apps/acerill-appointment-booking/blocks/booking-form/dccce24b-7a0f-4b47-bb37-4276d78e2bb5",
-          "settings": {
-            "bookingFormId": "",
-            "behavior": "standard",
-            "serviceNameFilter": ""
-          }
-        }
-      },
-      "block_order": [
-        "fc99fbc2-e12a-4f1a-9469-21c7dffbfc3d"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_margins": true
-      }
-    },
     "featured_product_Pacf6D": {
       "type": "featured-product",
       "blocks": {
         "text_G3WUpg": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
@@ -86,8 +35,7 @@
         },
         "price_tCRxHw": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_NEE4gA": {
           "type": "variant_picker",
@@ -98,8 +46,7 @@
         },
         "quantity_selector_NH3xPW": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_CpPUy6": {
           "type": "buy_buttons",
@@ -110,6 +57,7 @@
         },
         "share_mcy7xH": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
@@ -138,13 +86,357 @@
         "padding_top": 16,
         "padding_bottom": 12
       }
+    },
+    "featured_product_bM4FaA": {
+      "type": "featured-product",
+      "blocks": {
+        "text_WgDiKc": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_iEMxJM": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_iraCYg": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_ihXmCN": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_ijw3nx": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_d7eRb3": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_4AYWCP": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_WgDiKc",
+        "title_iEMxJM",
+        "price_iraCYg",
+        "variant_picker_ihXmCN",
+        "quantity_selector_ijw3nx",
+        "buy_buttons_d7eRb3",
+        "share_4AYWCP"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "gardening-masterclass",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_pUwg4r": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6GjR4T": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transform Your Mind and Body with Free Funded Yoga Classes!",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6GjR4T"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_cDwhKz": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"page-width page-width--narrow\">\n<div id=\"tripetto\"></div>\n</div>\n\n<script src=\"https://cdn.jsdelivr.net/npm/@tripetto/runner\"></script>\n<script src=\"https://cdn.jsdelivr.net/npm/@tripetto/runner-autoscroll\"></script>\n<script src=\"https://cdn.jsdelivr.net/npm/@tripetto/studio\"></script>\n<script>\nTripettoStudio.form({\n    runner: TripettoAutoscroll,\n    token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNi9QZHk5MlFabU9CMHpQV2RKcXYxbUFGRERtK1lrb09ybGcyb2EzTjIrYz0iLCJkZWZpbml0aW9uIjoiUzV1UE94MTBPOWRreTZxelFhN3RQeWxLSzkvTXVIaHhlMjl5bzhHdjVqQT0iLCJ0eXBlIjoiY29sbGVjdCJ9.U_LIG2Tko9QkSvAdK3xef_gUBKbhP_aXXxUbFVcdCg4\",\n    element: \"tripetto\",\n    pausable: true,\n    persistent: true\n});\n</script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1704726875d1ce386c": {
+      "type": "apps",
+      "blocks": {
+        "fc99fbc2-e12a-4f1a-9469-21c7dffbfc3d": {
+          "type": "shopify://apps/acerill-appointment-booking/blocks/booking-form/dccce24b-7a0f-4b47-bb37-4276d78e2bb5",
+          "settings": {
+            "bookingFormId": "",
+            "behavior": "standard",
+            "serviceNameFilter": ""
+          }
+        }
+      },
+      "block_order": [
+        "fc99fbc2-e12a-4f1a-9469-21c7dffbfc3d"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "featured_product_imLA6J": {
+      "type": "featured-product",
+      "blocks": {
+        "text_zxcyjQ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_8m6Xn3": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_wTzqgi": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_BnQtab": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_t3Chri": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_bid7Ci": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_qLBr3U": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_zxcyjQ",
+        "title_8m6Xn3",
+        "price_wTzqgi",
+        "variant_picker_BnQtab",
+        "quantity_selector_t3Chri",
+        "buy_buttons_bid7Ci",
+        "share_qLBr3U"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "mindfulness-art-classes",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "featured_product_xDwHG6": {
+      "type": "featured-product",
+      "blocks": {
+        "text_9F7PE6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_RWtERA": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_F4yexp": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_YrmDJG": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_afAQC3": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_iYHAME": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_DNhBtr": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_9F7PE6",
+        "title_RWtERA",
+        "price_F4yexp",
+        "variant_picker_YrmDJG",
+        "quantity_selector_afAQC3",
+        "buy_buttons_iYHAME",
+        "share_DNhBtr"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "strength-stillness-free-funded-summer-course-hosted-by-kate",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 16,
+        "padding_bottom": 12
+      }
+    },
+    "featured_product_P9MWh4": {
+      "type": "featured-product",
+      "blocks": {
+        "text_3zFEAn": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_pLEHib": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_PR9ear": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_HQbNqt": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_brGBqY": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_Yteftp": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_HjemFK": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_3zFEAn",
+        "title_pLEHib",
+        "price_PR9ear",
+        "variant_picker_HQbNqt",
+        "quantity_selector_brGBqY",
+        "buy_buttons_Yteftp",
+        "share_HjemFK"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "yoga-classes-fine-toad",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 16,
+        "padding_bottom": 8
+      }
     }
   },
   "order": [
     "main",
     "featured_product_Pacf6D",
+    "featured_product_P9MWh4",
+    "featured_product_bM4FaA",
     "rich_text_pUwg4r",
     "custom_liquid_cDwhKz",
-    "1704726875d1ce386c"
+    "1704726875d1ce386c",
+    "featured_product_imLA6J",
+    "featured_product_xDwHG6"
   ]
 }
