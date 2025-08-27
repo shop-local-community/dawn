@@ -228,104 +228,6 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
-    },
-    "featured_product_JdjrmF": {
-      "type": "featured-product",
-      "blocks": {
-        "text_7MG9dg": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_FiC9Ai": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_Vndapx": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_wLfhK9": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_CpqQBi": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_Yb9ipb": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_inAJzk": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_7MG9dg",
-        "title_FiC9Ai",
-        "price_Vndapx",
-        "variant_picker_wLfhK9",
-        "quantity_selector_CpqQBi",
-        "buy_buttons_Yb9ipb",
-        "share_inAJzk"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "coulsdon-yuletide-magic-street-market-pitches",
-        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1751970723adc2f3d7": {
-      "type": "apps",
-      "blocks": {
-        "forms_inline_3CXMr9": {
-          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
-          "settings": {
-            "form_id": "348659",
-            "text_color": "#202020",
-            "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
-            "text_alignment": "center",
-            "form_alignment": "center",
-            "padding_top": 0,
-            "padding_bottom": 0,
-            "padding_right": 0,
-            "padding_left": 0
-          }
-        }
-      },
-      "block_order": [
-        "forms_inline_3CXMr9"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -334,8 +236,6 @@
     "69754ee3-c5f9-470e-a684-21e9c25658f4",
     "3d71bed2-04af-4c22-9106-c46ab0d53b28",
     "627a2862-8633-4cdb-97d6-746dcfa7a795",
-    "featured_product_FYLMaD",
-    "featured_product_JdjrmF",
-    "1751970723adc2f3d7"
+    "featured_product_FYLMaD"
   ]
 }
