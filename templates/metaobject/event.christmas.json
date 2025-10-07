@@ -228,12 +228,83 @@
         "padding_top": 12,
         "padding_bottom": 12
       }
+    },
+    "featured_product_9RQNfi": {
+      "type": "featured-product",
+      "blocks": {
+        "text_kjjxiN": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_DJaU8d": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_aVPPan": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_yfWg4t": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_FYVLKe": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_9jLrcw": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_Jm63yA": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_kjjxiN",
+        "title_DJaU8d",
+        "price_aVPPan",
+        "variant_picker_yfWg4t",
+        "quantity_selector_FYVLKe",
+        "buy_buttons_9jLrcw",
+        "share_Jm63yA"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "santas-grotto-ticket",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "de089f90-b8cc-40cf-bd2b-6dab1128b9fc",
     "d3c25f90-5bfb-48a0-8053-84c6b9e48736",
     "69754ee3-c5f9-470e-a684-21e9c25658f4",
+    "featured_product_9RQNfi",
     "3d71bed2-04af-4c22-9106-c46ab0d53b28",
     "627a2862-8633-4cdb-97d6-746dcfa7a795",
     "featured_product_FYLMaD"
