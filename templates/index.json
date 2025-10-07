@@ -30,10 +30,11 @@
       "blocks": {
         "button_BpmdQA": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Find Out more",
             "button_link": "https://coulsdonpartnership.org/pages/events/coulsdon-yuletide-magic-2024",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
