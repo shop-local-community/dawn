@@ -12,7 +12,7 @@
     "image_banner_CJrrPz": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/Yuletide_Flyer_2023_148_x_210mm_Facebook_Cover_b9bcc8a8-470f-4c1e-9106-69891db669a2.png",
+        "image": "shopify://shop_images/Impact_report_Blog_Banner_-3.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-center",
@@ -23,6 +23,79 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "featured_product_33MiYn": {
+      "type": "featured-product",
+      "blocks": {
+        "text_9FEhB7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_yPkCzX": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_DfMipw": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_xcxziU": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_LQMiz7": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_knnBKA": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_aymiAz": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_9FEhB7",
+        "title_yPkCzX",
+        "price_DfMipw",
+        "variant_picker_xcxziU",
+        "quantity_selector_LQMiz7",
+        "buy_buttons_knnBKA",
+        "share_aymiAz"
+      ],
+      "disabled": true,
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "santas-grotto-ticket",
+        "color_scheme": "scheme-89be9658-96f9-488d-b341-41dee1f513d9",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text_JyqkFM": {
@@ -177,86 +250,16 @@
         "padding_top": 4,
         "padding_bottom": 4
       }
-    },
-    "featured_product_33MiYn": {
-      "type": "featured-product",
-      "blocks": {
-        "text_9FEhB7": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_yPkCzX": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_DfMipw": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_xcxziU": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_LQMiz7": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_knnBKA": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_aymiAz": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_9FEhB7",
-        "title_yPkCzX",
-        "price_DfMipw",
-        "variant_picker_xcxziU",
-        "quantity_selector_LQMiz7",
-        "buy_buttons_knnBKA",
-        "share_aymiAz"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "strength-stillness-free-funded-summer-course-hosted-by-kate",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "image_banner_CJrrPz",
+    "featured_product_33MiYn",
     "rich_text_JyqkFM",
     "rich_text_GDiQih",
     "0905f8be-2b4f-46a2-a173-ca7da7d5aab0",
     "c899b1a1-451c-4a18-8702-2809c80b498c",
     "e4bb5afb-12db-4804-9e35-9819681a26a9",
-    "94807e82-9ae7-40d4-97aa-beb5bf53a035",
-    "featured_product_33MiYn"
+    "94807e82-9ae7-40d4-97aa-beb5bf53a035"
   ]
 }
