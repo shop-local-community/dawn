@@ -133,6 +133,7 @@
         "text_Jx3bTa",
         "button_RCyMCj"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
