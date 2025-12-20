@@ -193,7 +193,6 @@
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-text-1",
         "template--20538807058731__24259923-70b0-49e9-8e54-73f776910d78-button-1"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Art_Next_Class-6.png",
         "height": "adapt",
@@ -241,7 +240,6 @@
         "0a8a37d7-8c39-4b27-b58b-11083d3f9c1d",
         "template--20538807058731__3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220-button-1"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/YogaPosterUpdateNEW_48.png",
         "height": "small",
@@ -289,7 +287,6 @@
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-text-1",
         "template--20538807058731__cda48985-57af-470d-8bf2-189e90443d23-button-1"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/The_Hive_Logo.png",
         "height": "adapt",
@@ -385,6 +382,7 @@
         "text_RdqcBj",
         "button_8k7bzD"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Copy_of_Yuletide_Flyer_2025_A3_Portrait.png",
         "height": "adapt",
@@ -443,7 +441,7 @@
         "text_pHfY93": {
           "type": "text",
           "settings": {
-            "text": "<p>There’s lots happening in Coulsdon this spring, and we’re thrilled to share some fantastic updates with you! Whether you're passionate about gardening, mindfulness, or Easter festivities, there’s something for everyone to get involved in.</p><p></p><p>Book a Market stall email </p><p>ashley.baruti-cooke@coulsdonpartnership.org</p>",
+            "text": "<p>There’s lots happening in Coulsdon this spring, and we’re thrilled to share some fantastic updates with you! Whether you're passionate about gardening, mindfulness, or Easter festivities, there’s something for everyone to get involved in.</p><p></p><p>Book a Market stall email </p><p>team@coulsdonpartnership.org</p>",
             "text_style": "body"
           }
         },
@@ -461,7 +459,6 @@
         "text_pHfY93",
         "button_hPdfiA"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Sponsor_Insta_Square.png",
         "height": "adapt",
