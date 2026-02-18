@@ -16,6 +16,53 @@
         "padding_bottom": 12
       }
     },
+    "image_with_text_jNthEi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aRg8XD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coulsdon's Easter Festival",
+            "heading_size": "h1"
+          }
+        },
+        "text_pHfY93": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There’s lots happening in Coulsdon this spring, and we’re thrilled to share some fantastic updates with you! Whether you're passionate about gardening, mindfulness, or Easter festivities, there’s something for everyone to get involved in.</p><p></p><p>Book a Market stall email </p><p>team@coulsdonpartnership.org</p>",
+            "text_style": "body"
+          }
+        },
+        "button_hPdfiA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Tickets Now",
+            "button_link": "https://cozyglow.store/products/easter-egg-hunt-2025-ticket",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aRg8XD",
+        "text_pHfY93",
+        "button_hPdfiA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Bunny_Ad_Tickets-4.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_3jKxjx": {
       "type": "image-with-text",
       "blocks": {
@@ -427,63 +474,16 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "image_with_text_jNthEi": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_aRg8XD": {
-          "type": "heading",
-          "settings": {
-            "heading": "Coulsdon's Easter Festival",
-            "heading_size": "h1"
-          }
-        },
-        "text_pHfY93": {
-          "type": "text",
-          "settings": {
-            "text": "<p>There’s lots happening in Coulsdon this spring, and we’re thrilled to share some fantastic updates with you! Whether you're passionate about gardening, mindfulness, or Easter festivities, there’s something for everyone to get involved in.</p><p></p><p>Book a Market stall email </p><p>team@coulsdonpartnership.org</p>",
-            "text_style": "body"
-          }
-        },
-        "button_hPdfiA": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Tickets Now",
-            "button_link": "https://cozyglow.store/products/easter-egg-hunt-2025-ticket",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_aRg8XD",
-        "text_pHfY93",
-        "button_hPdfiA"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Bunny_Ad_Tickets-4.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
+    "image_with_text_jNthEi",
     "image_with_text_3jKxjx",
     "image_with_text_yBJtQ4",
     "image_with_text_bUwdDq",
     "24259923-70b0-49e9-8e54-73f776910d78",
     "3f3d0b37-a1e3-4ce5-bb1d-e137fc75a220",
-    "image_with_text_jNthEi",
     "cda48985-57af-470d-8bf2-189e90443d23",
     "image_with_text_nqVRBm",
     "image_with_text_nVNeD6",
